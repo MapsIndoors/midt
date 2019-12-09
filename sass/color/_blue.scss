@@ -6,75 +6,75 @@
     color: $color-blue-base;
   }
   
-  @else if $blue == blue-shade-100 {
+  @else if $blue == shade-100 {
     color: $color-blue-shade-100;
   }
   
-  @else if $blue == blue-shade-200 {
+  @else if $blue == shade-200 {
     color: $color-blue-shade-200;
   }
   
-  @else if $blue == blue-shade-300 {
+  @else if $blue == shade-300 {
     color: $color-blue-shade-300;
   }
   
-  @else if $blue == blue-shade-400 {
+  @else if $blue == shade-400 {
     color: $color-blue-shade-400;
   }
   
-  @else if $blue == blue-shade-500 {
+  @else if $blue == shade-500 {
     color: $color-blue-shade-500;
   }
   
-  @else if $blue == blue-shade-600 {
+  @else if $blue == shade-600 {
     color: $color-blue-shade-600;
   }
   
-  @else if $blue == blue-shade-700 {
+  @else if $blue == shade-700 {
     color: $color-blue-shade-700;
   }
   
-  @else if $blue == blue-shade-800 {
+  @else if $blue == shade-800 {
     color: $color-blue-shade-800;
   }
   
-  @else if $blue == blue-shade-900 {
+  @else if $blue == shade-900 {
     color: $color-blue-shade-900;
   }
   
-  @else if $blue == blue-tint-100 {
+  @else if $blue == tint-100 {
     color: $color-blue-tint-100;
   }
   
-  @else if $blue == blue-tint-200 {
+  @else if $blue == tint-200 {
     color: $color-blue-tint-200;
   }
   
-  @else if $blue == blue-tint-300 {
+  @else if $blue == tint-300 {
     color: $color-blue-tint-300;
   }
   
-  @else if $blue == blue-tint-400 {
+  @else if $blue == tint-400 {
     color: $color-blue-tint-400;
   }
   
-  @else if $blue == blue-tint-500 {
+  @else if $blue == tint-500 {
     color: $color-blue-tint-500;
   }
   
-  @else if $blue == blue-tint-600 {
+  @else if $blue == tint-600 {
     color: $color-blue-tint-600;
   }
   
-  @else if $blue == blue-tint-700 {
+  @else if $blue == tint-700 {
     color: $color-blue-tint-700;
   }
   
-  @else if $blue == blue-tint-800 {
+  @else if $blue == tint-800 {
     color: $color-blue-tint-800;
   }
   
-  @else if $blue == blue-tint-900 {
+  @else if $blue == tint-900 {
     color: $color-blue-tint-900;
   }
 }
