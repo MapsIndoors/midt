@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "sass": "node-sass sass/base.scss build/css/trinity.css",
-    "build": "node_modules/.bin/style-dictionary build && npm run sass",
+    "build": "node_modules/.bin/style-dictionary build",
     "clean": "rm -rf build",
     "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\"",
     "test": "echo \"Error: no test specified\" && exit 1"
