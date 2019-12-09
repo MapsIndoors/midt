@@ -1,0 +1,55 @@
+{
+  "flex": {
+    "base": {"value": "flex"},
+    "none": {"value":"none"},
+    "column": {"value":"column"},
+    "row": {"value":"row"},
+    "wrap": {"value":"wrap"},
+    "nowrap": {"value":"nowrap"},
+    "wrap-reverse": {"value":"wrap-reverse"},
+    "column-reverse": {"value":"column-reverse"},
+    "row-reverse": {"value":"row-reverse"}
+  },
+  "inline-flex": {"value": "inline-flex"},
+  "items": {
+    "start": {"value":"flex-start"},
+    "end": {"value":" flex-end"},
+    "center": {"value":"center"},
+    "baseline": {"value":"baseline"},
+    "stretch": {"value":"stretch"}
+  },
+  "self": {
+    "start": {"value":"flex-start"},
+    "end": {"value":"flex-end"},
+    "center": {"value":"center"},
+    "baseline": {"value":"baseline"},
+    "stretch": {"value":"stretch"}
+  },
+  "justify": {
+    "start": {"value":"flex-start"},
+    "end": {"value":"flex-end"},
+    "center": {"value":"center"},
+    "between": {"value":"space-between"},
+    "around": {"value":"space-around"}
+  },
+  "content": {
+    "start": {"value":"flex-start"},
+    "end": {"value":"flex-end"},
+    "center": {"value":"center"},
+    "between": {"value":"space-between"},
+    "around": {"value":"space-around"},
+    "stretch": {"value":"stretch"}
+  },
+  "order": {
+    "0": {"value": "0"},
+    "1": {"value": "1"},
+    "2": {"value": "2"},
+    "3": {"value": "3"},
+    "4": {"value": "4"},
+    "5": {"value": "5"},
+    "6": {"value": "6"},
+    "7": {"value": "7"},
+    "8": {"value": "8"},
+    "last": {"value": "99999"}
+  }
+}

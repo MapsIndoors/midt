@@ -1,0 +1,12 @@
+{
+  "color": {
+    "button": {
+      "primary": {
+        "base": {"value": "{background.color.red.base.value}"},
+        "disabled": {"value": "{background.color.red.tint.500.value}"},
+        "active": {"value": "{background.color.red.shade.300.value}"},
+        "font": {"value": "{background.color.red.base.attributes.font}"}
+      }
+    }
+  }
+}

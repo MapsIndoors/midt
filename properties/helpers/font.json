@@ -1,0 +1,41 @@
+{
+  "measure": {
+    "base": {"value": "30em"},
+    "wide": {"value": "34em"},
+    "narrow": {"value": "20em"}
+  },
+  "small-caps": {"value": "small-caps"},
+  "tracked": {
+    "tight": {"value": "{font.letter-spacing.large.value}"},
+    "loose": {"value": "{font.letter-spacing.x-large.value}"},
+    "solid": {"value": "{font.line-height.x-small.value}"}
+  },
+  "leading": {
+    "title": {"value": "{font.line-height.small.value}"},
+    "copy": {"value": "{font.line-height.medium.value}"}
+  },
+  "v-align": {
+    "base": {"value": "baseline"},
+    "mid": {"value": "middle"},
+    "top": {"value": "top"},
+    "bottom": {"value": "bottom"}
+  },
+  "text": {
+    "align": {
+      "left": {"value": "left"},
+      "right": {"value": "right"},
+      "center": {"value": "center"},
+      "justify": {"value": "justify"}
+    },
+    "transform": {
+      "capitalize": {"value": "capitalize"},
+      "lowercase": {"value": "lowercase"},
+      "uppercase": {"value": "uppercase"},
+      "none": {"value": "none"}
+    },
+    "decoration": {
+      "underline": {"value": "underline"},
+      "none": {"value": "none"}
+    }
+  }
+}

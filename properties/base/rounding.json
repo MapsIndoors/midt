@@ -1,0 +1,11 @@
+{
+  "rounding": {
+    "x-small": {"value": "0px"},
+    "small": {"value": "2px"},
+    "medium": {"value": "4px"},
+    "large": {"value": "8px"},
+    "x-large": {"value": "16px"},
+    "pill": {"value": "9999px"},
+    "circle": {"value": "50%"}
+  }
+}

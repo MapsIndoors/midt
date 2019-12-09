@@ -1,0 +1,70 @@
+{
+  "height": {
+    "xxx-small": {"value": "{spacing.xxx-small.value}"},
+    "xx-small": {"value": "{spacing.xx-small.value}"},
+    "x-small": {"value": "{spacing.x-small.value}"},
+    "small": {"value": "{spacing.small.value}"},
+    "medium": {"value": "{spacing.medium.value}"},
+    "large": {"value": "{spacing.large.value}"},
+    "x-large": {"value": "{spacing.x-large.value}"},
+    "xx-large": {"value": "{spacing.xx-large.value}"},
+    "xxx-large": {"value": "{spacing.xxx-large.value}"},
+    "xxxx-large": {"value": "{spacing.xxxx-large.value}"},
+    "10": {"value": "10%"},
+    "20": {"value": "20%"},
+    "25": {"value": "25%"},
+    "30": {"value": "30%"},
+    "40": {"value": "40%"},
+    "50": {"value": "50%"},
+    "60": {"value": "60%"},
+    "70": {"value": "70%"},
+    "75": {"value": "75%"},
+    "80": {"value": "80%"},
+    "90": {"value": "90%"},
+    "100": {"value": "100%"},
+    "third": {"value": "calc(100% / 3)"},
+    "two-thirds": {"value": "calc(100% / 1.5)"},
+    "auto": {"value": "auto"}
+  },
+  "max": {
+    "height": {
+      "100": {"value": "100%"},
+      "none": {"value": "none"},
+      "10": {"value": "10%"},
+      "20": {"value": "20%"},
+      "30": {"value": "30%"},
+      "40": {"value": "40%"},
+      "50": {"value": "50%"},
+      "60": {"value": "60%"},
+      "70": {"value": "70%"},
+      "80": {"value": "80%"},
+      "90": {"value": "90%"},
+      "100": {"value": "100%"}
+    }
+  },
+  "min": {
+    "height": {
+      "100": {"value": "100%"},
+      "none": {"value": "none"},
+      "10": {"value": "10%"},
+      "20": {"value": "20%"},
+      "30": {"value": "30%"},
+      "40": {"value": "40%"},
+      "50": {"value": "50%"},
+      "60": {"value": "60%"},
+      "70": {"value": "70%"},
+      "80": {"value": "80%"},
+      "90": {"value": "90%"},
+      "100": {"value": "100%"}
+    }
+  },
+  "vertical-height": {
+    "25": {"value": "25vh"},
+    "50": {"value": "50vh"},
+    "75": {"value": "75vh"},
+    "100": {"value": "100vh"}
+  },
+  "min-vertical-height": {
+    "100": {"value": "100vh"}
+  }
+}
