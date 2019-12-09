@@ -1,0 +1,28 @@
+@import '../build/scss/variables';
+
+@mixin opacity($opacity: 'medium') {
+  
+  @if $opactiy == 'medium' {
+    opacity: $opacity-medium;
+  }
+  
+  @else if $opacity == 'x-small' {
+    opacity: $opacity-x-small;
+  }
+  
+  @else if $opacity == 'small' {
+    opacity: $opacity-small;
+  }
+  
+  @else if $opacity == 'large' {
+    opacity: $opacity-large;
+  }
+  
+  @else if $opacity == 'x-large' {
+    opacity: $opacity-x-large;
+  }
+  
+  @else if $opacity == 'xx-large' {
+    opacity: $opacity-xx-large;
+  }
+}
