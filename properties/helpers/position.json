@@ -1,8 +1,0 @@
-{
-  "position": {
-    "static": {"value": "static"},
-    "relative": {"value": "relative"},
-    "absolute": {"value": "absolute"},
-    "fixed": {"value": "fixed"}
-  }
-}
