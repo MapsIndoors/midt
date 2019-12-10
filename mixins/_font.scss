@@ -84,15 +84,15 @@
 @mixin leading($leading: 'medium') {
   
   @if $leading == medium {
-    letter-spacing: $font-leading-medium;
+    line-height: $font-leading-medium;
   }
 
   @else if $leading == x-small {
-    letter-spacing: $font-leading-x-small;
+    line-height: $font-leading-x-small;
   }
   
   @else if $leading == small {
-    letter-spacing: $font-leading-small;
+    line-height: $font-leading-small;
   }
 
 }
