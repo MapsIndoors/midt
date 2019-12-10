@@ -47,10 +47,6 @@
       "small": {"value": "20rem"},
       "medium": {"value": "30rem"},
       "large": {"value": "34rem"}
-    },
-    "url": {
-      "inter": {"value": "//rsms.me/inter/inter.css"},
-      "raleway": {"value": "//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap"}
     }
   }
 }
