@@ -1,6 +1,6 @@
 {
   "name": "midt",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Design Tokens for MapsIndoors",
   "author": "MapsPeople A/S",
   "license": "CC-BY-4.0",
@@ -17,7 +17,8 @@
   ],
   "files": [
     "build",
-    "properties"
+    "properties",
+    "mixins"
   ],
   "scripts": {
     "build": "node_modules/.bin/style-dictionary build",
