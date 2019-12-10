@@ -1,10 +1,11 @@
 {
   "font": {
     "family": {
-      "system": {"value": "-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\""},
+      "system": {"value": "-apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif"},
       "sans-serif": {"value": "Inter, {font.family.system.value}"},
       "monospace": {"value": "Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace"},
-      "serif": {"value": "Georgia, Times, Times New Roman, serif"}
+      "serif": {"value": "Georgia, Times, Times New Roman, serif"},
+      "raleway": {"value": "Raleway, {font.family.sans-serif.value}"}
     },
     "size": {
       "x-small": {"value": "0.75rem"},
@@ -46,6 +47,10 @@
       "small": {"value": "20rem"},
       "medium": {"value": "30rem"},
       "large": {"value": "34rem"}
+    },
+    "url": {
+      "inter": {"value": "https://rsms.me/inter/inter.css"},
+      "raleway": {"value": "https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap"}
     }
   }
 }
