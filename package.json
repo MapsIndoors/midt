@@ -4,6 +4,7 @@
   "description": "Design Tokens for MapsIndoors",
   "author": "MapsPeople A/S",
   "license": "CC-BY-4.0",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
     "mapsindoors",
     "design",
