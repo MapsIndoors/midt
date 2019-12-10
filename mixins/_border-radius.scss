@@ -1,36 +1,36 @@
 @import '../build/scss/variables';
 
-@mixin rounding($rounding: 'medium') {
+@mixin border-radius($border-radius: 'medium') {
   
-  @if $opactiy == 'medium' {
+  @if $border-radius == 'medium' {
     border-radius: $rounding-medium;
   }
   
-  @else if $rounding == 'xx-small' {
+  @else if $border-radius == 'xx-small' {
     border-radius: $rounding-xx-small;
   }
   
-  @else if $rounding == 'x-small' {
+  @else if $border-radius == 'x-small' {
     border-radius: $rounding-x-small;
   }
   
-  @else if $rounding == 'small' {
+  @else if $border-radius == 'small' {
     border-radius: $rounding-small;
   }
   
-  @else if $rounding == 'large' {
+  @else if $border-radius == 'large' {
     border-radius: $rounding-large;
   }
   
-  @else if $rounding == 'x-large' {
+  @else if $border-radius == 'x-large' {
     border-radius: $rounding-x-large;
   }
   
-  @else if $rounding == 'pill' {
+  @else if $border-radius == 'pill' {
     border-radius: $rounding-pill;
   }
   
-  @else if $rounding == 'circle' {
+  @else if $border-radius == 'circle' {
     border-radius: $rounding-circle;
   }
 }
