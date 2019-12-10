@@ -17,7 +17,7 @@ The Design Tokens are compiled from JSON to SCSS using Amazon's Style Dictionary
 4. You should see something like this output:
 
   ```bash
-  > midt@1.0.0 build /Users/marks/dev/mapspeople/midt
+  > midt@1.0.0 build ~/dev/midt
   > style-dictionary build
   
   scss
@@ -106,3 +106,10 @@ SASS is moving away from explicitly `@import`ing towards declaring what you want
   @include color.red;
   color: color.red(shade-100);
 }
+```
+
+**Pro tip!** The `mixins` folder has an `_index.scss`-file that `@forward`s all mixins in one go, so it's this fast to get started:
+
+```scss
+@use '~/midt/mixins';
+```

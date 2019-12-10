@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 10 Dec 2019 12:39:33 GMT
+// Generated on Tue, 10 Dec 2019 19:27:32 GMT
 
 $breakpoints-xx-small: only screen and (max-width: 360px); // Targets devices between 0-360px
 $breakpoints-x-small: only screen and (max-width: 575px); // 0-575px
@@ -199,10 +199,11 @@ $elevation-21: 0px 10px 13px -6px rgba(0,0,0,0.2), 0px 21px 33px 3px rgba(0,0,0,
 $elevation-22: 0px 10px 14px -6px rgba(0,0,0,0.2), 0px 22px 35px 3px rgba(0,0,0,0.14), 0px 8px 42px 7px rgba(0,0,0,0.12);
 $elevation-23: 0px 11px 14px -7px rgba(0,0,0,0.2), 0px 23px 36px 3px rgba(0,0,0,0.14), 0px 9px 44px 8px rgba(0,0,0,0.12);
 $elevation-24: 0px 11px 15px -7px rgba(0,0,0,0.2), 0px 24px 38px 3px rgba(0,0,0,0.14), 0px 9px 46px 8px rgba(0,0,0,0.12);
-$font-family-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$font-family-sans-serif: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-system: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+$font-family-sans-serif: Inter, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 $font-family-monospace: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 $font-family-serif: Georgia, Times, Times New Roman, serif;
+$font-family-raleway: Raleway, Inter, -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
 $font-size-x-small: 0.75rem;
 $font-size-small: 0.875rem;
 $font-size-medium: 1rem; // Approximately 16px. This is the base size for all fonts on all platforms.
@@ -226,6 +227,8 @@ $font-tracking-x-large: .25rem;
 $font-measure-small: 20rem;
 $font-measure-medium: 30rem;
 $font-measure-large: 34rem;
+$font-url-inter: https://rsms.me/inter/inter.css;
+$font-url-raleway: https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap;
 $icon-size-small: 16px;
 $icon-size-medium: 24px;
 $icon-size-large: 32px;
