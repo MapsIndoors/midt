@@ -1,80 +1,80 @@
 @import '../build/scss/variables';
 
-@mixin green($green: 'base') {
+@mixin background-color-green($background-color-green: 'base') {
   
-  @if $green == base {
+  @if $background-color-green == base {
     background-color: $color-green-base;
   }
   
-  @else if $green == shade-100 {
+  @else if $background-color-green == shade-100 {
     background-color: $color-green-shade-100;
   }
   
-  @else if $green == shade-200 {
+  @else if $background-color-green == shade-200 {
     background-color: $color-green-shade-200;
   }
   
-  @else if $green == shade-300 {
+  @else if $background-color-green == shade-300 {
     background-color: $color-green-shade-300;
   }
   
-  @else if $green == shade-400 {
+  @else if $background-color-green == shade-400 {
     background-color: $color-green-shade-400;
   }
   
-  @else if $green == shade-500 {
+  @else if $background-color-green == shade-500 {
     background-color: $color-green-shade-500;
   }
   
-  @else if $green == shade-600 {
+  @else if $background-color-green == shade-600 {
     background-color: $color-green-shade-600;
   }
   
-  @else if $green == shade-700 {
+  @else if $background-color-green == shade-700 {
     background-color: $color-green-shade-700;
   }
   
-  @else if $green == shade-800 {
+  @else if $background-color-green == shade-800 {
     background-color: $color-green-shade-800;
   }
   
-  @else if $green == shade-900 {
+  @else if $background-color-green == shade-900 {
     background-color: $color-green-shade-900;
   }
   
-  @else if $green == tint-100 {
+  @else if $background-color-green == tint-100 {
     background-color: $color-green-tint-100;
   }
   
-  @else if $green == tint-200 {
+  @else if $background-color-green == tint-200 {
     background-color: $color-green-tint-200;
   }
   
-  @else if $green == tint-300 {
+  @else if $background-color-green == tint-300 {
     background-color: $color-green-tint-300;
   }
   
-  @else if $green == tint-400 {
+  @else if $background-color-green == tint-400 {
     background-color: $color-green-tint-400;
   }
   
-  @else if $green == tint-500 {
+  @else if $background-color-green == tint-500 {
     background-color: $color-green-tint-500;
   }
   
-  @else if $green == tint-600 {
+  @else if $background-color-green == tint-600 {
     background-color: $color-green-tint-600;
   }
   
-  @else if $green == tint-700 {
+  @else if $background-color-green == tint-700 {
     background-color: $color-green-tint-700;
   }
   
-  @else if $green == tint-800 {
+  @else if $background-color-green == tint-800 {
     background-color: $color-green-tint-800;
   }
   
-  @else if $green == tint-900 {
+  @else if $background-color-green == tint-900 {
     background-color: $color-green-tint-900;
   }
 }
