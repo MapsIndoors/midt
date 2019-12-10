@@ -49,8 +49,8 @@
       "large": {"value": "34rem"}
     },
     "url": {
-      "inter": {"value": "https://rsms.me/inter/inter.css"},
-      "raleway": {"value": "https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap"}
+      "inter": {"value": "//rsms.me/inter/inter.css"},
+      "raleway": {"value": "//fonts.googleapis.com/css?family=Raleway:300,400,500,600,700&display=swap"}
     }
   }
 }
