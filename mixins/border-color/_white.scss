@@ -1,12 +1,12 @@
 @import '../build/scss/variables';
 
-@mixin white($white: 'base') {
+@mixin border-color-white($border-color-white: 'base') {
   
-  @if $white == base {
+  @if $border-color-white == base {
     border-color: $color-white-base;
   }
   
-  @else if $white == white {
+  @else if $border-color-white == white {
     border-color: $color-white-white;
   }
 }
