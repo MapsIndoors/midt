@@ -1,5 +1,5 @@
 {
-  "name": "trinity",
+  "name": "midt",
   "version": "1.0.0",
   "description": "Design Tokens for MapsIndoors",
   "author": "MapsPeople A/S",
@@ -9,15 +9,13 @@
     "design",
     "tokens",
     "design",
-    "system",
-    "trinity"
+    "system"
   ],
   "files": [
     "build",
     "properties"
   ],
   "scripts": {
-    "sass": "node-sass sass/style.scss build/css/trinity.css",
     "build": "node_modules/.bin/style-dictionary build",
     "clean": "rm -rf build",
     "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\"",
