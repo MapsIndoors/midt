@@ -4,6 +4,10 @@
   "description": "Design Tokens for MapsIndoors",
   "author": "MapsPeople A/S",
   "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mapsindoors/midt.git"
+  },
   "keywords": [
     "mapsindoors",
     "design",
