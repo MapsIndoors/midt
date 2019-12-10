@@ -17,6 +17,10 @@
   @else if $font-family == serif {
     font-family: $font-family-serif;
   }
+  
+  @else if $font-family == raleway {
+    font-family: $font-family-raleway;
+  }
 }
 
 @mixin font-size($font-size: 'medium') {
