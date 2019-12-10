@@ -1,0 +1,80 @@
+@import '../build/scss/variables';
+
+@mixin red($red: 'base') {
+  
+  @if $red == base {
+    border-color: $color-red-base;
+  }
+  
+  @else if $red == shade-100 {
+    border-color: $color-red-shade-100;
+  }
+  
+  @else if $red == shade-200 {
+    border-color: $color-red-shade-200;
+  }
+  
+  @else if $red == shade-300 {
+    border-color: $color-red-shade-300;
+  }
+  
+  @else if $red == shade-400 {
+    border-color: $color-red-shade-400;
+  }
+  
+  @else if $red == shade-500 {
+    border-color: $color-red-shade-500;
+  }
+  
+  @else if $red == shade-600 {
+    border-color: $color-red-shade-600;
+  }
+  
+  @else if $red == shade-700 {
+    border-color: $color-red-shade-700;
+  }
+  
+  @else if $red == shade-800 {
+    border-color: $color-red-shade-800;
+  }
+  
+  @else if $red == shade-900 {
+    border-color: $color-red-shade-900;
+  }
+  
+  @else if $red == tint-100 {
+    border-color: $color-red-tint-100;
+  }
+  
+  @else if $red == tint-200 {
+    border-color: $color-red-tint-200;
+  }
+  
+  @else if $red == tint-300 {
+    border-color: $color-red-tint-300;
+  }
+  
+  @else if $red == tint-400 {
+    border-color: $color-red-tint-400;
+  }
+  
+  @else if $red == tint-500 {
+    border-color: $color-red-tint-500;
+  }
+  
+  @else if $red == tint-600 {
+    border-color: $color-red-tint-600;
+  }
+  
+  @else if $red == tint-700 {
+    border-color: $color-red-tint-700;
+  }
+  
+  @else if $red == tint-800 {
+    border-color: $color-red-tint-800;
+  }
+  
+  @else if $red == tint-900 {
+    border-color: $color-red-tint-900;
+  }
+}

@@ -1,0 +1,27 @@
+@import '../build/scss/variables';
+
+@mixin border-width($border-width: 'medium') {
+  
+  @if $border-width == medium {
+    border-width: $rounding-x-small
+  }
+
+  @else if $border-width == large {
+    border-width: $rounding-small;
+  }
+  
+  @else if $border-width == x-large {
+    border-width: $rounding-medium
+  }
+}
+
+@mixin border-style($border-style: 'solid') {
+  
+  @if $border-style == solid {
+    border-style: solid;
+  }
+  
+  @else if $border-style == none {
+    border-style: none;
+  }
+}

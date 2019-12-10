@@ -1,0 +1,48 @@
+@import '../build/scss/variables';
+
+@mixin black($black: 'base') {
+  
+  @if $black == base {
+    background-color: $color-black-base;
+  }
+  
+  @else if $black == black {
+    background-color: $color-black-black;
+  }
+  
+  @else if $black == 100 {
+    background-color: $color-black-100;
+  }
+  
+  @else if $black == 200 {
+    background-color: $color-black-200;
+  }
+  
+  @else if $black == 300 {
+    background-color: $color-black-300;
+  }
+  
+  @else if $black == 400 {
+    background-color: $color-black-400;
+  }
+  
+  @else if $black == 500 {
+    background-color: $color-black-500;
+  }
+  
+  @else if $black == 600 {
+    background-color: $color-black-600;
+  }
+  
+  @else if $black == 700 {
+    background-color: $color-black-700;
+  }
+  
+  @else if $black == 800 {
+    background-color: $color-black-800;
+  }
+  
+  @else if $black == 900 {
+    background-color: $color-black-900;
+  }
+}

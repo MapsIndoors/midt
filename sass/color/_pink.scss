@@ -1,0 +1,80 @@
+@import '../build/scss/variables';
+
+@mixin pink($pink: 'base') {
+  
+  @if $pink == base {
+    color: $color-pink-base;
+  }
+  
+  @else if $pink == shade-100 {
+    color: $color-pink-shade-100;
+  }
+  
+  @else if $pink == shade-200 {
+    color: $color-pink-shade-200;
+  }
+  
+  @else if $pink == shade-300 {
+    color: $color-pink-shade-300;
+  }
+  
+  @else if $pink == shade-400 {
+    color: $color-pink-shade-400;
+  }
+  
+  @else if $pink == shade-500 {
+    color: $color-pink-shade-500;
+  }
+  
+  @else if $pink == shade-600 {
+    color: $color-pink-shade-600;
+  }
+  
+  @else if $pink == shade-700 {
+    color: $color-pink-shade-700;
+  }
+  
+  @else if $pink == shade-800 {
+    color: $color-pink-shade-800;
+  }
+  
+  @else if $pink == shade-900 {
+    color: $color-pink-shade-900;
+  }
+  
+  @else if $pink == tint-100 {
+    color: $color-pink-tint-100;
+  }
+  
+  @else if $pink == tint-200 {
+    color: $color-pink-tint-200;
+  }
+  
+  @else if $pink == tint-300 {
+    color: $color-pink-tint-300;
+  }
+  
+  @else if $pink == tint-400 {
+    color: $color-pink-tint-400;
+  }
+  
+  @else if $pink == tint-500 {
+    color: $color-pink-tint-500;
+  }
+  
+  @else if $pink == tint-600 {
+    color: $color-pink-tint-600;
+  }
+  
+  @else if $pink == tint-700 {
+    color: $color-pink-tint-700;
+  }
+  
+  @else if $pink == tint-800 {
+    color: $color-pink-tint-800;
+  }
+  
+  @else if $pink == tint-900 {
+    color: $color-pink-tint-900;
+  }
+}

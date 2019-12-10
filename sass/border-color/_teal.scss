@@ -1,0 +1,80 @@
+@import '../build/scss/variables';
+
+@mixin teal($teal: 'base') {
+  
+  @if $teal == base {
+    border-color: $color-teal-base;
+  }
+  
+  @else if $teal == shade-100 {
+    border-color: $color-teal-shade-100;
+  }
+  
+  @else if $teal == shade-200 {
+    border-color: $color-teal-shade-200;
+  }
+  
+  @else if $teal == shade-300 {
+    border-color: $color-teal-shade-300;
+  }
+  
+  @else if $teal == shade-400 {
+    border-color: $color-teal-shade-400;
+  }
+  
+  @else if $teal == shade-500 {
+    border-color: $color-teal-shade-500;
+  }
+  
+  @else if $teal == shade-600 {
+    border-color: $color-teal-shade-600;
+  }
+  
+  @else if $teal == shade-700 {
+    border-color: $color-teal-shade-700;
+  }
+  
+  @else if $teal == shade-800 {
+    border-color: $color-teal-shade-800;
+  }
+  
+  @else if $teal == shade-900 {
+    border-color: $color-teal-shade-900;
+  }
+  
+  @else if $teal == tint-100 {
+    border-color: $color-teal-tint-100;
+  }
+  
+  @else if $teal == tint-200 {
+    border-color: $color-teal-tint-200;
+  }
+  
+  @else if $teal == tint-300 {
+    border-color: $color-teal-tint-300;
+  }
+  
+  @else if $teal == tint-400 {
+    border-color: $color-teal-tint-400;
+  }
+  
+  @else if $teal == tint-500 {
+    border-color: $color-teal-tint-500;
+  }
+  
+  @else if $teal == tint-600 {
+    border-color: $color-teal-tint-600;
+  }
+  
+  @else if $teal == tint-700 {
+    border-color: $color-teal-tint-700;
+  }
+  
+  @else if $teal == tint-800 {
+    border-color: $color-teal-tint-800;
+  }
+  
+  @else if $teal == tint-900 {
+    border-color: $color-teal-tint-900;
+  }
+}

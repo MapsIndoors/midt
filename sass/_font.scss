@@ -1,0 +1,139 @@
+@import '../build/scss/variables';
+
+@mixin font-family($font-family: 'sans-serif') {
+  
+  @if $font-family == sans-serif {
+    font-family: $font-family-sans-serif;
+  }
+  
+  @else if $font-family == system {
+    font-family: $font-family-system;
+  }
+  
+  @else if $font-family == monospace {
+    font-family: $font-family-monospace;    
+  }
+  
+  @else if $font-family == serif {
+    font-family: $font-family-serif;
+  }
+}
+
+@mixin font-size($font-size: 'medium') {
+  
+  @if $font-size == medium {
+    font-size: $font-size-medium;
+  }
+  
+  @else if $font-size == x-small {
+    font-size: $font-size-x-small;
+  }
+  
+  @else if $font-size == small {
+    font-size: $font-size-small;
+  }
+  
+  @else if $font-size == large {
+    font-size: $font-size-large;
+  }
+  
+  @else if $font-size == x-large {
+    font-size: $font-size-x-large;
+  }
+  
+  @else if $font-size == xx-large {
+    font-size: $font-size-xx-large;
+  }
+  
+  @else if $font-size == xxx-large {
+    font-size: $font-size-xxx-large;
+  }
+  
+  @else if $font-size == xxxx-large {
+    font-size: $font-size-xxxx-large;
+  }    
+}
+
+@mixin font-weight($font-weight: 'medium') {
+  
+  @if $font-weight == medium {
+    font-weight: $font-weight-medium;
+  }
+  
+  @else if $font-weight == small {
+    font-weight: $font-weight-small;
+  }
+  
+  @else if $font-weight == large {
+    font-weight: $font-weight-large;
+  }
+  
+  @else if $font-weight == x-large {
+    font-weight: $font-weight-x-large;
+  }
+  
+  @else if $font-weight == xx-large {
+    font-weight: $font-weight-xx-large;
+  }
+}
+
+@mixin leading($leading: 'medium') {
+  
+  @if $leading == medium {
+    letter-spacing: $font-leading-medium;
+  }
+
+  @else if $leading == x-small {
+    letter-spacing: $font-leading-x-small;
+  }
+  
+  @else if $leading == small {
+    letter-spacing: $font-leading-small;
+  }
+
+}
+
+@mixin tracking($tracking: 'medium') {
+  
+  @if $tracking == medium {
+    letter-spacing: $font-letter-spacing-medium;
+  }
+  
+  @else if $tracking == small {
+    letter-spacing: $font-letter-spacing-small;
+  }
+  
+  @else if $tracking == large {
+    letter-spacing: $font-letter-spacing-large;
+  }
+  
+  @else if $tracking == x-large {
+    letter-spacing: $font-letter-spacing-x-large;
+  }
+}
+
+@mixin measure($measure: 'medium') {
+
+  @if $measure == medium {
+    max-width: $font-measure-medium;
+  }
+  
+  @else if $measure == small {
+    max-width: $font-measure-small;
+  }
+  
+  @else if $measure == large {
+    max-width: $font-measure-large;
+  }
+}
+
+@mixin font-color($font-color: 'base') {
+  
+  @if $font-color == 'base' {
+    color: $font-color-base;
+  }
+  
+  @else if $font-color == 'inverse' {
+    color: $font-color-inverse;
+  }
+}

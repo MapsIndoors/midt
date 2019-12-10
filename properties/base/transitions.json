@@ -1,5 +1,5 @@
 {
-  "transitions": {
+  "transition": {
 		"quickly": {"value": "300ms ease"},
 		"slowly": {"value": "600ms ease"}
 	}

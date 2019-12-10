@@ -2,7 +2,7 @@
   "name": "trinity",
   "version": "1.0.0",
   "description": "Design Tokens for MapsIndoors",
-  "author": "Mark Hougaard Jensen for MapsPeople A/S",
+  "author": "MapsPeople A/S",
   "license": "CC-BY-4.0",
   "keywords": [
     "mapsindoors",
@@ -12,14 +12,13 @@
     "system",
     "trinity"
   ],
-  "main": "index.js",
   "files": [
     "build",
     "properties"
   ],
   "scripts": {
-    "sass": "node-sass sass/base.scss build/css/trinity.css",
-    "build": "node_modules/.bin/style-dictionary build && npm run sass",
+    "sass": "node-sass sass/style.scss build/css/trinity.css",
+    "build": "node_modules/.bin/style-dictionary build",
     "clean": "rm -rf build",
     "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\"",
     "test": "echo \"Error: no test specified\" && exit 1"
