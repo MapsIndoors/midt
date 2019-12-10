@@ -1,0 +1,45 @@
+@import '../build/scss/variables';
+
+@forward 'color/black';
+@forward 'color/blue';
+@forward 'color/green';
+@forward 'color/orange';
+@forward 'color/pink';
+@forward 'color/purple';
+@forward 'color/red';
+@forward 'color/teal';
+@forward 'color/white';
+@forward 'color/yellow';
+
+@forward 'border-color/black';
+@forward 'border-color/blue';
+@forward 'border-color/green';
+@forward 'border-color/orange';
+@forward 'border-color/pink';
+@forward 'border-color/purple';
+@forward 'border-color/red';
+@forward 'border-color/teal';
+@forward 'border-color/white';
+@forward 'border-color/yellow';
+
+@forward 'background-color/black';
+@forward 'background-color/blue';
+@forward 'background-color/green';
+@forward 'background-color/orange';
+@forward 'background-color/pink';
+@forward 'background-color/purple';
+@forward 'background-color/red';
+@forward 'background-color/teal';
+@forward 'background-color/white';
+@forward 'background-color/yellow';
+
+@forward 'border';
+@forward 'elevation';
+@forward 'font';
+@forward 'icons';
+@forward 'margin';
+@forward 'opacity';
+@forward 'padding';
+@forward 'rounding';
+@forward 'transitions';
+@forward 'z-index';
