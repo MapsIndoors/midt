@@ -1,8 +1,10 @@
-# MapsIndoors Design Tokens
+# MapsIndoors Design Tokens (midt)
 
-These is the MapsIndoors Design Tokens, compiled to SCSS variables for use when building MapsIndoors-related products.
+`midt` is the MapsIndoors Design Tokens source, compiled to SCSS variables for use when building MapsIndoors-related products.
 
-The Design Tokens are compiled from JSON to SCSS using Amazon's Style Dictionary.
+The Design Tokens are compiled from JSON to SCSS using [Amazon's Style Dictionary](https://github.com/amzn/style-dictionary).
+
+Install from `npm` using `npm i midt@latest`.
 
 ## How to build
 
