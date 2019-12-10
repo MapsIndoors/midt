@@ -7,14 +7,14 @@ The Design Tokens are compiled from JSON to SCSS using Amazon's Style Dictionary
 ## How to build
 
 1. Clone this repository `git clone git@github:MapsIndoors/midt.git`
-1. `cd midt` 
-1. Build the design tokens using `style-dictionary`:
+2. `cd midt` 
+3. Build the design tokens using `style-dictionary`:
     
   ```bash
   npm run build
   ```
 
-1. You should see something like this output:
+4. You should see something like this output:
 
   ```bash
   > midt@1.0.0 build /Users/marks/dev/mapspeople/midt
@@ -37,7 +37,7 @@ This creates a `build` directory and the folder structure will look like this:
 │      ├── _variables.scss
 ```
 
-1. If you want to watch for changes to the `properties` folder, you can use `npm run watch` and `_variables.scss` will be updated continuously.
+5. If you want to watch for changes to the `properties` folder, you can use `npm run watch` and `_variables.scss` will be updated continuously.
 
 You can read more about how Style Dictionary handles the merging and compilation of the JSON-files in the [Style Dictionary repository](https://github.com/amzn/style-dictionary).
 
@@ -48,7 +48,7 @@ The `_variables.scss`-file that is generated from the (JSON) Design Tokens conta
 Here's an example to use the `color` `@mixin`:
 
 1. In the `_variables.scss`-file there's a variable defining a base red color named `$color-red-base`. There's also a variable for a red color that's a shade darker named `$color-red-shade-100`.
-1. Using those variables, the `@mixin` is defined like so:
+2. Using those variables, the `@mixin` is defined like so:
 
   ```scss
   @mixin red($red: 'base') {
@@ -63,7 +63,7 @@ Here's an example to use the `color` `@mixin`:
   [...]
   ```
   
-1. Now, using this color `@mixin` on a class in your CSS could look like this:
+3. Now, using this color `@mixin` on a class in your CSS could look like this:
 
   ```css
   .test { 
