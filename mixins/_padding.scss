@@ -214,3 +214,109 @@
     padding-left: $spacing-xxxx-large;
   }  
 }
+
+@mixin padding-horizontal($padding-horizontal: 'medium') {
+  
+  @if $padding-horizontal == 'medium' {
+    padding-right: $spacing-medium;
+    padding-left: $spacing-medium;
+  }
+  
+  @else if $padding-horizontal == 'xxx-small' {
+    padding-right: $spacing-xxx-small;
+    padding-left: $spacing-xxx-small;
+  }
+  
+  @else if $padding-horizontal == 'xx-small' {
+    padding-right: $spacing-xx-small;
+    padding-left: $spacing-xx-small;
+  }
+  
+  @else if $padding-horizontal == 'x-small' {
+    padding-right: $spacing-x-small;
+    padding-left: $spacing-x-small;
+  }
+  
+  @else if $padding-horizontal == 'small' {
+    padding-right: $spacing-small;
+    padding-left: $spacing-small;
+  }
+  
+  @else if $padding-horizontal == 'large' {
+    padding-right: $spacing-large;
+    padding-left: $spacing-large;
+  }
+  
+  @else if $padding-horizontal == 'x-large' {
+    padding-right: $spacing-x-large;
+    padding-left: $spacing-x-large;
+  }
+  
+  @else if $padding-horizontal == 'xx-large' {
+    padding-right: $spacing-xx-large;
+    padding-left: $spacing-xx-large;
+  }
+  
+  @else if $padding-horizontal == 'xxx-large' {
+    padding-right: $spacing-xxx-large;
+    padding-left: $spacing-xxx-large;
+  }
+  
+  @else if $padding-horizontal == 'xxxx-large' {
+    padding-right: $spacing-xxxx-large;
+    padding-left: $spacing-xxxx-large;
+  }  
+}
+
+@mixin padding-vertical($padding-vertical: 'medium') {
+  
+  @if $padding-vertical == 'medium' {
+    padding-top: $spacing-medium;
+    padding-bottom: $spacing-medium;
+  }
+  
+  @else if $padding-vertical == 'xxx-small' {
+    padding-top: $spacing-xxx-small;
+    padding-bottom: $spacing-xxx-small;
+  }
+  
+  @else if $padding-vertical == 'xx-small' {
+    padding-top: $spacing-xx-small;
+    padding-bottom: $spacing-xx-small;
+  }
+  
+  @else if $padding-vertical == 'x-small' {
+    padding-top: $spacing-x-small;
+    padding-bottom: $spacing-x-small;
+  }
+  
+  @else if $padding-vertical == 'small' {
+    padding-top: $spacing-small;
+    padding-bottom: $spacing-small;
+  }
+  
+  @else if $padding-vertical == 'large' {
+    padding-top: $spacing-large;
+    padding-bottom: $spacing-large;
+  }
+  
+  @else if $padding-vertical == 'x-large' {
+    padding-top: $spacing-x-large;
+    padding-bottom: $spacing-x-large;
+  }
+  
+  @else if $padding-vertical == 'xx-large' {
+    padding-top: $spacing-xx-large;
+    padding-bottom: $spacing-xx-large;
+  }
+  
+  @else if $padding-vertical == 'xxx-large' {
+    padding-top: $spacing-xxx-large;
+    padding-bottom: $spacing-xxx-large;
+  }
+  
+  @else if $padding-vertical == 'xxxx-large' {
+    padding-top: $spacing-xxxx-large;
+    padding-bottom: $spacing-xxxx-large;
+  }  
+}
