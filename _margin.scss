@@ -1,0 +1,322 @@
+@use '../build/scss/variables';
+
+@mixin margin($margin: 'medium') {
+  
+  @if $margin == 'medium' {
+    margin: variables.$spacing-medium;
+  }
+  
+  @else if $margin == 'xxx-small' {
+    margin: variables.$spacing-xxx-small;
+  }
+  
+  @else if $margin == 'xx-small' {
+    margin: variables.$spacing-xx-small;
+  }
+  
+  @else if $margin == 'x-small' {
+    margin: variables.$spacing-x-small;
+  }
+  
+  @else if $margin == 'small' {
+    margin: variables.$spacing-small;
+  }
+  
+  @else if $margin == 'large' {
+    margin: variables.$spacing-large;
+  }
+  
+  @else if $margin == 'x-large' {
+    margin: variables.$spacing-x-large;
+  }
+  
+  @else if $margin == 'xx-large' {
+    margin: variables.$spacing-xx-large;
+  }
+  
+  @else if $margin == 'xxx-large' {
+    margin: variables.$spacing-xxx-large;
+  }
+  
+  @else if $margin == 'xxxx-large' {
+    margin: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin margin-top($margin-top: 'medium') {
+  
+  @if $margin-top == 'medium' {
+    margin-top: variables.$spacing-medium;
+  }
+  
+  @else if $margin-top == 'xxx-small' {
+    margin-top: variables.$spacing-xxx-small;
+  }
+  
+  @else if $margin-top == 'xx-small' {
+    margin-top: variables.$spacing-xx-small;
+  }
+  
+  @else if $margin-top == 'x-small' {
+    margin-top: variables.$spacing-x-small;
+  }
+  
+  @else if $margin-top == 'small' {
+    margin-top: variables.$spacing-small;
+  }
+  
+  @else if $margin-top == 'large' {
+    margin-top: variables.$spacing-large;
+  }
+  
+  @else if $margin-top == 'x-large' {
+    margin-top: variables.$spacing-x-large;
+  }
+  
+  @else if $margin-top == 'xx-large' {
+    margin-top: variables.$spacing-xx-large;
+  }
+  
+  @else if $margin-top == 'xxx-large' {
+    margin-top: variables.$spacing-xxx-large;
+  }
+  
+  @else if $margin-top == 'xxxx-large' {
+    margin-top: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin margin-right($margin-right: 'medium') {
+  
+  @if $margin-right == 'medium' {
+    margin-right: variables.$spacing-medium;
+  }
+  
+  @else if $margin-right == 'xxx-small' {
+    margin-right: variables.$spacing-xxx-small;
+  }
+  
+  @else if $margin-right == 'xx-small' {
+    margin-right: variables.$spacing-xx-small;
+  }
+  
+  @else if $margin-right == 'x-small' {
+    margin-right: variables.$spacing-x-small;
+  }
+  
+  @else if $margin-right == 'small' {
+    margin-right: variables.$spacing-small;
+  }
+  
+  @else if $margin-right == 'large' {
+    margin-right: variables.$spacing-large;
+  }
+  
+  @else if $margin-right == 'x-large' {
+    margin-right: variables.$spacing-x-large;
+  }
+  
+  @else if $margin-right == 'xx-large' {
+    margin-right: variables.$spacing-xx-large;
+  }
+  
+  @else if $margin-right == 'xxx-large' {
+    margin-right: variables.$spacing-xxx-large;
+  }
+  
+  @else if $margin-right == 'xxxx-large' {
+    margin-right: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin margin-bottom($margin-bottom: 'medium') {
+  
+  @if $margin-bottom == 'medium' {
+    margin-bottom: variables.$spacing-medium;
+  }
+  
+  @else if $margin-bottom == 'xxx-small' {
+    margin-bottom: variables.$spacing-xxx-small;
+  }
+  
+  @else if $margin-bottom == 'xx-small' {
+    margin-bottom: variables.$spacing-xx-small;
+  }
+  
+  @else if $margin-bottom == 'x-small' {
+    margin-bottom: variables.$spacing-x-small;
+  }
+  
+  @else if $margin-bottom == 'small' {
+    margin-bottom: variables.$spacing-small;
+  }
+  
+  @else if $margin-bottom == 'large' {
+    margin-bottom: variables.$spacing-large;
+  }
+  
+  @else if $margin-bottom == 'x-large' {
+    margin-bottom: variables.$spacing-x-large;
+  }
+  
+  @else if $margin-bottom == 'xx-large' {
+    margin-bottom: variables.$spacing-xx-large;
+  }
+  
+  @else if $margin-bottom == 'xxx-large' {
+    margin-bottom: variables.$spacing-xxx-large;
+  }
+  
+  @else if $margin-bottom == 'xxxx-large' {
+    margin-bottom: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin margin-left($margin-left: 'medium') {
+  
+  @if $margin-left == 'medium' {
+    margin-left: variables.$spacing-medium;
+  }
+  
+  @else if $margin-left == 'xxx-small' {
+    margin-left: variables.$spacing-xxx-small;
+  }
+  
+  @else if $margin-left == 'xx-small' {
+    margin-left: variables.$spacing-xx-small;
+  }
+  
+  @else if $margin-left == 'x-small' {
+    margin-left: variables.$spacing-x-small;
+  }
+  
+  @else if $margin-left == 'small' {
+    margin-left: variables.$spacing-small;
+  }
+  
+  @else if $margin-left == 'large' {
+    margin-left: variables.$spacing-large;
+  }
+  
+  @else if $margin-left == 'x-large' {
+    margin-left: variables.$spacing-x-large;
+  }
+  
+  @else if $margin-left == 'xx-large' {
+    margin-left: variables.$spacing-xx-large;
+  }
+  
+  @else if $margin-left == 'xxx-large' {
+    margin-left: variables.$spacing-xxx-large;
+  }
+  
+  @else if $margin-left == 'xxxx-large' {
+    margin-left: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin margin-horizontal($margin-horizontal: 'medium') {
+  
+  @if $margin-horizontal == 'medium' {
+    margin-left: variables.$spacing-medium;
+    margin-right: variables.$spacing-medium;
+  }
+  
+  @else if $margin-horizontal == 'xxx-small' {
+    margin-left: variables.$spacing-xxx-small;
+    margin-right: variables.$spacing-xxx-small;
+  }
+  
+  @else if $margin-horizontal == 'xx-small' {
+    margin-left: variables.$spacing-xx-small;
+    margin-right: variables.$spacing-xx-small;
+  }
+  
+  @else if $margin-horizontal == 'x-small' {
+    margin-left: variables.$spacing-x-small;
+    margin-right: variables.$spacing-x-small;
+  }
+  
+  @else if $margin-horizontal == 'small' {
+    margin-left: variables.$spacing-small;
+    margin-right: variables.$spacing-small;
+  }
+  
+  @else if $margin-horizontal == 'large' {
+    margin-left: variables.$spacing-large;
+    margin-right: variables.$spacing-large;
+  }
+  
+  @else if $margin-horizontal == 'x-large' {
+    margin-left: variables.$spacing-x-large;
+    margin-right: variables.$spacing-x-large;
+  }
+  
+  @else if $margin-horizontal == 'xx-large' {
+    margin-left: variables.$spacing-xx-large;
+    margin-right: variables.$spacing-xx-large;
+  }
+  
+  @else if $margin-horizontal == 'xxx-large' {
+    margin-left: variables.$spacing-xxx-large;
+    margin-right: variables.$spacing-xxx-large;
+  }
+  
+  @else if $margin-horizontal == 'xxxx-large' {
+    margin-left: variables.$spacing-xxxx-large;
+    margin-right: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin margin-vertical($margin-vertical: 'medium') {
+  
+  @if $margin-vertical == 'medium' {
+    margin-top: variables.$spacing-medium;
+    margin-bottom: variables.$spacing-medium;
+  }
+  
+  @else if $margin-vertical == 'xxx-small' {
+    margin-top: variables.$spacing-xxx-small;
+    margin-bottom: variables.$spacing-xxx-small;
+  }
+  
+  @else if $margin-vertical == 'xx-small' {
+    margin-top: variables.$spacing-xx-small;
+    margin-bottom: variables.$spacing-xx-small;
+  }
+  
+  @else if $margin-vertical == 'x-small' {
+    margin-top: variables.$spacing-x-small;
+    margin-bottom: variables.$spacing-x-small;
+  }
+  
+  @else if $margin-vertical == 'small' {
+    margin-top: variables.$spacing-small;
+    margin-bottom: variables.$spacing-small;
+  }
+  
+  @else if $margin-vertical == 'large' {
+    margin-top: variables.$spacing-large;
+    margin-bottom: variables.$spacing-large;
+  }
+  
+  @else if $margin-vertical == 'x-large' {
+    margin-top: variables.$spacing-x-large;
+    margin-bottom: variables.$spacing-x-large;
+  }
+  
+  @else if $margin-vertical == 'xx-large' {
+    margin-top: variables.$spacing-xx-large;
+    margin-bottom: variables.$spacing-xx-large;
+  }
+  
+  @else if $margin-vertical == 'xxx-large' {
+    margin-top: variables.$spacing-xxx-large;
+    margin-bottom: variables.$spacing-xxx-large;
+  }
+  
+  @else if $margin-vertical == 'xxxx-large' {
+    margin-top: variables.$spacing-xxxx-large;
+    margin-bottom: variables.$spacing-xxxx-large;
+  }  
+}

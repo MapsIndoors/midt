@@ -1,0 +1,104 @@
+@use '../build/scss/variables';
+
+@mixin elevation($elevation: '0') {
+  
+  @if $elevation == 0 {
+    box-shadow: variables.$elevation-0;
+  }
+
+  @else if $elevation == 1 {
+    box-shadow: variables.$elevation-1;
+  }
+  
+  @else if $elevation == 2 {
+    box-shadow: variables.$elevation-2;
+  }
+  
+  @else if $elevation == 3 {
+    box-shadow: variables.$elevation-3;
+  }
+  
+  @else if $elevation == 4 {
+    box-shadow: variables.$elevation-4;
+  }
+  
+  @else if $elevation == 5 {
+    box-shadow: variables.$elevation-5;
+  }
+  
+  @else if $elevation == 6 {
+    box-shadow: variables.$elevation-6;
+  }
+  
+  @else if $elevation == 7 {
+    box-shadow: variables.$elevation-7;
+  }
+  
+  @else if $elevation == 8 {
+    box-shadow: variables.$elevation-8;
+  }
+  
+  @else if $elevation == 9 {
+    box-shadow: variables.$elevation-9;
+  }
+  
+  @else if $elevation == 10 {
+    box-shadow: variables.$elevation-10;
+  }
+  
+  @else if $elevation == 11 {
+    box-shadow: variables.$elevation-11;
+  }
+  
+  @else if $elevation == 12 {
+    box-shadow: variables.$elevation-12;
+  }
+  
+  @else if $elevation == 13 {
+    box-shadow: variables.$elevation-13;
+  }
+  
+  @else if $elevation == 14 {
+    box-shadow: variables.$elevation-14;
+  }
+  
+  @else if $elevation == 15 {
+    box-shadow: variables.$elevation-15;
+  }
+  
+  @else if $elevation == 16 {
+    box-shadow: variables.$elevation-16;
+  }
+  
+  @else if $elevation == 17 {
+    box-shadow: variables.$elevation-17;
+  }
+  
+  @else if $elevation == 18 {
+    box-shadow: variables.$elevation-18;
+  }
+  
+  @else if $elevation == 19 {
+    box-shadow: variables.$elevation-19;
+  }
+  
+  @else if $elevation == 20 {
+    box-shadow: variables.$elevation-20;
+  }
+  
+  @else if $elevation == 21 {
+    box-shadow: variables.$elevation-21;
+  }
+  
+  @else if $elevation == 22 {
+    box-shadow: variables.$elevation-22;
+  }
+  
+  @else if $elevation == 23 {
+    box-shadow: variables.$elevation-23;
+  }
+  
+  @else if $elevation == 24 {
+    box-shadow: variables.$elevation-24;
+  }
+}

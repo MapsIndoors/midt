@@ -1,0 +1,322 @@
+@use '../build/scss/variables';
+
+@mixin padding($padding: 'medium') {
+  
+  @if $padding == 'medium' {
+    padding: variables.$spacing-medium;
+  }
+  
+  @else if $padding == 'xxx-small' {
+    padding: variables.$spacing-xxx-small;
+  }
+  
+  @else if $padding == 'xx-small' {
+    padding: variables.$spacing-xx-small;
+  }
+  
+  @else if $padding == 'x-small' {
+    padding: variables.$spacing-x-small;
+  }
+  
+  @else if $padding == 'small' {
+    padding: variables.$spacing-small;
+  }
+  
+  @else if $padding == 'large' {
+    padding: variables.$spacing-large;
+  }
+  
+  @else if $padding == 'x-large' {
+    padding: variables.$spacing-x-large;
+  }
+  
+  @else if $padding == 'xx-large' {
+    padding: variables.$spacing-xx-large;
+  }
+  
+  @else if $padding == 'xxx-large' {
+    padding: variables.$spacing-xxx-large;
+  }
+  
+  @else if $padding == 'xxxx-large' {
+    padding: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin padding-top($padding-top: 'medium') {
+  
+  @if $padding-top == 'medium' {
+    padding-top: variables.$spacing-medium;
+  }
+  
+  @else if $padding-top == 'xxx-small' {
+    padding-top: variables.$spacing-xxx-small;
+  }
+  
+  @else if $padding-top == 'xx-small' {
+    padding-top: variables.$spacing-xx-small;
+  }
+  
+  @else if $padding-top == 'x-small' {
+    padding-top: variables.$spacing-x-small;
+  }
+  
+  @else if $padding-top == 'small' {
+    padding-top: variables.$spacing-small;
+  }
+  
+  @else if $padding-top == 'large' {
+    padding-top: variables.$spacing-large;
+  }
+  
+  @else if $padding-top == 'x-large' {
+    padding-top: variables.$spacing-x-large;
+  }
+  
+  @else if $padding-top == 'xx-large' {
+    padding-top: variables.$spacing-xx-large;
+  }
+  
+  @else if $padding-top == 'xxx-large' {
+    padding-top: variables.$spacing-xxx-large;
+  }
+  
+  @else if $padding-top == 'xxxx-large' {
+    padding-top: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin padding-right($padding-right: 'medium') {
+  
+  @if $padding-right == 'medium' {
+    padding-right: variables.$spacing-medium;
+  }
+  
+  @else if $padding-right == 'xxx-small' {
+    padding-right: variables.$spacing-xxx-small;
+  }
+  
+  @else if $padding-right == 'xx-small' {
+    padding-right: variables.$spacing-xx-small;
+  }
+  
+  @else if $padding-right == 'x-small' {
+    padding-right: variables.$spacing-x-small;
+  }
+  
+  @else if $padding-right == 'small' {
+    padding-right: variables.$spacing-small;
+  }
+  
+  @else if $padding-right == 'large' {
+    padding-right: variables.$spacing-large;
+  }
+  
+  @else if $padding-right == 'x-large' {
+    padding-right: variables.$spacing-x-large;
+  }
+  
+  @else if $padding-right == 'xx-large' {
+    padding-right: variables.$spacing-xx-large;
+  }
+  
+  @else if $padding-right == 'xxx-large' {
+    padding-right: variables.$spacing-xxx-large;
+  }
+  
+  @else if $padding-right == 'xxxx-large' {
+    padding-right: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin padding-bottom($padding-bottom: 'medium') {
+  
+  @if $padding-bottom == 'medium' {
+    padding-bottom: variables.$spacing-medium;
+  }
+  
+  @else if $padding-bottom == 'xxx-small' {
+    padding-bottom: variables.$spacing-xxx-small;
+  }
+  
+  @else if $padding-bottom == 'xx-small' {
+    padding-bottom: variables.$spacing-xx-small;
+  }
+  
+  @else if $padding-bottom == 'x-small' {
+    padding-bottom: variables.$spacing-x-small;
+  }
+  
+  @else if $padding-bottom == 'small' {
+    padding-bottom: variables.$spacing-small;
+  }
+  
+  @else if $padding-bottom == 'large' {
+    padding-bottom: variables.$spacing-large;
+  }
+  
+  @else if $padding-bottom == 'x-large' {
+    padding-bottom: variables.$spacing-x-large;
+  }
+  
+  @else if $padding-bottom == 'xx-large' {
+    padding-bottom: variables.$spacing-xx-large;
+  }
+  
+  @else if $padding-bottom == 'xxx-large' {
+    padding-bottom: variables.$spacing-xxx-large;
+  }
+  
+  @else if $padding-bottom == 'xxxx-large' {
+    padding-bottom: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin padding-left($padding-left: 'medium') {
+  
+  @if $padding-left == 'medium' {
+    padding-left: variables.$spacing-medium;
+  }
+  
+  @else if $padding-left == 'xxx-small' {
+    padding-left: variables.$spacing-xxx-small;
+  }
+  
+  @else if $padding-left == 'xx-small' {
+    padding-left: variables.$spacing-xx-small;
+  }
+  
+  @else if $padding-left == 'x-small' {
+    padding-left: variables.$spacing-x-small;
+  }
+  
+  @else if $padding-left == 'small' {
+    padding-left: variables.$spacing-small;
+  }
+  
+  @else if $padding-left == 'large' {
+    padding-left: variables.$spacing-large;
+  }
+  
+  @else if $padding-left == 'x-large' {
+    padding-left: variables.$spacing-x-large;
+  }
+  
+  @else if $padding-left == 'xx-large' {
+    padding-left: variables.$spacing-xx-large;
+  }
+  
+  @else if $padding-left == 'xxx-large' {
+    padding-left: variables.$spacing-xxx-large;
+  }
+  
+  @else if $padding-left == 'xxxx-large' {
+    padding-left: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin padding-horizontal($padding-horizontal: 'medium') {
+  
+  @if $padding-horizontal == 'medium' {
+    padding-right: variables.$spacing-medium;
+    padding-left: variables.$spacing-medium;
+  }
+  
+  @else if $padding-horizontal == 'xxx-small' {
+    padding-right: variables.$spacing-xxx-small;
+    padding-left: variables.$spacing-xxx-small;
+  }
+  
+  @else if $padding-horizontal == 'xx-small' {
+    padding-right: variables.$spacing-xx-small;
+    padding-left: variables.$spacing-xx-small;
+  }
+  
+  @else if $padding-horizontal == 'x-small' {
+    padding-right: variables.$spacing-x-small;
+    padding-left: variables.$spacing-x-small;
+  }
+  
+  @else if $padding-horizontal == 'small' {
+    padding-right: variables.$spacing-small;
+    padding-left: variables.$spacing-small;
+  }
+  
+  @else if $padding-horizontal == 'large' {
+    padding-right: variables.$spacing-large;
+    padding-left: variables.$spacing-large;
+  }
+  
+  @else if $padding-horizontal == 'x-large' {
+    padding-right: variables.$spacing-x-large;
+    padding-left: variables.$spacing-x-large;
+  }
+  
+  @else if $padding-horizontal == 'xx-large' {
+    padding-right: variables.$spacing-xx-large;
+    padding-left: variables.$spacing-xx-large;
+  }
+  
+  @else if $padding-horizontal == 'xxx-large' {
+    padding-right: variables.$spacing-xxx-large;
+    padding-left: variables.$spacing-xxx-large;
+  }
+  
+  @else if $padding-horizontal == 'xxxx-large' {
+    padding-right: variables.$spacing-xxxx-large;
+    padding-left: variables.$spacing-xxxx-large;
+  }  
+}
+
+@mixin padding-vertical($padding-vertical: 'medium') {
+  
+  @if $padding-vertical == 'medium' {
+    padding-top: variables.$spacing-medium;
+    padding-bottom: variables.$spacing-medium;
+  }
+  
+  @else if $padding-vertical == 'xxx-small' {
+    padding-top: variables.$spacing-xxx-small;
+    padding-bottom: variables.$spacing-xxx-small;
+  }
+  
+  @else if $padding-vertical == 'xx-small' {
+    padding-top: variables.$spacing-xx-small;
+    padding-bottom: variables.$spacing-xx-small;
+  }
+  
+  @else if $padding-vertical == 'x-small' {
+    padding-top: variables.$spacing-x-small;
+    padding-bottom: variables.$spacing-x-small;
+  }
+  
+  @else if $padding-vertical == 'small' {
+    padding-top: variables.$spacing-small;
+    padding-bottom: variables.$spacing-small;
+  }
+  
+  @else if $padding-vertical == 'large' {
+    padding-top: variables.$spacing-large;
+    padding-bottom: variables.$spacing-large;
+  }
+  
+  @else if $padding-vertical == 'x-large' {
+    padding-top: variables.$spacing-x-large;
+    padding-bottom: variables.$spacing-x-large;
+  }
+  
+  @else if $padding-vertical == 'xx-large' {
+    padding-top: variables.$spacing-xx-large;
+    padding-bottom: variables.$spacing-xx-large;
+  }
+  
+  @else if $padding-vertical == 'xxx-large' {
+    padding-top: variables.$spacing-xxx-large;
+    padding-bottom: variables.$spacing-xxx-large;
+  }
+  
+  @else if $padding-vertical == 'xxxx-large' {
+    padding-top: variables.$spacing-xxxx-large;
+    padding-bottom: variables.$spacing-xxxx-large;
+  }  
+}

@@ -1,17 +1,17 @@
-@import '../build/scss/variables';
+@use '../build/scss/variables';
 
 @mixin border-width($border-width: 'medium') {
   
   @if $border-width == medium {
-    border-width: $rounding-x-small
+    border-width: variables.$rounding-x-small
   }
 
   @else if $border-width == large {
-    border-width: $rounding-small;
+    border-width: variables.$rounding-small;
   }
   
   @else if $border-width == x-large {
-    border-width: $rounding-medium
+    border-width: variables.$rounding-medium
   }
 }
 
