@@ -1,56 +1,46 @@
 # MapsIndoors Design Tokens (midt)
 
-`midt` is the MapsIndoors Design Tokens source, compiled to SCSS variables for use when building MapsIndoors-related products.
+`midt` contains the MapsIndoors Design Tokens.
+
+They are compiled to SCSS variables for use when building MapsIndoors-related products for web.
 
 The Design Tokens are compiled from JSON to SCSS using [Amazon's Style Dictionary](https://github.com/amzn/style-dictionary).
 
-Install from `npm` using `npm i midt@latest`.
+Install from `npm` using `npm i -D midt@latest`.
 
-## How to build
+## Build
 
-1. Clone this repository `git clone git@github:MapsIndoors/midt.git`
-2. `cd midt` 
-3. Build the design tokens using `style-dictionary`:
+1. Clone this repository `git clone git@github:MapsIndoors/midt.git && cd midt`
+2. Build the Design Tokens using `style-dictionary`:
     
-  ```bash
-  npm run build
-  ```
-
-4. You should see something like this output:
-
-  ```bash
-  > midt@1.0.0 build ~/dev/midt
-  > style-dictionary build
-  
-  scss
-  ✔︎  build/scss/_variables.scss
-  ```
-
-This creates a `build` directory and the folder structure will look like this:
-```
-├── README.md
-├── config.json
-├── properties/
-│   ├── base.json
-│   ├── font.json
-│   ├── ...
-├── build/
-│   ├── scss/
-│      ├── _variables.scss
+```bash
+npm run build
 ```
 
-5. If you want to watch for changes to the `properties` folder, you can use `npm run watch` and `_variables.scss` will be updated continuously.
+You should see something like this output:
+
+```bash
+> midt@1.0.0 build ~/dev/midt
+> style-dictionary build
+
+scss
+✔︎  build/scss/_variables.scss
+```
+
+### Watch
+
+If you want to watch for changes to the `properties` folder, you can use `npm run watch` and `_variables.scss` will be updated continuously.
 
 You can read more about how Style Dictionary handles the merging and compilation of the JSON-files in the [Style Dictionary repository](https://github.com/amzn/style-dictionary).
 
-## How to use the SCSS mixins
+## Use the SCSS mixins
 
-The `_variables.scss`-file that is generated from the (JSON) Design Tokens contains all of the building blocks for the `@mixin`s.
+The `_variables.scss`-file that is generated from the (JSON) Design Tokens contains all variables needed to build a range of helpful `@mixin`s.
 
-Here's an example to use the `color` `@mixin`:
+Here's an example with the `color` `@mixin`:
 
 1. In the `_variables.scss`-file there's a variable defining a base red color named `$color-red-base`. There's also a variable for a red color that's a shade darker named `$color-red-shade-100`.
-2. Using those variables, the `@mixin` is defined like so:
+2. Using those variables, the `@mixin` is constructed like this:
 
   ```scss
   @mixin red($red: 'base') {
@@ -97,12 +87,12 @@ Or set the z-index:
 }
 ```
 
-## How to use the mixins with SASS' `use` function
+## Use with SASS' `@use` function
 
-SASS is moving away from explicitly `@import`ing towards declaring what you want to use instead. Here's an example:
+SASS is moving away from explicitly `@import`ing towards declaring what you want to `@use` instead. Here's an example:
 
 ```scss
-@use '~/midt/mixins/color';
+@use 'color';
 
 .test {
   @include color.red;
@@ -110,8 +100,26 @@ SASS is moving away from explicitly `@import`ing towards declaring what you want
 }
 ```
 
-**Pro tip!** The `mixins` folder has an `_index.scss`-file that `@forward`s all mixins in one go, so it's this fast to get started:
+### List of available mixins
+
+These are all of the available mixins, and how you can reference them after installing this package:
 
 ```scss
-@use '~/midt/mixins';
+@use "node_modules/midt/background-color";
+@use "node_modules/midt/border-color";
+@use "node_modules/midt/border-radius";
+@use "node_modules/midt/border";
+@use "node_modules/midt/color";
+@use "node_modules/midt/elevation";
+@use "node_modules/midt/font";
+@use "node_modules/midt/icons";
+@use "node_modules/midt/margin";
+@use "node_modules/midt/opacity";
+@use "node_modules/midt/padding";
+@use "node_modules/midt/transitions";
+@use "node_modules/midt/z-index";
 ```
+
+## Testing
+
+Run `npm run sass` to compile the `style.scss` test file to `style.css`.

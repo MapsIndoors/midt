@@ -17,11 +17,8 @@
   white-space: nowrap;
   vertical-align: middle;
   cursor: pointer;
-  user-select: none;
 }
 .button:hover {
   text-decoration: none;
-}
-.button:disabled, .button.disabled {
-  cursor: default;
+  background-color: #232256;
 }

@@ -1,6 +1,5 @@
 @use "background-color";
 @use "border-color";
-@use "border-radius";
 @use "border";
 @use "color";
 @use "elevation";
@@ -20,7 +19,7 @@
   @include font.leading(small);
   @include border.border-width();
   @include border.border-style();
-  @include border-radius.border-radius(large);
+  @include border.border-radius(large);
   @include color.green(shade-400);
   @include border-color.blue(shade-700);
   @include background-color.red(tint-400);
@@ -32,11 +31,6 @@
 
   &:hover {
     text-decoration: none;
-  }
-
-  &:disabled,
-  &.disabled {
-    cursor: default;
-    // Repeat `background-position` because `:hover`
+    @include background-color.purple(shade-600);
   }
 }
