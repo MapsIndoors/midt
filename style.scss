@@ -1,0 +1,42 @@
+@use "background-color";
+@use "border-color";
+@use "border-radius";
+@use "border";
+@use "color";
+@use "elevation";
+@use "font";
+@use "icons";
+@use "margin";
+@use "opacity";
+@use "padding";
+@use "transitions";
+@use "z-index";
+
+.button {
+  @include margin.margin-vertical(x-small);
+  @include margin.margin-horizontal(medium);
+  @include font.font-size(large);
+  @include font.font-weight(large);
+  @include font.leading(small);
+  @include border.border-width();
+  @include border.border-style();
+  @include border-radius.border-radius(large);
+  @include color.green(shade-400);
+  @include border-color.blue(shade-700);
+  @include background-color.red(tint-400);
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:disabled,
+  &.disabled {
+    cursor: default;
+    // Repeat `background-position` because `:hover`
+  }
+}
