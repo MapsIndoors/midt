@@ -5,10 +5,10 @@
 			"comment": "Targets devices between 0-360px"},
 		"x-small": {
 			"value": "only screen and (max-width: 575px)",
-			"comment": "0-575px"},
+			"comment": "Targets devices between 0-575px"},
 		"small": {
 			"value": "only screen and (min-width: 576px)",
-			"comment": "576px and up"},
+			"comment": "Targets devices between 576px and up"},
 		"medium": {
 			"value": "only screen and (min-width: 768px)",
 			"comment": "Targets portrait tablets from 768px and up"},
