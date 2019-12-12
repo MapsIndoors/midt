@@ -1,82 +1,82 @@
 @use 'build/scss/variables';
 
-@mixin font-family($font-family: 'sans-serif') {
+@mixin family($family: 'sans-serif') {
   
-  @if $font-family == sans-serif {
+  @if $family == sans-serif {
     font-family: variables.$font-family-sans-serif;
   }
   
-  @else if $font-family == system {
+  @else if $family == system {
     font-family: variables.$font-family-system;
   }
   
-  @else if $font-family == monospace {
+  @else if $family == monospace {
     font-family: variables.$font-family-monospace;    
   }
   
-  @else if $font-family == serif {
+  @else if $family == serif {
     font-family: variables.$font-family-serif;
   }
   
-  @else if $font-family == raleway {
+  @else if $family == raleway {
     font-family: variables.$font-family-raleway;
   }
 }
 
-@mixin font-size($font-size: 'medium') {
+@mixin size($size: 'medium') {
   
-  @if $font-size == medium {
+  @if $size == medium {
     font-size: variables.$font-size-medium;
   }
   
-  @else if $font-size == x-small {
+  @else if $size == x-small {
     font-size: variables.$font-size-x-small;
   }
   
-  @else if $font-size == small {
+  @else if $size == small {
     font-size: variables.$font-size-small;
   }
   
-  @else if $font-size == large {
+  @else if $size == large {
     font-size: variables.$font-size-large;
   }
   
-  @else if $font-size == x-large {
+  @else if $size == x-large {
     font-size: variables.$font-size-x-large;
   }
   
-  @else if $font-size == xx-large {
+  @else if $size == xx-large {
     font-size: variables.$font-size-xx-large;
   }
   
-  @else if $font-size == xxx-large {
+  @else if $size == xxx-large {
     font-size: variables.$font-size-xxx-large;
   }
   
-  @else if $font-size == xxxx-large {
+  @else if $size == xxxx-large {
     font-size: variables.$font-size-xxxx-large;
   }    
 }
 
-@mixin font-weight($font-weight: 'medium') {
+@mixin weight($weight: 'medium') {
   
-  @if $font-weight == medium {
+  @if $weight == medium {
     font-weight: variables.$font-weight-medium;
   }
   
-  @else if $font-weight == small {
+  @else if $weight == small {
     font-weight: variables.$font-weight-small;
   }
   
-  @else if $font-weight == large {
+  @else if $weight == large {
     font-weight: variables.$font-weight-large;
   }
   
-  @else if $font-weight == x-large {
+  @else if $weight == x-large {
     font-weight: variables.$font-weight-x-large;
   }
   
-  @else if $font-weight == xx-large {
+  @else if $weight == xx-large {
     font-weight: variables.$font-weight-xx-large;
   }
 }
