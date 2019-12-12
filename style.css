@@ -5,12 +5,12 @@
   margin-right: 16px;
   font-size: 1.25rem;
   font-weight: 500;
-  line-height: 1.25rem;
+  line-height: 0.875rem;
   border-width: 1px;
   border-style: solid;
   border-radius: 8px;
-  color: #2e823c;
   border-color: #00254c;
+  color: #2e823c;
   background-color: #ff8983;
   position: relative;
   display: inline-block;
@@ -22,3 +22,9 @@
   text-decoration: none;
   background-color: #232256;
 }
+
+.opacity-x-small {
+  opacity: 0.08;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,5 +1,4 @@
 @use "background-color";
-@use "border-color";
 @use "border";
 @use "color";
 @use "elevation";
@@ -12,16 +11,16 @@
 @use "z-index";
 
 .button {
-  @include margin.margin-vertical(x-small);
-  @include margin.margin-horizontal(medium);
-  @include font.font-size(large);
-  @include font.font-weight(large);
+  @include margin.vertical(x-small);
+  @include margin.horizontal(medium);
+  @include font.size(large);
+  @include font.weight(large);
   @include font.leading(small);
-  @include border.border-width();
-  @include border.border-style();
-  @include border.border-radius(large);
+  @include border.width();
+  @include border.style();
+  @include border.radius(large);
+  @include border.blue(shade-700);
   @include color.green(shade-400);
-  @include border-color.blue(shade-700);
   @include background-color.red(tint-400);
   position: relative;
   display: inline-block;
