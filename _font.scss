@@ -131,13 +131,13 @@
   }
 }
 
-@mixin font-color($font-color: 'base') {
+@mixin color($color: 'base') {
   
-  @if $font-color == 'base' {
-    color: $font-color-base;
+  @if $color == 'base' {
+    color: $color-black-base;
   }
   
-  @else if $font-color == 'inverse' {
-    color: $font-color-inverse;
+  @else if $color == 'inverse' {
+    color: $color-white-base;
   }
 }
