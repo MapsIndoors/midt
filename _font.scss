@@ -119,19 +119,19 @@
 @mixin tracking($tracking: 'medium') {
   
   @if $tracking == medium {
-    letter-spacing: $font-letter-spacing-medium;
+    letter-spacing: variables.$font-tracking-medium;
   }
   
   @else if $tracking == small {
-    letter-spacing: $font-letter-spacing-small;
+    letter-spacing: variables.$font-tracking-medium;
   }
   
   @else if $tracking == large {
-    letter-spacing: $font-letter-spacing-large;
+    letter-spacing: variables.$font-tracking-medium;
   }
   
   @else if $tracking == x-large {
-    letter-spacing: $font-letter-spacing-x-large;
+    letter-spacing: variables.$font-tracking-medium;
   }
 }
 
@@ -153,10 +153,10 @@
 @mixin color($color: 'base') {
   
   @if $color == 'base' {
-    color: $color-black-base;
+    color: variables.$color-black-base;
   }
   
   @else if $color == 'inverse' {
-    color: $color-white-base;
+    color: variables.$color-white-base;
   }
 }
