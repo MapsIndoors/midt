@@ -1,62 +1,62 @@
 @use 'build/scss/variables';
 
-@mixin border-width($border-width: 'medium') {
+@mixin width($width: 'medium') {
   
-  @if $border-width == medium {
+  @if $width == medium {
     border-width: variables.$rounding-x-small
   }
 
-  @else if $border-width == large {
+  @else if $width == large {
     border-width: variables.$rounding-small;
   }
   
-  @else if $border-width == x-large {
+  @else if $width == x-large {
     border-width: variables.$rounding-medium
   }
 }
 
-@mixin border-style($border-style: 'solid') {
+@mixin style($style: 'solid') {
   
-  @if $border-style == solid {
+  @if $style == solid {
     border-style: solid;
   }
   
-  @else if $border-style == none {
+  @else if $style == none {
     border-style: none;
   }
 }
 
-@mixin border-radius($border-radius: 'medium') {
+@mixin radius($radius: 'medium') {
   
-  @if $border-radius == 'medium' {
+  @if $radius == 'medium' {
     border-radius: variables.$rounding-medium;
   }
   
-  @else if $border-radius == 'xx-small' {
+  @else if $radius == 'xx-small' {
     border-radius: variables.$rounding-xx-small;
   }
   
-  @else if $border-radius == 'x-small' {
+  @else if $radius == 'x-small' {
     border-radius: variables.$rounding-x-small;
   }
   
-  @else if $border-radius == 'small' {
+  @else if $radius == 'small' {
     border-radius: variables.$rounding-small;
   }
   
-  @else if $border-radius == 'large' {
+  @else if $radius == 'large' {
     border-radius: variables.$rounding-large;
   }
   
-  @else if $border-radius == 'x-large' {
+  @else if $radius == 'x-large' {
     border-radius: variables.$rounding-x-large;
   }
   
-  @else if $border-radius == 'pill' {
+  @else if $radius == 'pill' {
     border-radius: variables.$rounding-pill;
   }
   
-  @else if $border-radius == 'circle' {
+  @else if $radius == 'circle' {
     border-radius: variables.$rounding-circle;
   }
 }
