@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Wed, 11 Dec 2019 13:17:07 GMT
+// Generated on Thu, 12 Dec 2019 14:46:05 GMT
 
 $breakpoints-xx-small: only screen and (max-width: 360px); // Targets devices between 0-360px
 $breakpoints-x-small: only screen and (max-width: 575px); // Targets devices between 0-575px
@@ -207,19 +207,16 @@ $font-family-raleway: Raleway, Inter, -apple-system, BlinkMacSystemFont, 'avenir
 $font-size-x-small: 0.75rem;
 $font-size-small: 0.875rem;
 $font-size-medium: 1rem; // Approximately 16px. This is the base size for all fonts on all platforms.
-$font-size-large: 1.25rem;
-$font-size-x-large: 1.5rem;
-$font-size-xx-large: 2.25rem;
-$font-size-xxx-large: 3rem;
-$font-size-xxxx-large: 4.5rem;
+$font-size-large: 1.25rem; // Approximately 20px.
+$font-size-x-large: 1.5rem; // Approximately 24px.
+$font-size-xx-large: 2.25rem; // Approximately 36px.
+$font-size-xxx-large: 3rem; // Approximately 48px.
+$font-size-xxxx-large: 4.5rem; // Approximately 72px.
 $font-weight-small: 300; // Light
 $font-weight-medium: 400; // Normal
 $font-weight-large: 500; // Medium
 $font-weight-x-large: 600; // Semi-bold
 $font-weight-xx-large: 700; // Bold
-$font-leading-x-small: 1.1rem; // For use with the small font size or smaller.
-$font-leading-small: 1.25rem; // For display text use.
-$font-leading-medium: 1.5rem; // For body text use.
 $font-tracking-small: -.05rem;
 $font-tracking-medium: normal;
 $font-tracking-large: .1rem;

@@ -81,10 +81,10 @@
   }
 }
 
-@mixin leading($leading: 'medium') {
+@mixin leading($leading: 'x-large') {
   
-  @if $leading == medium {
-    line-height: variables.$font-size-medium;
+  @if $leading == x-large {
+    line-height: variables.$font-size-x-large;
   }
   
   @else if $leading == x-small {
@@ -95,12 +95,12 @@
     line-height: variables.$font-size-small;
   }
   
+  @else if $leading == medium {
+    line-height: variables.$font-size-medium;
+  }
+
   @else if $leading == large {
     line-height: variables.$font-size-large;
-  }
-  
-  @else if $leading == x-large {
-    line-height: variables.$font-size-x-large;
   }
   
   @else if $leading == xx-large {

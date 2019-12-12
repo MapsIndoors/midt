@@ -36,17 +36,6 @@
       "x-large": {"value": "600", "comment": "Semi-bold"},
       "xx-large": {"value": "700", "comment": "Bold"}
     },
-    "leading": {
-      "x-small": {
-        "value": "1.1rem",
-        "comment": "For use with the small font size or smaller."},
-      "small": {
-        "value": "1.25rem",
-        "comment": "For display text use."},
-      "medium": {
-        "value": "1.5rem",
-        "comment": "For body text use."}
-    },
     "tracking": {
       "small": {"value": "-.05rem"},
       "medium": {"value": "normal"},
