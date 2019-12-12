@@ -13,11 +13,21 @@
       "medium": {
         "value": "1rem",
         "comment": "Approximately 16px. This is the base size for all fonts on all platforms."},
-      "large": {"value": "1.25rem"},
-      "x-large": {"value": "1.5rem"},
-      "xx-large": {"value": "2.25rem"},
-      "xxx-large": {"value": "3rem"},
-      "xxxx-large": {"value": "4.5rem"}
+      "large": {
+        "value": "1.25rem",
+        "comment": "Approximately 20px."},
+      "x-large": {
+        "value": "1.5rem",
+        "comment": "Approximately 24px."},
+      "xx-large": {
+        "value": "2.25rem",
+        "comment": "Approximately 36px."},
+      "xxx-large": {
+        "value": "3rem",
+        "comment": "Approximately 48px."},
+      "xxxx-large": {
+        "value": "4.5rem",
+        "comment": "Approximately 72px."}
     },
     "weight": {
       "small": {"value": "300", "comment": "Light"},
