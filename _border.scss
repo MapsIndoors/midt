@@ -60,3 +60,693 @@
     border-radius: variables.$rounding-circle;
   }
 }
+
+@mixin black($border-color-black: 'base') {
+  
+  @if $border-color-black == base {
+    border-color: variables.$color-black-base;
+  }
+  
+  @else if $border-color-black == black {
+    border-color: variables.$color-black-black;
+  }
+  
+  @else if $border-color-black == 100 {
+    border-color: variables.$color-black-100;
+  }
+  
+  @else if $border-color-black == 200 {
+    border-color: variables.$color-black-200;
+  }
+  
+  @else if $border-color-black == 300 {
+    border-color: variables.$color-black-300;
+  }
+  
+  @else if $border-color-black == 400 {
+    border-color: variables.$color-black-400;
+  }
+  
+  @else if $border-color-black == 500 {
+    border-color: variables.$color-black-500;
+  }
+  
+  @else if $border-color-black == 600 {
+    border-color: variables.$color-black-600;
+  }
+  
+  @else if $border-color-black == 700 {
+    border-color: variables.$color-black-700;
+  }
+  
+  @else if $border-color-black == 800 {
+    border-color: variables.$color-black-800;
+  }
+  
+  @else if $border-color-black == 900 {
+    border-color: variables.$color-black-900;
+  }
+}
+
+@mixin blue($border-color-blue: 'base') {
+  
+  @if $border-color-blue == base {
+    border-color: variables.$color-blue-base;
+  }
+  
+  @else if $border-color-blue == shade-100 {
+    border-color: variables.$color-blue-shade-100;
+  }
+  
+  @else if $border-color-blue == shade-200 {
+    border-color: variables.$color-blue-shade-200;
+  }
+  
+  @else if $border-color-blue == shade-300 {
+    border-color: variables.$color-blue-shade-300;
+  }
+  
+  @else if $border-color-blue == shade-400 {
+    border-color: variables.$color-blue-shade-400;
+  }
+  
+  @else if $border-color-blue == shade-500 {
+    border-color: variables.$color-blue-shade-500;
+  }
+  
+  @else if $border-color-blue == shade-600 {
+    border-color: variables.$color-blue-shade-600;
+  }
+  
+  @else if $border-color-blue == shade-700 {
+    border-color: variables.$color-blue-shade-700;
+  }
+  
+  @else if $border-color-blue == shade-800 {
+    border-color: variables.$color-blue-shade-800;
+  }
+  
+  @else if $border-color-blue == shade-900 {
+    border-color: variables.$color-blue-shade-900;
+  }
+  
+  @else if $border-color-blue == tint-100 {
+    border-color: variables.$color-blue-tint-100;
+  }
+  
+  @else if $border-color-blue == tint-200 {
+    border-color: variables.$color-blue-tint-200;
+  }
+  
+  @else if $border-color-blue == tint-300 {
+    border-color: variables.$color-blue-tint-300;
+  }
+  
+  @else if $border-color-blue == tint-400 {
+    border-color: variables.$color-blue-tint-400;
+  }
+  
+  @else if $border-color-blue == tint-500 {
+    border-color: variables.$color-blue-tint-500;
+  }
+  
+  @else if $border-color-blue == tint-600 {
+    border-color: variables.$color-blue-tint-600;
+  }
+  
+  @else if $border-color-blue == tint-700 {
+    border-color: variables.$color-blue-tint-700;
+  }
+  
+  @else if $border-color-blue == tint-800 {
+    border-color: variables.$color-blue-tint-800;
+  }
+  
+  @else if $border-color-blue == tint-900 {
+    border-color: variables.$color-blue-tint-900;
+  }
+}
+
+@mixin green($border-color-green: 'base') {
+  
+  @if $border-color-green == base {
+    border-color: variables.$color-green-base;
+  }
+  
+  @else if $border-color-green == shade-100 {
+    border-color: variables.$color-green-shade-100;
+  }
+  
+  @else if $border-color-green == shade-200 {
+    border-color: variables.$color-green-shade-200;
+  }
+  
+  @else if $border-color-green == shade-300 {
+    border-color: variables.$color-green-shade-300;
+  }
+  
+  @else if $border-color-green == shade-400 {
+    border-color: variables.$color-green-shade-400;
+  }
+  
+  @else if $border-color-green == shade-500 {
+    border-color: variables.$color-green-shade-500;
+  }
+  
+  @else if $border-color-green == shade-600 {
+    border-color: variables.$color-green-shade-600;
+  }
+  
+  @else if $border-color-green == shade-700 {
+    border-color: variables.$color-green-shade-700;
+  }
+  
+  @else if $border-color-green == shade-800 {
+    border-color: variables.$color-green-shade-800;
+  }
+  
+  @else if $border-color-green == shade-900 {
+    border-color: variables.$color-green-shade-900;
+  }
+  
+  @else if $border-color-green == tint-100 {
+    border-color: variables.$color-green-tint-100;
+  }
+  
+  @else if $border-color-green == tint-200 {
+    border-color: variables.$color-green-tint-200;
+  }
+  
+  @else if $border-color-green == tint-300 {
+    border-color: variables.$color-green-tint-300;
+  }
+  
+  @else if $border-color-green == tint-400 {
+    border-color: variables.$color-green-tint-400;
+  }
+  
+  @else if $border-color-green == tint-500 {
+    border-color: variables.$color-green-tint-500;
+  }
+  
+  @else if $border-color-green == tint-600 {
+    border-color: variables.$color-green-tint-600;
+  }
+  
+  @else if $border-color-green == tint-700 {
+    border-color: variables.$color-green-tint-700;
+  }
+  
+  @else if $border-color-green == tint-800 {
+    border-color: variables.$color-green-tint-800;
+  }
+  
+  @else if $border-color-green == tint-900 {
+    border-color: variables.$color-green-tint-900;
+  }
+}
+
+@mixin orange($border-color-orange: 'base') {
+  
+  @if $border-color-orange == base {
+    border-color: variables.$color-orange-base;
+  }
+  
+  @else if $border-color-orange == shade-100 {
+    border-color: variables.$color-orange-shade-100;
+  }
+  
+  @else if $border-color-orange == shade-200 {
+    border-color: variables.$color-orange-shade-200;
+  }
+  
+  @else if $border-color-orange == shade-300 {
+    border-color: variables.$color-orange-shade-300;
+  }
+  
+  @else if $border-color-orange == shade-400 {
+    border-color: variables.$color-orange-shade-400;
+  }
+  
+  @else if $border-color-orange == shade-500 {
+    border-color: variables.$color-orange-shade-500;
+  }
+  
+  @else if $border-color-orange == shade-600 {
+    border-color: variables.$color-orange-shade-600;
+  }
+  
+  @else if $border-color-orange == shade-700 {
+    border-color: variables.$color-orange-shade-700;
+  }
+  
+  @else if $border-color-orange == shade-800 {
+    border-color: variables.$color-orange-shade-800;
+  }
+  
+  @else if $border-color-orange == shade-900 {
+    border-color: variables.$color-orange-shade-900;
+  }
+  
+  @else if $border-color-orange == tint-100 {
+    border-color: variables.$color-orange-tint-100;
+  }
+  
+  @else if $border-color-orange == tint-200 {
+    border-color: variables.$color-orange-tint-200;
+  }
+  
+  @else if $border-color-orange == tint-300 {
+    border-color: variables.$color-orange-tint-300;
+  }
+  
+  @else if $border-color-orange == tint-400 {
+    border-color: variables.$color-orange-tint-400;
+  }
+  
+  @else if $border-color-orange == tint-500 {
+    border-color: variables.$color-orange-tint-500;
+  }
+  
+  @else if $border-color-orange == tint-600 {
+    border-color: variables.$color-orange-tint-600;
+  }
+  
+  @else if $border-color-orange == tint-700 {
+    border-color: variables.$color-orange-tint-700;
+  }
+  
+  @else if $border-color-orange == tint-800 {
+    border-color: variables.$color-orange-tint-800;
+  }
+  
+  @else if $border-color-orange == tint-900 {
+    border-color: variables.$color-orange-tint-900;
+  }
+}
+
+@mixin pink($border-color-pink: 'base') {
+  
+  @if $border-color-pink == base {
+    border-color: variables.$color-pink-base;
+  }
+  
+  @else if $border-color-pink == shade-100 {
+    border-color: variables.$color-pink-shade-100;
+  }
+  
+  @else if $border-color-pink == shade-200 {
+    border-color: variables.$color-pink-shade-200;
+  }
+  
+  @else if $border-color-pink == shade-300 {
+    border-color: variables.$color-pink-shade-300;
+  }
+  
+  @else if $border-color-pink == shade-400 {
+    border-color: variables.$color-pink-shade-400;
+  }
+  
+  @else if $border-color-pink == shade-500 {
+    border-color: variables.$color-pink-shade-500;
+  }
+  
+  @else if $border-color-pink == shade-600 {
+    border-color: variables.$color-pink-shade-600;
+  }
+  
+  @else if $border-color-pink == shade-700 {
+    border-color: variables.$color-pink-shade-700;
+  }
+  
+  @else if $border-color-pink == shade-800 {
+    border-color: variables.$color-pink-shade-800;
+  }
+  
+  @else if $border-color-pink == shade-900 {
+    border-color: variables.$color-pink-shade-900;
+  }
+  
+  @else if $border-color-pink == tint-100 {
+    border-color: variables.$color-pink-tint-100;
+  }
+  
+  @else if $border-color-pink == tint-200 {
+    border-color: variables.$color-pink-tint-200;
+  }
+  
+  @else if $border-color-pink == tint-300 {
+    border-color: variables.$color-pink-tint-300;
+  }
+  
+  @else if $border-color-pink == tint-400 {
+    border-color: variables.$color-pink-tint-400;
+  }
+  
+  @else if $border-color-pink == tint-500 {
+    border-color: variables.$color-pink-tint-500;
+  }
+  
+  @else if $border-color-pink == tint-600 {
+    border-color: variables.$color-pink-tint-600;
+  }
+  
+  @else if $border-color-pink == tint-700 {
+    border-color: variables.$color-pink-tint-700;
+  }
+  
+  @else if $border-color-pink == tint-800 {
+    border-color: variables.$color-pink-tint-800;
+  }
+  
+  @else if $border-color-pink == tint-900 {
+    border-color: variables.$color-pink-tint-900;
+  }
+}
+
+@mixin purple($border-color-purple: 'base') {
+  
+  @if $border-color-purple == base {
+    border-color: variables.$color-purple-base;
+  }
+  
+  @else if $border-color-purple == shade-100 {
+    border-color: variables.$color-purple-shade-100;
+  }
+  
+  @else if $border-color-purple == shade-200 {
+    border-color: variables.$color-purple-shade-200;
+  }
+  
+  @else if $border-color-purple == shade-300 {
+    border-color: variables.$color-purple-shade-300;
+  }
+  
+  @else if $border-color-purple == shade-400 {
+    border-color: variables.$color-purple-shade-400;
+  }
+  
+  @else if $border-color-purple == shade-500 {
+    border-color: variables.$color-purple-shade-500;
+  }
+  
+  @else if $border-color-purple == shade-600 {
+    border-color: variables.$color-purple-shade-600;
+  }
+  
+  @else if $border-color-purple == shade-700 {
+    border-color: variables.$color-purple-shade-700;
+  }
+  
+  @else if $border-color-purple == shade-800 {
+    border-color: variables.$color-purple-shade-800;
+  }
+  
+  @else if $border-color-purple == shade-900 {
+    border-color: variables.$color-purple-shade-900;
+  }
+  
+  @else if $border-color-purple == tint-100 {
+    border-color: variables.$color-purple-tint-100;
+  }
+  
+  @else if $border-color-purple == tint-200 {
+    border-color: variables.$color-purple-tint-200;
+  }
+  
+  @else if $border-color-purple == tint-300 {
+    border-color: variables.$color-purple-tint-300;
+  }
+  
+  @else if $border-color-purple == tint-400 {
+    border-color: variables.$color-purple-tint-400;
+  }
+  
+  @else if $border-color-purple == tint-500 {
+    border-color: variables.$color-purple-tint-500;
+  }
+  
+  @else if $border-color-purple == tint-600 {
+    border-color: variables.$color-purple-tint-600;
+  }
+  
+  @else if $border-color-purple == tint-700 {
+    border-color: variables.$color-purple-tint-700;
+  }
+  
+  @else if $border-color-purple == tint-800 {
+    border-color: variables.$color-purple-tint-800;
+  }
+  
+  @else if $border-color-purple == tint-900 {
+    border-color: variables.$color-purple-tint-900;
+  }
+}
+
+@mixin red($border-color-red: 'base') {
+  
+  @if $border-color-red == base {
+    border-color: variables.$color-red-base;
+  }
+  
+  @else if $border-color-red == shade-100 {
+    border-color: variables.$color-red-shade-100;
+  }
+  
+  @else if $border-color-red == shade-200 {
+    border-color: variables.$color-red-shade-200;
+  }
+  
+  @else if $border-color-red == shade-300 {
+    border-color: variables.$color-red-shade-300;
+  }
+  
+  @else if $border-color-red == shade-400 {
+    border-color: variables.$color-red-shade-400;
+  }
+  
+  @else if $border-color-red == shade-500 {
+    border-color: variables.$color-red-shade-500;
+  }
+  
+  @else if $border-color-red == shade-600 {
+    border-color: variables.$color-red-shade-600;
+  }
+  
+  @else if $border-color-red == shade-700 {
+    border-color: variables.$color-red-shade-700;
+  }
+  
+  @else if $border-color-red == shade-800 {
+    border-color: variables.$color-red-shade-800;
+  }
+  
+  @else if $border-color-red == shade-900 {
+    border-color: variables.$color-red-shade-900;
+  }
+  
+  @else if $border-color-red == tint-100 {
+    border-color: variables.$color-red-tint-100;
+  }
+  
+  @else if $border-color-red == tint-200 {
+    border-color: variables.$color-red-tint-200;
+  }
+  
+  @else if $border-color-red == tint-300 {
+    border-color: variables.$color-red-tint-300;
+  }
+  
+  @else if $border-color-red == tint-400 {
+    border-color: variables.$color-red-tint-400;
+  }
+  
+  @else if $border-color-red == tint-500 {
+    border-color: variables.$color-red-tint-500;
+  }
+  
+  @else if $border-color-red == tint-600 {
+    border-color: variables.$color-red-tint-600;
+  }
+  
+  @else if $border-color-red == tint-700 {
+    border-color: variables.$color-red-tint-700;
+  }
+  
+  @else if $border-color-red == tint-800 {
+    border-color: variables.$color-red-tint-800;
+  }
+  
+  @else if $border-color-red == tint-900 {
+    border-color: variables.$color-red-tint-900;
+  }
+}
+
+@mixin teal($border-color-teal: 'base') {
+  
+  @if $border-color-teal == base {
+    border-color: variables.$color-teal-base;
+  }
+  
+  @else if $border-color-teal == shade-100 {
+    border-color: variables.$color-teal-shade-100;
+  }
+  
+  @else if $border-color-teal == shade-200 {
+    border-color: variables.$color-teal-shade-200;
+  }
+  
+  @else if $border-color-teal == shade-300 {
+    border-color: variables.$color-teal-shade-300;
+  }
+  
+  @else if $border-color-teal == shade-400 {
+    border-color: variables.$color-teal-shade-400;
+  }
+  
+  @else if $border-color-teal == shade-500 {
+    border-color: variables.$color-teal-shade-500;
+  }
+  
+  @else if $border-color-teal == shade-600 {
+    border-color: variables.$color-teal-shade-600;
+  }
+  
+  @else if $border-color-teal == shade-700 {
+    border-color: variables.$color-teal-shade-700;
+  }
+  
+  @else if $border-color-teal == shade-800 {
+    border-color: variables.$color-teal-shade-800;
+  }
+  
+  @else if $border-color-teal == shade-900 {
+    border-color: variables.$color-teal-shade-900;
+  }
+  
+  @else if $border-color-teal == tint-100 {
+    border-color: variables.$color-teal-tint-100;
+  }
+  
+  @else if $border-color-teal == tint-200 {
+    border-color: variables.$color-teal-tint-200;
+  }
+  
+  @else if $border-color-teal == tint-300 {
+    border-color: variables.$color-teal-tint-300;
+  }
+  
+  @else if $border-color-teal == tint-400 {
+    border-color: variables.$color-teal-tint-400;
+  }
+  
+  @else if $border-color-teal == tint-500 {
+    border-color: variables.$color-teal-tint-500;
+  }
+  
+  @else if $border-color-teal == tint-600 {
+    border-color: variables.$color-teal-tint-600;
+  }
+  
+  @else if $border-color-teal == tint-700 {
+    border-color: variables.$color-teal-tint-700;
+  }
+  
+  @else if $border-color-teal == tint-800 {
+    border-color: variables.$color-teal-tint-800;
+  }
+  
+  @else if $border-color-teal == tint-900 {
+    border-color: variables.$color-teal-tint-900;
+  }
+}
+
+@mixin white($border-color-white: 'base') {
+  
+  @if $border-color-white == base {
+    border-color: variables.$color-white-base;
+  }
+  
+  @else if $border-color-white == white {
+    border-color: variables.$color-white-white;
+  }
+}
+
+@mixin yellow($border-color-yellow: 'base') {
+  
+  @if $border-color-yellow == base {
+    border-color: variables.$color-yellow-base;
+  }
+  
+  @else if $border-color-yellow == shade-100 {
+    border-color: variables.$color-yellow-shade-100;
+  }
+  
+  @else if $border-color-yellow == shade-200 {
+    border-color: variables.$color-yellow-shade-200;
+  }
+  
+  @else if $border-color-yellow == shade-300 {
+    border-color: variables.$color-yellow-shade-300;
+  }
+  
+  @else if $border-color-yellow == shade-400 {
+    border-color: variables.$color-yellow-shade-400;
+  }
+  
+  @else if $border-color-yellow == shade-500 {
+    border-color: variables.$color-yellow-shade-500;
+  }
+  
+  @else if $border-color-yellow == shade-600 {
+    border-color: variables.$color-yellow-shade-600;
+  }
+  
+  @else if $border-color-yellow == shade-700 {
+    border-color: variables.$color-yellow-shade-700;
+  }
+  
+  @else if $border-color-yellow == shade-800 {
+    border-color: variables.$color-yellow-shade-800;
+  }
+  
+  @else if $border-color-yellow == shade-900 {
+    border-color: variables.$color-yellow-shade-900;
+  }
+  
+  @else if $border-color-yellow == tint-100 {
+    border-color: variables.$color-yellow-tint-100;
+  }
+  
+  @else if $border-color-yellow == tint-200 {
+    border-color: variables.$color-yellow-tint-200;
+  }
+  
+  @else if $border-color-yellow == tint-300 {
+    border-color: variables.$color-yellow-tint-300;
+  }
+  
+  @else if $border-color-yellow == tint-400 {
+    border-color: variables.$color-yellow-tint-400;
+  }
+  
+  @else if $border-color-yellow == tint-500 {
+    border-color: variables.$color-yellow-tint-500;
+  }
+  
+  @else if $border-color-yellow == tint-600 {
+    border-color: variables.$color-yellow-tint-600;
+  }
+  
+  @else if $border-color-yellow == tint-700 {
+    border-color: variables.$color-yellow-tint-700;
+  }
+  
+  @else if $border-color-yellow == tint-800 {
+    border-color: variables.$color-yellow-tint-800;
+  }
+  
+  @else if $border-color-yellow == tint-900 {
+    border-color: variables.$color-yellow-tint-900;
+  }
+}
