@@ -750,3 +750,47 @@
     border-color: variables.$color-yellow-tint-900;
   }
 }
+
+@mixin top($top: 'solid') {
+  
+  @if $top == solid {
+    border-top: solid;
+  }
+  
+  @else if $top == none {
+    border-top: none;
+  }
+}
+
+@mixin right($right: 'solid') {
+  
+  @if $right == solid {
+    border-right: solid;
+  }
+  
+  @else if $right == none {
+    border-right: none;
+  }
+}
+
+@mixin bottom($bottom: 'solid') {
+  
+  @if $bottom == solid {
+    border-bottom: solid;
+  }
+  
+  @else if $bottom == none {
+    border-bottom: none;
+  }
+}
+
+@mixin left($left: 'solid') {
+  
+  @if $left == solid {
+    border-left: solid;
+  }
+  
+  @else if $left == none {
+    border-left: none;
+  }
+}
