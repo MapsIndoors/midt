@@ -2,7 +2,7 @@
 
 @mixin opacity($opacity: 'medium') {
   
-  @if $opactiy == 'medium' {
+  @if $opacity == 'medium' {
     opacity: variables.$opacity-medium;
   }
   
