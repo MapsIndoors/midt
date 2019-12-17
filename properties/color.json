@@ -1,6 +1,67 @@
 {
   "color": {
     "comment": "These colors are based upon the work done by CA Technologies with Mineral UI: https://github.com/mineral-ui/mineral-ui",
+    "black": {
+      "base": {
+        "value": "hsl(223, 11%, 13%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "black": {
+        "value": "hsl(0, 0%, 0%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      }
+    },
+    "white": {
+      "base": {
+        "value": "{color.gray.10.value}",
+        "comment": "This is the standard background color."},
+      "white": {"value": "#ffffff"}
+    },
+    "gray": {
+      "base": {
+        "value": "{color.gray.60.value}"
+      },
+      "10": {
+        "value": "hsl(216, 33%, 97%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "20": {
+        "value": "hsl(216, 33%, 94%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "30": {
+        "value": "hsl(218, 31%, 90%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "40": {
+        "value": "hsl(218, 28%, 83%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "50": {
+        "value": "hsl(217, 22%, 74%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "60": {
+        "value": "hsl(217, 15%, 61%)",
+        "comment": "The a11y rating of black on top of this color: AA"
+      },
+      "70": {
+        "value": "hsl(217, 10%, 49%)",
+        "comment": "The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA"
+      },
+      "80": {
+        "value": "hsl(218, 11%, 39%)",
+        "comment": "The a11y rating of white on top of this color: AA"
+      },
+      "90": {
+        "value": "hsl(215, 11%, 30%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "100": {
+        "value": "hsl(217, 11%, 23%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      }
+    },
     "red": {
       "base": {
         "value": "{color.red.60.value}"
@@ -43,51 +104,6 @@
       },
       "100": {
         "value": "hsl(0, 50%, 18%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
-      }
-    },
-    "blue": {
-      "base": {
-        "value": "{color.blue.60.value}"
-      },
-      "10": {
-        "value": "hsl(215, 67%, 96%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
-      },
-      "20": {
-        "value": "hsl(217, 88%, 90%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
-      },
-      "30": {
-        "value": "hsl(217, 93%, 83%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
-      },
-      "40": {
-        "value": "hsl(217, 92%, 75%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
-      },
-      "50": {
-        "value": "hsl(217, 84%, 64%)",
-        "comment": "The a11y rating of black on top of this color: AA"
-      },
-      "60": {
-        "value": "hsl(217, 69%, 52%)",
-        "comment": "The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large"
-      },
-      "70": {
-        "value": "hsl(217, 74%, 43%)",
-        "comment": "The a11y rating of white on top of this color: AA"
-      },
-      "80": {
-        "value": "hsl(217, 80%, 33%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
-      },
-      "90": {
-        "value": "hsl(217, 75%, 25%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
-      },
-      "100": {
-        "value": "hsl(218, 48%, 16%)",
         "comment": "The a11y rating of white on top of this color: AAA"
       }
     },
@@ -136,6 +152,51 @@
         "comment": "The a11y rating of white on top of this color: AAA"
       }
     },
+    "blue": {
+      "base": {
+        "value": "{color.blue.60.value}"
+      },
+      "10": {
+        "value": "hsl(215, 67%, 96%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "20": {
+        "value": "hsl(217, 88%, 90%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "30": {
+        "value": "hsl(217, 93%, 83%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "40": {
+        "value": "hsl(217, 92%, 75%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "50": {
+        "value": "hsl(217, 84%, 64%)",
+        "comment": "The a11y rating of black on top of this color: AA"
+      },
+      "60": {
+        "value": "hsl(217, 69%, 52%)",
+        "comment": "The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large"
+      },
+      "70": {
+        "value": "hsl(217, 74%, 43%)",
+        "comment": "The a11y rating of white on top of this color: AA"
+      },
+      "80": {
+        "value": "hsl(217, 80%, 33%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "90": {
+        "value": "hsl(217, 75%, 25%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "100": {
+        "value": "hsl(218, 48%, 16%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      }
+    },
     "bronze": {
       "base": {
         "value": "{color.bronze.60.value}"
@@ -180,67 +241,6 @@
         "value": "hsl(32, 62%, 12%)",
         "comment": "The a11y rating of white on top of this color: AAA"
       }
-    },
-    "gray": {
-      "base": {
-        "value": "{color.gray.60.value}"
-      },
-      "10": {
-        "value": "hsl(216, 33%, 97%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
-      },
-      "20": {
-        "value": "hsl(216, 33%, 94%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
-      },
-      "30": {
-        "value": "hsl(218, 31%, 90%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
-      },
-      "40": {
-        "value": "hsl(218, 28%, 83%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
-      },
-      "50": {
-        "value": "hsl(217, 22%, 74%)",
-        "comment": "The a11y rating of black on top of this color: AAA"
-      },
-      "60": {
-        "value": "hsl(217, 15%, 61%)",
-        "comment": "The a11y rating of black on top of this color: AA"
-      },
-      "70": {
-        "value": "hsl(217, 10%, 49%)",
-        "comment": "The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA"
-      },
-      "80": {
-        "value": "hsl(218, 11%, 39%)",
-        "comment": "The a11y rating of white on top of this color: AA"
-      },
-      "90": {
-        "value": "hsl(215, 11%, 30%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
-      },
-      "100": {
-        "value": "hsl(217, 11%, 23%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
-      }
-    },
-    "black": {
-      "base": {
-        "value": "hsl(223, 11%, 13%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
-      },
-      "black": {
-        "value": "hsl(0, 0%, 0%)",
-        "comment": "The a11y rating of white on top of this color: AAA"
-      }
-    },
-    "white": {
-      "base": {
-        "value": "{color.gray.10.value}",
-        "comment": "This is the standard background color."},
-      "white": {"value": "#ffffff"}
     }
   }
 }
