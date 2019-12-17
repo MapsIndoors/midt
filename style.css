@@ -9,9 +9,9 @@
   border-width: 1px;
   border-style: solid;
   border-radius: 8px;
-  border-color: #00254c;
-  color: #2e823c;
-  background-color: #ff8983;
+  border-color: #85b2fa;
+  color: #56c281;
+  background-color: #ba0d0d;
   position: relative;
   display: inline-block;
   white-space: nowrap;
@@ -20,11 +20,5 @@
 }
 .button:hover {
   text-decoration: none;
-  background-color: #232256;
+  background-color: #ad5f00;
 }
-
-.opacity-x-small {
-  opacity: 0.08;
-}
-
-/*# sourceMappingURL=style.css.map */
