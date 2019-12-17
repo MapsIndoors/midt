@@ -64,237 +64,237 @@
 @mixin black($border-black: 'base') {
   
   @if $border-black == base {
-    color: variables.$color-black-base;
+    border-color: variables.$color-black-base;
   }
   
   @else if $border-black == black {
-    color: variables.$color-black-black;
+    border-color: variables.$color-black-black;
   }
 }
 
 @mixin white($border-white: 'base') {
   
   @if $border-white == base {
-    color: variables.$color-white-base;
+    border-color: variables.$color-white-base;
   }
   
   @else if $border-white == white {
-    color: variables.$color-white-white;
+    border-color: variables.$color-white-white;
   }
 }
 
 @mixin gray($border-gray: 'base') {
   
   @if $border-gray == base {
-    color: variables.$color-gray-base;
+    border-color: variables.$color-gray-base;
   }
   
   @else if $border-gray == 10 {
-    color: variables.$color-gray-10;
+    border-color: variables.$color-gray-10;
   }
   
   @else if $border-gray == 20 {
-    color: variables.$color-gray-20;
+    border-color: variables.$color-gray-20;
   }
   
   @else if $border-gray == 30 {
-    color: variables.$color-gray-30;
+    border-color: variables.$color-gray-30;
   }
   
   @else if $border-gray == 40 {
-    color: variables.$color-gray-40;
+    border-color: variables.$color-gray-40;
   }
   
   @else if $border-gray == 50 {
-    color: variables.$color-gray-50;
+    border-color: variables.$color-gray-50;
   }
   
   @else if $border-gray == 60 {
-    color: variables.$color-gray-60;
+    border-color: variables.$color-gray-60;
   }
   
   @else if $border-gray == 70 {
-    color: variables.$color-gray-70;
+    border-color: variables.$color-gray-70;
   }
   
   @else if $border-gray == 80 {
-    color: variables.$color-gray-80;
+    border-color: variables.$color-gray-80;
   }
   
   @else if $border-gray == 90 {
-    color: variables.$color-gray-90;
+    border-color: variables.$color-gray-90;
   }
 }
 
 @mixin red($border-red: 'base') {
   
   @if $border-red == base {
-    color: variables.$color-red-base;
+    border-color: variables.$color-red-base;
   }
   
   @else if $border-red == 10 {
-    color: variables.$color-red-10;
+    border-color: variables.$color-red-10;
   }
   
   @else if $border-red == 20 {
-    color: variables.$color-red-20;
+    border-color: variables.$color-red-20;
   }
   
   @else if $border-red == 30 {
-    color: variables.$color-red-30;
+    border-color: variables.$color-red-30;
   }
   
   @else if $border-red == 40 {
-    color: variables.$color-red-40;
+    border-color: variables.$color-red-40;
   }
   
   @else if $border-red == 50 {
-    color: variables.$color-red-50;
+    border-color: variables.$color-red-50;
   }
   
   @else if $border-red == 60 {
-    color: variables.$color-red-60;
+    border-color: variables.$color-red-60;
   }
   
   @else if $border-red == 70 {
-    color: variables.$color-red-70;
+    border-color: variables.$color-red-70;
   }
   
   @else if $border-red == 80 {
-    color: variables.$color-red-80;
+    border-color: variables.$color-red-80;
   }
   
   @else if $border-red == 90 {
-    color: variables.$color-red-90;
+    border-color: variables.$color-red-90;
   }
 }
 
 @mixin green($border-green: 'base') {
   
   @if $border-green == base {
-    color: variables.$color-green-base;
+    border-color: variables.$color-green-base;
   }
   
   @else if $border-green == 10 {
-    color: variables.$color-green-10;
+    border-color: variables.$color-green-10;
   }
   
   @else if $border-green == 20 {
-    color: variables.$color-green-20;
+    border-color: variables.$color-green-20;
   }
   
   @else if $border-green == 30 {
-    color: variables.$color-green-30;
+    border-color: variables.$color-green-30;
   }
   
   @else if $border-green == 40 {
-    color: variables.$color-green-40;
+    border-color: variables.$color-green-40;
   }
   
   @else if $border-green == 50 {
-    color: variables.$color-green-50;
+    border-color: variables.$color-green-50;
   }
   
   @else if $border-green == 60 {
-    color: variables.$color-green-60;
+    border-color: variables.$color-green-60;
   }
   
   @else if $border-green == 70 {
-    color: variables.$color-green-70;
+    border-color: variables.$color-green-70;
   }
   
   @else if $border-green == 80 {
-    color: variables.$color-green-80;
+    border-color: variables.$color-green-80;
   }
   
   @else if $border-green == 90 {
-    color: variables.$color-green-90;
+    border-color: variables.$color-green-90;
   }
 }
 
 @mixin blue($border-blue: 'base') {
   
   @if $border-blue == base {
-    color: variables.$color-blue-base;
+    border-color: variables.$color-blue-base;
   }
   
   @else if $border-blue == 10 {
-    color: variables.$color-blue-10;
+    border-color: variables.$color-blue-10;
   }
   
   @else if $border-blue == 20 {
-    color: variables.$color-blue-20;
+    border-color: variables.$color-blue-20;
   }
   
   @else if $border-blue == 30 {
-    color: variables.$color-blue-30;
+    border-color: variables.$color-blue-30;
   }
   
   @else if $border-blue == 40 {
-    color: variables.$color-blue-40;
+    border-color: variables.$color-blue-40;
   }
   
   @else if $border-blue == 50 {
-    color: variables.$color-blue-50;
+    border-color: variables.$color-blue-50;
   }
   
   @else if $border-blue == 60 {
-    color: variables.$color-blue-60;
+    border-color: variables.$color-blue-60;
   }
   
   @else if $border-blue == 70 {
-    color: variables.$color-blue-70;
+    border-color: variables.$color-blue-70;
   }
   
   @else if $border-blue == 80 {
-    color: variables.$color-blue-80;
+    border-color: variables.$color-blue-80;
   }
   
   @else if $border-blue == 90 {
-    color: variables.$color-blue-90;
+    border-color: variables.$color-blue-90;
   }
 }
 
 @mixin bronze($border-bronze: 'base') {
   
   @if $border-bronze == base {
-    color: variables.$color-bronze-base;
+    border-color: variables.$color-bronze-base;
   }
   
   @else if $border-bronze == 10 {
-    color: variables.$color-bronze-10;
+    border-color: variables.$color-bronze-10;
   }
   
   @else if $border-bronze == 20 {
-    color: variables.$color-bronze-20;
+    border-color: variables.$color-bronze-20;
   }
   
   @else if $border-bronze == 30 {
-    color: variables.$color-bronze-30;
+    border-color: variables.$color-bronze-30;
   }
   
   @else if $border-bronze == 40 {
-    color: variables.$color-bronze-40;
+    border-color: variables.$color-bronze-40;
   }
   
   @else if $border-bronze == 50 {
-    color: variables.$color-bronze-50;
+    border-color: variables.$color-bronze-50;
   }
   
   @else if $border-bronze == 60 {
-    color: variables.$color-bronze-60;
+    border-color: variables.$color-bronze-60;
   }
   
   @else if $border-bronze == 70 {
-    color: variables.$color-bronze-70;
+    border-color: variables.$color-bronze-70;
   }
   
   @else if $border-bronze == 80 {
-    color: variables.$color-bronze-80;
+    border-color: variables.$color-bronze-80;
   }
   
   @else if $border-bronze == 90 {
-    color: variables.$color-bronze-90;
+    border-color: variables.$color-bronze-90;
   }
 }
 
