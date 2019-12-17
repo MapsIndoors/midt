@@ -3,7 +3,7 @@
   "version": "9.0.0",
   "description": "Design Tokens for MapsIndoors",
   "author": "MapsPeople A/S",
-  "license": "CC-BY-4.0",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/mapsindoors/midt.git"
@@ -16,6 +16,7 @@
     "system"
   ],
   "sass": "mixins/_index.scss",
+  "style": "midt.css",
   "scripts": {
     "sass": "sass --watch style.scss:style.css midt.scss:midt.css --no-source-map",
     "build": "npm run clean && node_modules/.bin/style-dictionary build && sass style.scss:style.css midt.scss:midt.css --no-source-map",
