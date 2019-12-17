@@ -19,9 +19,9 @@
   @include border.width();
   @include border.style();
   @include border.radius(large);
-  @include border.blue(shade-700);
-  @include color.green(shade-400);
-  @include background-color.red(tint-400);
+  @include border.blue(40);
+  @include color.green(40);
+  @include background-color.red(70);
   position: relative;
   display: inline-block;
   white-space: nowrap;
@@ -30,6 +30,6 @@
 
   &:hover {
     text-decoration: none;
-    @include background-color.purple(shade-600);
+    @include background-color.bronze(60);
   }
 }

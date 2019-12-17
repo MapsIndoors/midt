@@ -17,8 +17,8 @@
   ],
   "sass": "mixins/_index.scss",
   "scripts": {
-    "sass": "sass style.scss:style.css --watch --no-source-map",
-    "build": "npm run clean && node_modules/.bin/style-dictionary build",
+    "sass": "sass --watch style.scss:style.css midt.scss:midt.css --no-source-map",
+    "build": "npm run clean && node_modules/.bin/style-dictionary build && sass style.scss:style.css midt.scss:midt.css --no-source-map",
     "clean": "rm -rf build",
     "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\"",
     "postversion": "git push -u origin && npm publish",
