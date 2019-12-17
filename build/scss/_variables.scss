@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 17 Dec 2019 13:41:41 GMT
+// Generated on Tue, 17 Dec 2019 22:14:28 GMT
 
 $breakpoints-xx-small: only screen and (max-width: 360px); // Targets devices between 0-360px
 $breakpoints-x-small: only screen and (max-width: 575px); // Targets devices between 0-575px
@@ -9,50 +9,10 @@ $breakpoints-medium: only screen and (min-width: 768px); // Targets portrait tab
 $breakpoints-large: only screen and (min-width: 992px); // Targets landscape tablets from 992px and up
 $breakpoints-x-large: only screen and (min-width: 1025px); // Targets desktop devices from 1025px and up
 $breakpoints-xx-large: only screen and (min-width: 1220px); // Targets desktop devices from 1220px and up
-$color-red-10: #faf0f0; // The a11y rating of black on top of this color: AAA
-$color-red-20: #fad6d6; // The a11y rating of black on top of this color: AAA
-$color-red-30: #fab7b7; // The a11y rating of black on top of this color: AAA
-$color-red-40: #fa8e8e; // The a11y rating of black on top of this color: AAA
-$color-red-50: #f55151; // The a11y rating of black on top of this color: AA
-$color-red-60: #de1b1b; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
-$color-red-70: #ba0d0d; // The a11y rating of white on top of this color: AA
-$color-red-80: #900e0e; // The a11y rating of white on top of this color: AAA
-$color-red-90: #661414; // The a11y rating of white on top of this color: AAA
-$color-red-100: #451717; // The a11y rating of white on top of this color: AAA
-$color-red-base: #de1b1b;
-$color-blue-10: #eef4fc; // The a11y rating of black on top of this color: AAA
-$color-blue-20: #cfe0fc; // The a11y rating of black on top of this color: AAA
-$color-blue-30: #abcafc; // The a11y rating of black on top of this color: AAA
-$color-blue-40: #85b2fa; // The a11y rating of black on top of this color: AAA
-$color-blue-50: #5691f0; // The a11y rating of black on top of this color: AA
-$color-blue-60: #3071d9; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
-$color-blue-70: #1d5bbf; // The a11y rating of white on top of this color: AA
-$color-blue-80: #114497; // The a11y rating of white on top of this color: AAA
-$color-blue-90: #103570; // The a11y rating of white on top of this color: AAA
-$color-blue-100: #15243c; // The a11y rating of white on top of this color: AAA
-$color-blue-base: #3071d9;
-$color-green-10: #e0faeb; // The a11y rating of black on top of this color: AAA
-$color-green-20: #abedc5; // The a11y rating of black on top of this color: AAA
-$color-green-30: #7bdba1; // The a11y rating of black on top of this color: AAA
-$color-green-40: #56c281; // The a11y rating of black on top of this color: AAA
-$color-green-50: #3ba064; // The a11y rating of black on top of this color: AA
-$color-green-60: #2a844e; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
-$color-green-70: #20693e; // The a11y rating of white on top of this color: AA
-$color-green-80: #1a5130; // The a11y rating of white on top of this color: AAA
-$color-green-90: #153d25; // The a11y rating of white on top of this color: AAA
-$color-green-100: #112c1c; // The a11y rating of white on top of this color: AAA
-$color-green-base: #2a844e;
-$color-bronze-10: #fcf3e8; // The a11y rating of black on top of this color: AAA
-$color-bronze-20: #fad7ae; // The a11y rating of black on top of this color: AAA
-$color-bronze-30: #f5bb75; // The a11y rating of black on top of this color: AAA
-$color-bronze-40: #e99c3f; // The a11y rating of black on top of this color: AAA
-$color-bronze-50: #d07a11; // The a11y rating of black on top of this color: AA
-$color-bronze-60: #ad5f00; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
-$color-bronze-70: #8c4e03; // The a11y rating of white on top of this color: AA
-$color-bronze-80: #693d07; // The a11y rating of white on top of this color: AAA
-$color-bronze-90: #4c2f0b; // The a11y rating of white on top of this color: AAA
-$color-bronze-100: #32200c; // The a11y rating of white on top of this color: AAA
-$color-bronze-base: #ad5f00;
+$color-black-base: #1e2025; // The a11y rating of white on top of this color: AAA
+$color-black-black: #000000; // The a11y rating of white on top of this color: AAA
+$color-white-base: #f5f7fa; // This is the standard background color.
+$color-white-white: #ffffff;
 $color-gray-10: #f5f7fa; // The a11y rating of black on top of this color: AAA
 $color-gray-20: #ebeff5; // The a11y rating of black on top of this color: AAA
 $color-gray-30: #dee3ed; // The a11y rating of black on top of this color: AAA
@@ -64,10 +24,50 @@ $color-gray-80: #59616e; // The a11y rating of white on top of this color: AA
 $color-gray-90: #444b55; // The a11y rating of white on top of this color: AAA
 $color-gray-100: #343941; // The a11y rating of white on top of this color: AAA
 $color-gray-base: #8d98aa;
-$color-black-base: #1e2025; // The a11y rating of white on top of this color: AAA
-$color-black-black: #000000; // The a11y rating of white on top of this color: AAA
-$color-white-base: #f5f7fa; // This is the standard background color.
-$color-white-white: #ffffff;
+$color-red-10: #faf0f0; // The a11y rating of black on top of this color: AAA
+$color-red-20: #fad6d6; // The a11y rating of black on top of this color: AAA
+$color-red-30: #fab7b7; // The a11y rating of black on top of this color: AAA
+$color-red-40: #fa8e8e; // The a11y rating of black on top of this color: AAA
+$color-red-50: #f55151; // The a11y rating of black on top of this color: AA
+$color-red-60: #de1b1b; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
+$color-red-70: #ba0d0d; // The a11y rating of white on top of this color: AA
+$color-red-80: #900e0e; // The a11y rating of white on top of this color: AAA
+$color-red-90: #661414; // The a11y rating of white on top of this color: AAA
+$color-red-100: #451717; // The a11y rating of white on top of this color: AAA
+$color-red-base: #de1b1b;
+$color-green-10: #e0faeb; // The a11y rating of black on top of this color: AAA
+$color-green-20: #abedc5; // The a11y rating of black on top of this color: AAA
+$color-green-30: #7bdba1; // The a11y rating of black on top of this color: AAA
+$color-green-40: #56c281; // The a11y rating of black on top of this color: AAA
+$color-green-50: #3ba064; // The a11y rating of black on top of this color: AA
+$color-green-60: #2a844e; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
+$color-green-70: #20693e; // The a11y rating of white on top of this color: AA
+$color-green-80: #1a5130; // The a11y rating of white on top of this color: AAA
+$color-green-90: #153d25; // The a11y rating of white on top of this color: AAA
+$color-green-100: #112c1c; // The a11y rating of white on top of this color: AAA
+$color-green-base: #2a844e;
+$color-blue-10: #eef4fc; // The a11y rating of black on top of this color: AAA
+$color-blue-20: #cfe0fc; // The a11y rating of black on top of this color: AAA
+$color-blue-30: #abcafc; // The a11y rating of black on top of this color: AAA
+$color-blue-40: #85b2fa; // The a11y rating of black on top of this color: AAA
+$color-blue-50: #5691f0; // The a11y rating of black on top of this color: AA
+$color-blue-60: #3071d9; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
+$color-blue-70: #1d5bbf; // The a11y rating of white on top of this color: AA
+$color-blue-80: #114497; // The a11y rating of white on top of this color: AAA
+$color-blue-90: #103570; // The a11y rating of white on top of this color: AAA
+$color-blue-100: #15243c; // The a11y rating of white on top of this color: AAA
+$color-blue-base: #3071d9;
+$color-bronze-10: #fcf3e8; // The a11y rating of black on top of this color: AAA
+$color-bronze-20: #fad7ae; // The a11y rating of black on top of this color: AAA
+$color-bronze-30: #f5bb75; // The a11y rating of black on top of this color: AAA
+$color-bronze-40: #e99c3f; // The a11y rating of black on top of this color: AAA
+$color-bronze-50: #d07a11; // The a11y rating of black on top of this color: AA
+$color-bronze-60: #ad5f00; // The a11y rating of black on top of this color: AA and AAA denote the minimum contrast ratio: AA Large
+$color-bronze-70: #8c4e03; // The a11y rating of white on top of this color: AA
+$color-bronze-80: #693d07; // The a11y rating of white on top of this color: AAA
+$color-bronze-90: #4c2f0b; // The a11y rating of white on top of this color: AAA
+$color-bronze-100: #32200c; // The a11y rating of white on top of this color: AAA
+$color-bronze-base: #ad5f00;
 $elevation-x-small: 0 1px 1px rgba(0, 0, 0, 0.125), 0 2px 2px rgba(0, 0, 0, 0.125);
 $elevation-small: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1);
 $elevation-medium: 0 1px 1px rgba(0, 0, 0, 0.075), 0 2px 2px rgba(0, 0, 0, 0.075), 0 4px 4px rgba(0, 0, 0, 0.075), 0 6px 6px rgba(0, 0, 0, 0.075), 0 8px 8px rgba(0, 0, 0, 0.075);

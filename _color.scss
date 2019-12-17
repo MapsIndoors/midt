@@ -9,595 +9,6 @@
   @else if $black == black {
     color: variables.$color-black-black;
   }
-  
-  @else if $black == 100 {
-    color: variables.$color-black-100;
-  }
-  
-  @else if $black == 200 {
-    color: variables.$color-black-200;
-  }
-  
-  @else if $black == 300 {
-    color: variables.$color-black-300;
-  }
-  
-  @else if $black == 400 {
-    color: variables.$color-black-400;
-  }
-  
-  @else if $black == 500 {
-    color: variables.$color-black-500;
-  }
-  
-  @else if $black == 600 {
-    color: variables.$color-black-600;
-  }
-  
-  @else if $black == 700 {
-    color: variables.$color-black-700;
-  }
-  
-  @else if $black == 800 {
-    color: variables.$color-black-800;
-  }
-  
-  @else if $black == 900 {
-    color: variables.$color-black-900;
-  }
-}
-
-@mixin blue($blue: 'base') {
-  
-  @if $blue == base {
-    color: variables.$color-blue-base;
-  }
-  
-  @else if $blue == shade-100 {
-    color: variables.$color-blue-shade-100;
-  }
-  
-  @else if $blue == shade-200 {
-    color: variables.$color-blue-shade-200;
-  }
-  
-  @else if $blue == shade-300 {
-    color: variables.$color-blue-shade-300;
-  }
-  
-  @else if $blue == shade-400 {
-    color: variables.$color-blue-shade-400;
-  }
-  
-  @else if $blue == shade-500 {
-    color: variables.$color-blue-shade-500;
-  }
-  
-  @else if $blue == shade-600 {
-    color: variables.$color-blue-shade-600;
-  }
-  
-  @else if $blue == shade-700 {
-    color: variables.$color-blue-shade-700;
-  }
-  
-  @else if $blue == shade-800 {
-    color: variables.$color-blue-shade-800;
-  }
-  
-  @else if $blue == shade-900 {
-    color: variables.$color-blue-shade-900;
-  }
-  
-  @else if $blue == tint-100 {
-    color: variables.$color-blue-tint-100;
-  }
-  
-  @else if $blue == tint-200 {
-    color: variables.$color-blue-tint-200;
-  }
-  
-  @else if $blue == tint-300 {
-    color: variables.$color-blue-tint-300;
-  }
-  
-  @else if $blue == tint-400 {
-    color: variables.$color-blue-tint-400;
-  }
-  
-  @else if $blue == tint-500 {
-    color: variables.$color-blue-tint-500;
-  }
-  
-  @else if $blue == tint-600 {
-    color: variables.$color-blue-tint-600;
-  }
-  
-  @else if $blue == tint-700 {
-    color: variables.$color-blue-tint-700;
-  }
-  
-  @else if $blue == tint-800 {
-    color: variables.$color-blue-tint-800;
-  }
-  
-  @else if $blue == tint-900 {
-    color: variables.$color-blue-tint-900;
-  }
-}
-
-@mixin green($green: 'base') {
-  
-  @if $green == base {
-    color: variables.$color-green-base;
-  }
-  
-  @else if $green == shade-100 {
-    color: variables.$color-green-shade-100;
-  }
-  
-  @else if $green == shade-200 {
-    color: variables.$color-green-shade-200;
-  }
-  
-  @else if $green == shade-300 {
-    color: variables.$color-green-shade-300;
-  }
-  
-  @else if $green == shade-400 {
-    color: variables.$color-green-shade-400;
-  }
-  
-  @else if $green == shade-500 {
-    color: variables.$color-green-shade-500;
-  }
-  
-  @else if $green == shade-600 {
-    color: variables.$color-green-shade-600;
-  }
-  
-  @else if $green == shade-700 {
-    color: variables.$color-green-shade-700;
-  }
-  
-  @else if $green == shade-800 {
-    color: variables.$color-green-shade-800;
-  }
-  
-  @else if $green == shade-900 {
-    color: variables.$color-green-shade-900;
-  }
-  
-  @else if $green == tint-100 {
-    color: variables.$color-green-tint-100;
-  }
-  
-  @else if $green == tint-200 {
-    color: variables.$color-green-tint-200;
-  }
-  
-  @else if $green == tint-300 {
-    color: variables.$color-green-tint-300;
-  }
-  
-  @else if $green == tint-400 {
-    color: variables.$color-green-tint-400;
-  }
-  
-  @else if $green == tint-500 {
-    color: variables.$color-green-tint-500;
-  }
-  
-  @else if $green == tint-600 {
-    color: variables.$color-green-tint-600;
-  }
-  
-  @else if $green == tint-700 {
-    color: variables.$color-green-tint-700;
-  }
-  
-  @else if $green == tint-800 {
-    color: variables.$color-green-tint-800;
-  }
-  
-  @else if $green == tint-900 {
-    color: variables.$color-green-tint-900;
-  }
-}
-
-@mixin orange($orange: 'base') {
-  
-  @if $orange == base {
-    color: variables.$color-orange-base;
-  }
-  
-  @else if $orange == shade-100 {
-    color: variables.$color-orange-shade-100;
-  }
-  
-  @else if $orange == shade-200 {
-    color: variables.$color-orange-shade-200;
-  }
-  
-  @else if $orange == shade-300 {
-    color: variables.$color-orange-shade-300;
-  }
-  
-  @else if $orange == shade-400 {
-    color: variables.$color-orange-shade-400;
-  }
-  
-  @else if $orange == shade-500 {
-    color: variables.$color-orange-shade-500;
-  }
-  
-  @else if $orange == shade-600 {
-    color: variables.$color-orange-shade-600;
-  }
-  
-  @else if $orange == shade-700 {
-    color: variables.$color-orange-shade-700;
-  }
-  
-  @else if $orange == shade-800 {
-    color: variables.$color-orange-shade-800;
-  }
-  
-  @else if $orange == shade-900 {
-    color: variables.$color-orange-shade-900;
-  }
-  
-  @else if $orange == tint-100 {
-    color: variables.$color-orange-tint-100;
-  }
-  
-  @else if $orange == tint-200 {
-    color: variables.$color-orange-tint-200;
-  }
-  
-  @else if $orange == tint-300 {
-    color: variables.$color-orange-tint-300;
-  }
-  
-  @else if $orange == tint-400 {
-    color: variables.$color-orange-tint-400;
-  }
-  
-  @else if $orange == tint-500 {
-    color: variables.$color-orange-tint-500;
-  }
-  
-  @else if $orange == tint-600 {
-    color: variables.$color-orange-tint-600;
-  }
-  
-  @else if $orange == tint-700 {
-    color: variables.$color-orange-tint-700;
-  }
-  
-  @else if $orange == tint-800 {
-    color: variables.$color-orange-tint-800;
-  }
-  
-  @else if $orange == tint-900 {
-    color: variables.$color-orange-tint-900;
-  }
-}
-
-@mixin pink($pink: 'base') {
-  
-  @if $pink == base {
-    color: variables.$color-pink-base;
-  }
-  
-  @else if $pink == shade-100 {
-    color: variables.$color-pink-shade-100;
-  }
-  
-  @else if $pink == shade-200 {
-    color: variables.$color-pink-shade-200;
-  }
-  
-  @else if $pink == shade-300 {
-    color: variables.$color-pink-shade-300;
-  }
-  
-  @else if $pink == shade-400 {
-    color: variables.$color-pink-shade-400;
-  }
-  
-  @else if $pink == shade-500 {
-    color: variables.$color-pink-shade-500;
-  }
-  
-  @else if $pink == shade-600 {
-    color: variables.$color-pink-shade-600;
-  }
-  
-  @else if $pink == shade-700 {
-    color: variables.$color-pink-shade-700;
-  }
-  
-  @else if $pink == shade-800 {
-    color: variables.$color-pink-shade-800;
-  }
-  
-  @else if $pink == shade-900 {
-    color: variables.$color-pink-shade-900;
-  }
-  
-  @else if $pink == tint-100 {
-    color: variables.$color-pink-tint-100;
-  }
-  
-  @else if $pink == tint-200 {
-    color: variables.$color-pink-tint-200;
-  }
-  
-  @else if $pink == tint-300 {
-    color: variables.$color-pink-tint-300;
-  }
-  
-  @else if $pink == tint-400 {
-    color: variables.$color-pink-tint-400;
-  }
-  
-  @else if $pink == tint-500 {
-    color: variables.$color-pink-tint-500;
-  }
-  
-  @else if $pink == tint-600 {
-    color: variables.$color-pink-tint-600;
-  }
-  
-  @else if $pink == tint-700 {
-    color: variables.$color-pink-tint-700;
-  }
-  
-  @else if $pink == tint-800 {
-    color: variables.$color-pink-tint-800;
-  }
-  
-  @else if $pink == tint-900 {
-    color: variables.$color-pink-tint-900;
-  }
-}
-
-@mixin purple($purple: 'base') {
-  
-  @if $purple == base {
-    color: variables.$color-purple-base;
-  }
-  
-  @else if $purple == shade-100 {
-    color: variables.$color-purple-shade-100;
-  }
-  
-  @else if $purple == shade-200 {
-    color: variables.$color-purple-shade-200;
-  }
-  
-  @else if $purple == shade-300 {
-    color: variables.$color-purple-shade-300;
-  }
-  
-  @else if $purple == shade-400 {
-    color: variables.$color-purple-shade-400;
-  }
-  
-  @else if $purple == shade-500 {
-    color: variables.$color-purple-shade-500;
-  }
-  
-  @else if $purple == shade-600 {
-    color: variables.$color-purple-shade-600;
-  }
-  
-  @else if $purple == shade-700 {
-    color: variables.$color-purple-shade-700;
-  }
-  
-  @else if $purple == shade-800 {
-    color: variables.$color-purple-shade-800;
-  }
-  
-  @else if $purple == shade-900 {
-    color: variables.$color-purple-shade-900;
-  }
-  
-  @else if $purple == tint-100 {
-    color: variables.$color-purple-tint-100;
-  }
-  
-  @else if $purple == tint-200 {
-    color: variables.$color-purple-tint-200;
-  }
-  
-  @else if $purple == tint-300 {
-    color: variables.$color-purple-tint-300;
-  }
-  
-  @else if $purple == tint-400 {
-    color: variables.$color-purple-tint-400;
-  }
-  
-  @else if $purple == tint-500 {
-    color: variables.$color-purple-tint-500;
-  }
-  
-  @else if $purple == tint-600 {
-    color: variables.$color-purple-tint-600;
-  }
-  
-  @else if $purple == tint-700 {
-    color: variables.$color-purple-tint-700;
-  }
-  
-  @else if $purple == tint-800 {
-    color: variables.$color-purple-tint-800;
-  }
-  
-  @else if $purple == tint-900 {
-    color: variables.$color-purple-tint-900;
-  }
-}
-
-@mixin red($red: 'base') {
-  
-  @if $red == base {
-    color: variables.$color-red-base;
-  }
-  
-  @else if $red == shade-100 {
-    color: variables.$color-red-shade-100;
-  }
-  
-  @else if $red == shade-200 {
-    color: variables.$color-red-shade-200;
-  }
-  
-  @else if $red == shade-300 {
-    color: variables.$color-red-shade-300;
-  }
-  
-  @else if $red == shade-400 {
-    color: variables.$color-red-shade-400;
-  }
-  
-  @else if $red == shade-500 {
-    color: variables.$color-red-shade-500;
-  }
-  
-  @else if $red == shade-600 {
-    color: variables.$color-red-shade-600;
-  }
-  
-  @else if $red == shade-700 {
-    color: variables.$color-red-shade-700;
-  }
-  
-  @else if $red == shade-800 {
-    color: variables.$color-red-shade-800;
-  }
-  
-  @else if $red == shade-900 {
-    color: variables.$color-red-shade-900;
-  }
-  
-  @else if $red == tint-100 {
-    color: variables.$color-red-tint-100;
-  }
-  
-  @else if $red == tint-200 {
-    color: variables.$color-red-tint-200;
-  }
-  
-  @else if $red == tint-300 {
-    color: variables.$color-red-tint-300;
-  }
-  
-  @else if $red == tint-400 {
-    color: variables.$color-red-tint-400;
-  }
-  
-  @else if $red == tint-500 {
-    color: variables.$color-red-tint-500;
-  }
-  
-  @else if $red == tint-600 {
-    color: variables.$color-red-tint-600;
-  }
-  
-  @else if $red == tint-700 {
-    color: variables.$color-red-tint-700;
-  }
-  
-  @else if $red == tint-800 {
-    color: variables.$color-red-tint-800;
-  }
-  
-  @else if $red == tint-900 {
-    color: variables.$color-red-tint-900;
-  }
-}
-
-@mixin teal($teal: 'base') {
-  
-  @if $teal == base {
-    color: variables.$color-teal-base;
-  }
-  
-  @else if $teal == shade-100 {
-    color: variables.$color-teal-shade-100;
-  }
-  
-  @else if $teal == shade-200 {
-    color: variables.$color-teal-shade-200;
-  }
-  
-  @else if $teal == shade-300 {
-    color: variables.$color-teal-shade-300;
-  }
-  
-  @else if $teal == shade-400 {
-    color: variables.$color-teal-shade-400;
-  }
-  
-  @else if $teal == shade-500 {
-    color: variables.$color-teal-shade-500;
-  }
-  
-  @else if $teal == shade-600 {
-    color: variables.$color-teal-shade-600;
-  }
-  
-  @else if $teal == shade-700 {
-    color: variables.$color-teal-shade-700;
-  }
-  
-  @else if $teal == shade-800 {
-    color: variables.$color-teal-shade-800;
-  }
-  
-  @else if $teal == shade-900 {
-    color: variables.$color-teal-shade-900;
-  }
-  
-  @else if $teal == tint-100 {
-    color: variables.$color-teal-tint-100;
-  }
-  
-  @else if $teal == tint-200 {
-    color: variables.$color-teal-tint-200;
-  }
-  
-  @else if $teal == tint-300 {
-    color: variables.$color-teal-tint-300;
-  }
-  
-  @else if $teal == tint-400 {
-    color: variables.$color-teal-tint-400;
-  }
-  
-  @else if $teal == tint-500 {
-    color: variables.$color-teal-tint-500;
-  }
-  
-  @else if $teal == tint-600 {
-    color: variables.$color-teal-tint-600;
-  }
-  
-  @else if $teal == tint-700 {
-    color: variables.$color-teal-tint-700;
-  }
-  
-  @else if $teal == tint-800 {
-    color: variables.$color-teal-tint-800;
-  }
-  
-  @else if $teal == tint-900 {
-    color: variables.$color-teal-tint-900;
-  }
 }
 
 @mixin white($white: 'base') {
@@ -611,81 +22,217 @@
   }
 }
 
-@mixin yellow($yellow: 'base') {
+@mixin gray($gray: 'base') {
   
-  @if $yellow == base {
-    color: variables.$color-yellow-base;
+  @if $gray == base {
+    color: variables.$color-gray-base;
   }
   
-  @else if $yellow == shade-100 {
-    color: variables.$color-yellow-shade-100;
+  @else if $gray == 10 {
+    color: variables.$color-gray-10;
   }
   
-  @else if $yellow == shade-200 {
-    color: variables.$color-yellow-shade-200;
+  @else if $gray == 20 {
+    color: variables.$color-gray-20;
   }
   
-  @else if $yellow == shade-300 {
-    color: variables.$color-yellow-shade-300;
+  @else if $gray == 30 {
+    color: variables.$color-gray-30;
   }
   
-  @else if $yellow == shade-400 {
-    color: variables.$color-yellow-shade-400;
+  @else if $gray == 40 {
+    color: variables.$color-gray-40;
   }
   
-  @else if $yellow == shade-500 {
-    color: variables.$color-yellow-shade-500;
+  @else if $gray == 50 {
+    color: variables.$color-gray-50;
   }
   
-  @else if $yellow == shade-600 {
-    color: variables.$color-yellow-shade-600;
+  @else if $gray == 60 {
+    color: variables.$color-gray-60;
   }
   
-  @else if $yellow == shade-700 {
-    color: variables.$color-yellow-shade-700;
+  @else if $gray == 70 {
+    color: variables.$color-gray-70;
   }
   
-  @else if $yellow == shade-800 {
-    color: variables.$color-yellow-shade-800;
+  @else if $gray == 80 {
+    color: variables.$color-gray-80;
   }
   
-  @else if $yellow == shade-900 {
-    color: variables.$color-yellow-shade-900;
+  @else if $gray == 90 {
+    color: variables.$color-gray-90;
+  }
+}
+
+@mixin red($red: 'base') {
+  
+  @if $red == base {
+    color: variables.$color-red-base;
   }
   
-  @else if $yellow == tint-100 {
-    color: variables.$color-yellow-tint-100;
+  @else if $red == 10 {
+    color: variables.$color-red-10;
   }
   
-  @else if $yellow == tint-200 {
-    color: variables.$color-yellow-tint-200;
+  @else if $red == 20 {
+    color: variables.$color-red-20;
   }
   
-  @else if $yellow == tint-300 {
-    color: variables.$color-yellow-tint-300;
+  @else if $red == 30 {
+    color: variables.$color-red-30;
   }
   
-  @else if $yellow == tint-400 {
-    color: variables.$color-yellow-tint-400;
+  @else if $red == 40 {
+    color: variables.$color-red-40;
   }
   
-  @else if $yellow == tint-500 {
-    color: variables.$color-yellow-tint-500;
+  @else if $red == 50 {
+    color: variables.$color-red-50;
   }
   
-  @else if $yellow == tint-600 {
-    color: variables.$color-yellow-tint-600;
+  @else if $red == 60 {
+    color: variables.$color-red-60;
   }
   
-  @else if $yellow == tint-700 {
-    color: variables.$color-yellow-tint-700;
+  @else if $red == 70 {
+    color: variables.$color-red-70;
   }
   
-  @else if $yellow == tint-800 {
-    color: variables.$color-yellow-tint-800;
+  @else if $red == 80 {
+    color: variables.$color-red-80;
   }
   
-  @else if $yellow == tint-900 {
-    color: variables.$color-yellow-tint-900;
+  @else if $red == 90 {
+    color: variables.$color-red-90;
+  }
+}
+
+@mixin green($green: 'base') {
+  
+  @if $green == base {
+    color: variables.$color-green-base;
+  }
+  
+  @else if $green == 10 {
+    color: variables.$color-green-10;
+  }
+  
+  @else if $green == 20 {
+    color: variables.$color-green-20;
+  }
+  
+  @else if $green == 30 {
+    color: variables.$color-green-30;
+  }
+  
+  @else if $green == 40 {
+    color: variables.$color-green-40;
+  }
+  
+  @else if $green == 50 {
+    color: variables.$color-green-50;
+  }
+  
+  @else if $green == 60 {
+    color: variables.$color-green-60;
+  }
+  
+  @else if $green == 70 {
+    color: variables.$color-green-70;
+  }
+  
+  @else if $green == 80 {
+    color: variables.$color-green-80;
+  }
+  
+  @else if $green == 90 {
+    color: variables.$color-green-90;
+  }
+}
+
+@mixin blue($blue: 'base') {
+  
+  @if $blue == base {
+    color: variables.$color-blue-base;
+  }
+  
+  @else if $blue == 10 {
+    color: variables.$color-blue-10;
+  }
+  
+  @else if $blue == 20 {
+    color: variables.$color-blue-20;
+  }
+  
+  @else if $blue == 30 {
+    color: variables.$color-blue-30;
+  }
+  
+  @else if $blue == 40 {
+    color: variables.$color-blue-40;
+  }
+  
+  @else if $blue == 50 {
+    color: variables.$color-blue-50;
+  }
+  
+  @else if $blue == 60 {
+    color: variables.$color-blue-60;
+  }
+  
+  @else if $blue == 70 {
+    color: variables.$color-blue-70;
+  }
+  
+  @else if $blue == 80 {
+    color: variables.$color-blue-80;
+  }
+  
+  @else if $blue == 90 {
+    color: variables.$color-blue-90;
+  }
+}
+
+@mixin bronze($bronze: 'base') {
+  
+  @if $bronze == base {
+    color: variables.$color-bronze-base;
+  }
+  
+  @else if $bronze == 10 {
+    color: variables.$color-bronze-10;
+  }
+  
+  @else if $bronze == 20 {
+    color: variables.$color-bronze-20;
+  }
+  
+  @else if $bronze == 30 {
+    color: variables.$color-bronze-30;
+  }
+  
+  @else if $bronze == 40 {
+    color: variables.$color-bronze-40;
+  }
+  
+  @else if $bronze == 50 {
+    color: variables.$color-bronze-50;
+  }
+  
+  @else if $bronze == 60 {
+    color: variables.$color-bronze-60;
+  }
+  
+  @else if $bronze == 70 {
+    color: variables.$color-bronze-70;
+  }
+  
+  @else if $bronze == 80 {
+    color: variables.$color-bronze-80;
+  }
+  
+  @else if $bronze == 90 {
+    color: variables.$color-bronze-90;
   }
 }
