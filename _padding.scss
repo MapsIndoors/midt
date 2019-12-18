@@ -5,7 +5,11 @@
   @if $all == 'medium' {
     padding: variables.$spacing-medium;
   }
-  
+
+  @else if $all == 'none' {
+    padding: 0;
+  }
+    
   @else if $all == 'xxx-small' {
     padding: variables.$spacing-xxx-small;
   }
@@ -47,6 +51,10 @@
   
   @if $top == 'medium' {
     padding-top: variables.$spacing-medium;
+  }
+  
+  @else if $top == 'none' {
+    padding-top: none;
   }
   
   @else if $top == 'xxx-small' {
@@ -92,6 +100,10 @@
     padding-right: variables.$spacing-medium;
   }
   
+  @else if $right == 'none' {
+    padding-right: none;
+  }
+  
   @else if $right == 'xxx-small' {
     padding-right: variables.$spacing-xxx-small;
   }
@@ -133,6 +145,10 @@
   
   @if $bottom == 'medium' {
     padding-bottom: variables.$spacing-medium;
+  }
+  
+  @else if $bottom == 'none' {
+    padding-bottom: none;
   }
   
   @else if $bottom == 'xxx-small' {
@@ -178,6 +194,10 @@
     padding-left: variables.$spacing-medium;
   }
   
+  @else if $left == 'none' {
+    padding-left: none;
+  }
+  
   @else if $left == 'xxx-small' {
     padding-left: variables.$spacing-xxx-small;
   }
@@ -220,6 +240,11 @@
   @if $horizontal == 'medium' {
     padding-left: variables.$spacing-medium;
     padding-right: variables.$spacing-medium;
+  }
+  
+  @else if $horizontal == 'none' {
+    padding-left: none;
+    padding-right: none;
   }
   
   @else if $horizontal == 'xxx-small' {
@@ -273,6 +298,11 @@
   @if $vertical == 'medium' {
     padding-top: variables.$spacing-medium;
     padding-bottom: variables.$spacing-medium;
+  }
+  
+  @else if $vertical == 'none' {
+    padding-top: none;
+    padding-bottom: none;
   }
   
   @else if $vertical == 'xxx-small' {
