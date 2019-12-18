@@ -2,7 +2,7 @@
 
 @mixin elevation($elevation: 'medium') {
   
-  @if $elevation == 0 {
+  @if $elevation == none {
     box-shadow: none;
   }
 
