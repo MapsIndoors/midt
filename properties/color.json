@@ -13,9 +13,9 @@
     },
     "white": {
       "base": {
-        "value": "{color.gray.10.value}",
+        "value": "hsl(40, 100%, 98%)",
         "comment": "This is the standard background color."},
-      "white": {"value": "#ffffff"}
+      "white": {"value": "hsl(0, 0%, 100%)"}
     },
     "gray": {
       "base": {
