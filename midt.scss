@@ -10,31 +10,11 @@
 @use "transitions";
 @use "z-index";
 
-.elevation-0 {@include elevation.elevation(0);}
-.elevation-1 {@include elevation.elevation(1);}
-.elevation-2 {@include elevation.elevation(2);}
-.elevation-3 {@include elevation.elevation(3);}
-.elevation-4 {@include elevation.elevation(4);}
-.elevation-5 {@include elevation.elevation(5);}
-.elevation-6 {@include elevation.elevation(6);}
-.elevation-7 {@include elevation.elevation(7);}
-.elevation-8 {@include elevation.elevation(8);}
-.elevation-9 {@include elevation.elevation(9);}
-.elevation-10 {@include elevation.elevation(10);}
-.elevation-11 {@include elevation.elevation(11);}
-.elevation-12 {@include elevation.elevation(12);}
-.elevation-13 {@include elevation.elevation(13);}
-.elevation-14 {@include elevation.elevation(14);}
-.elevation-15 {@include elevation.elevation(15);}
-.elevation-16 {@include elevation.elevation(16);}
-.elevation-17 {@include elevation.elevation(17);}
-.elevation-18 {@include elevation.elevation(18);}
-.elevation-19 {@include elevation.elevation(19);}
-.elevation-20 {@include elevation.elevation(20);}
-.elevation-21 {@include elevation.elevation(21);}
-.elevation-22 {@include elevation.elevation(22);}
-.elevation-23 {@include elevation.elevation(23);}
-.elevation-24 {@include elevation.elevation(24);}
+.elevation-x-small {@include elevation.elevation(x-small);}
+.elevation-small {@include elevation.elevation(small);}
+.elevation-medium {@include elevation.elevation(medium);}
+.elevation-large {@include elevation.elevation(large);}
+.elevation-x-large {@include elevation.elevation(x-large);}
 
 .z-index-default {@include z-index.z-index(default);}
 .z-index-deep {@include z-index.z-index(deep);}
@@ -327,6 +307,8 @@
 
 .border-left-solid {@include border.left(solid);}
 .border-left-none {@include border.left(none);}
+
+.border-all-none {@include border.all(none);}
 
 .margin-all-none {@include margin.all(none);}
 .margin-all-xxx-small {@include margin.all(xxx-small);}
