@@ -298,6 +298,13 @@
   }
 }
 
+@mixin all($all: 'none') {
+  
+  @if $all == none {
+    border: none;
+  }
+}
+
 @mixin top($top: 'solid') {
   
   @if $top == solid {
