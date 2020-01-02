@@ -12,7 +12,6 @@
     "mapsindoors",
     "design",
     "tokens",
-    "design",
     "system"
   ],
   "sass": "mixins/_index.scss",
