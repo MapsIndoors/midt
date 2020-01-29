@@ -19,7 +19,7 @@
     },
     "transparent": {
       "base": {
-        "value": "{opacity.xx-small.value}",
+        "value": "hsla(0, 0, 0, 0%)",
         "comment": "This is a 100% transparent color."}
     },
     "gray": {

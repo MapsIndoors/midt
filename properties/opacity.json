@@ -1,6 +1,6 @@
 {
   "opacity": {
-		"xx-small": {"value": "0.00"},
+		"xx-small": {"value": "0"},
 		"x-small": {"value": "0.08"},
 		"small": {"value": "0.16"},
 		"medium": {"value": "0.24"},
