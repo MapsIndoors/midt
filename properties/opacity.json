@@ -1,10 +1,12 @@
 {
   "opacity": {
+		"xx-small": {"value": "0.00"},
 		"x-small": {"value": "0.08"},
 		"small": {"value": "0.16"},
 		"medium": {"value": "0.24"},
 		"large": {"value": "0.48"},
 		"x-large": {"value": "0.72"},
-		"xx-large": {"value": "0.88"}
+		"xx-large": {"value": "0.88"},
+		"xxx-large": {"value": "1"}
 	}
 }
