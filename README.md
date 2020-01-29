@@ -1,81 +1,35 @@
 # MapsIndoors Design Tokens (midt)
 
-`midt` contains the MapsIndoors Design Tokens.
+`midt` contains the MapsIndoors Design Tokens and tools to use them.
 
-They are compiled to SCSS variables for use when building MapsIndoors-related products for web.
-
-The Design Tokens are compiled from JSON to SCSS using [Amazon's Style Dictionary](https://github.com/amzn/style-dictionary).
+The tokes are compiled from JSON to SCSS mixins using [Amazon's Style Dictionary](https://github.com/amzn/style-dictionary), but you can use them as JSON objects or CSS classes too.
 
 Install from `npm` using `npm i -D midt@latest`.
 
-## Build
+<details><summary><b>Use the SCSS mixins</b></summary>
 
-1. Clone this repository `git clone git@github:MapsIndoors/midt.git && cd midt`
-2. Build the Design Tokens using `style-dictionary`:
-    
-```bash
-npm run build
+Using the color-`@mixin` on a class in your CSS could look like this:
+
+```css
+.test {
+  @include color.red(60);
+}
 ```
 
-You should see something like this output:
+If you want to make the color a shade darker, increase the number:
 
-```bash
-> midt@1.0.0 build ~/dev/midt
-> style-dictionary build
-
-scss
-✔︎  build/scss/_variables.scss
+```css
+.test {
+  @include color.red(70);
+}
 ```
-
-### Watch
-
-If you want to watch for changes to the `properties` folder, you can use `npm run watch` and `_variables.scss` will be updated continuously.
-
-You can read more about how Style Dictionary handles the merging and compilation of the JSON-files in the [Style Dictionary repository](https://github.com/amzn/style-dictionary).
-
-## Use the SCSS mixins
-
-The `_variables.scss`-file that is generated from the (JSON) Design Tokens contains all variables needed to build a range of helpful `@mixin`s.
-
-Here's an example with the `color` `@mixin`:
-
-1. In the `_variables.scss`-file there's a variable defining a base red color named `$color-red-base`. There's also a variable for a red color that's a shade darker named `$color-red-shade-100`.
-2. Using those variables, the `@mixin` is constructed like this:
-
-  ```scss
-  @mixin red($red: 'base') {
-  
-  @if $red == base {
-    color: $color-red-base;
-  }
-  
-  @else if $red == shade-100 {
-    color: $color-red-shade-100;
-  }
-  [...]
-  ```
-  
-3. Now, using this color `@mixin` on a class in your CSS could look like this:
-
-  ```css
-  .test { 
-    @include red();
-  }
-  ```
-  
-  Or, if you wanted to make the color a shade darker:
-  
-  ```css
-  .test {
-    @include red(shade-100);
-  }
-  ```
 
 You can use the same principles for applying padding or margin to an element like this:
 
 ```css
 .test {
   @include margin(xx-large);
+  @include padding(small);
 }
 ```
 
@@ -87,20 +41,23 @@ Or set the z-index:
 }
 ```
 
-## Use with SASS' `@use` function
+</details>
 
-SASS is moving away from explicitly `@import`ing towards declaring what you want to `@use` instead. Here's an example:
+<details><summary><b>Use with SASS' <code>@use</code> function</b></summary>
+
+SASS is moving away from explicitly `@import`ing towards [declaring what you want to `@use`](https://sass-lang.com/documentation/at-rules/use) instead:
 
 ```scss
 @use 'color';
 
 .test {
-  @include color.red;
-  color: color.red(shade-100);
+  @include color.red(60);
 }
 ```
 
-### List of available mixins
+</details>
+
+<details><summary><b>List of available mixins</b></summary>
 
 These are all of the available mixins, and how you can reference them after installing this package:
 
@@ -120,6 +77,32 @@ These are all of the available mixins, and how you can reference them after inst
 @use "node_modules/midt/z-index";
 ```
 
-## Testing
+</details>
 
+<details><summary><b>Build</b></summary>
+
+1. Clone this repository `git clone git@github:MapsIndoors/midt.git && cd midt`
+2. Build the Design Tokens using `style-dictionary`:
+
+```bash
+npm run build
+```
+
+You should see something like this output:
+
+```bash
+> midt@1.0.0 build ~/dev/midt
+> style-dictionary build
+
+scss
+✔︎  build/scss/_variables.scss
+```
+
+If you want to watch for changes to the `properties` folder, you can use `npm run watch` and `_variables.scss` will be updated continuously.
+
+You can read more about how Style Dictionary handles the merging and compilation of the JSON-files in the [Style Dictionary repository](https://github.com/amzn/style-dictionary).
+</details>
+
+<details><summary><b>Testing</b></summary>
 Run `npm run sass` to compile the `style.scss` test file to `style.css`.
+</details>
