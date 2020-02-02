@@ -17,6 +17,11 @@
         "comment": "This is the standard background color."},
       "white": {"value": "hsl(0, 0%, 100%)"}
     },
+    "transparent": {
+      "base": {
+        "value": "hsla(0, 0, 0, 0%)",
+        "comment": "This is a 100% transparent color."}
+    },
     "gray": {
       "base": {
         "value": "{color.gray.60.value}"

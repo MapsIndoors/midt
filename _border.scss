@@ -83,6 +83,13 @@
   }
 }
 
+@mixin transparent($border-transparent: 'base') {
+
+  @if $border-transparent == base {
+    border-color: variables.$color-transparent-base;
+  }
+}
+
 @mixin gray($border-gray: 'base') {
   
   @if $border-gray == base {
