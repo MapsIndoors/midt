@@ -676,219 +676,219 @@
 }
 
 .border-black-base {
-  color: #1e2025;
+  border-color: #1e2025;
 }
 
 .border-black-black {
-  color: #000000;
+  border-color: #000000;
 }
 
 .border-white-base {
-  color: #fffdfa;
+  border-color: #fffdfa;
 }
 
 .border-white-white {
-  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .border-blue-base {
-  color: #3071d9;
+  border-color: #3071d9;
 }
 
 .border-blue-10 {
-  color: #eef4fc;
+  border-color: #eef4fc;
 }
 
 .border-blue-20 {
-  color: #cfe0fc;
+  border-color: #cfe0fc;
 }
 
 .border-blue-30 {
-  color: #abcafc;
+  border-color: #abcafc;
 }
 
 .border-blue-40 {
-  color: #85b2fa;
+  border-color: #85b2fa;
 }
 
 .border-blue-50 {
-  color: #5691f0;
+  border-color: #5691f0;
 }
 
 .border-blue-60 {
-  color: #3071d9;
+  border-color: #3071d9;
 }
 
 .border-blue-70 {
-  color: #1d5bbf;
+  border-color: #1d5bbf;
 }
 
 .border-blue-80 {
-  color: #114497;
+  border-color: #114497;
 }
 
 .border-blue-90 {
-  color: #103570;
+  border-color: #103570;
 }
 
 .border-green-base {
-  color: #2a844e;
+  border-color: #2a844e;
 }
 
 .border-green-10 {
-  color: #e0faeb;
+  border-color: #e0faeb;
 }
 
 .border-green-20 {
-  color: #abedc5;
+  border-color: #abedc5;
 }
 
 .border-green-30 {
-  color: #7bdba1;
+  border-color: #7bdba1;
 }
 
 .border-green-40 {
-  color: #56c281;
+  border-color: #56c281;
 }
 
 .border-green-50 {
-  color: #3ba064;
+  border-color: #3ba064;
 }
 
 .border-green-60 {
-  color: #2a844e;
+  border-color: #2a844e;
 }
 
 .border-green-70 {
-  color: #20693e;
+  border-color: #20693e;
 }
 
 .border-green-80 {
-  color: #1a5130;
+  border-color: #1a5130;
 }
 
 .border-green-90 {
-  color: #153d25;
+  border-color: #153d25;
 }
 
 .border-red-base {
-  color: #de1b1b;
+  border-color: #de1b1b;
 }
 
 .border-red-10 {
-  color: #faf0f0;
+  border-color: #faf0f0;
 }
 
 .border-red-20 {
-  color: #fad6d6;
+  border-color: #fad6d6;
 }
 
 .border-red-30 {
-  color: #fab7b7;
+  border-color: #fab7b7;
 }
 
 .border-red-40 {
-  color: #fa8e8e;
+  border-color: #fa8e8e;
 }
 
 .border-red-50 {
-  color: #f55151;
+  border-color: #f55151;
 }
 
 .border-red-60 {
-  color: #de1b1b;
+  border-color: #de1b1b;
 }
 
 .border-red-70 {
-  color: #ba0d0d;
+  border-color: #ba0d0d;
 }
 
 .border-red-80 {
-  color: #900e0e;
+  border-color: #900e0e;
 }
 
 .border-red-90 {
-  color: #661414;
+  border-color: #661414;
 }
 
 .border-bronze-base {
-  color: #ad5f00;
+  border-color: #ad5f00;
 }
 
 .border-bronze-10 {
-  color: #fcf3e8;
+  border-color: #fcf3e8;
 }
 
 .border-bronze-20 {
-  color: #fad7ae;
+  border-color: #fad7ae;
 }
 
 .border-bronze-30 {
-  color: #f5bb75;
+  border-color: #f5bb75;
 }
 
 .border-bronze-40 {
-  color: #e99c3f;
+  border-color: #e99c3f;
 }
 
 .border-bronze-50 {
-  color: #d07a11;
+  border-color: #d07a11;
 }
 
 .border-bronze-60 {
-  color: #ad5f00;
+  border-color: #ad5f00;
 }
 
 .border-bronze-70 {
-  color: #8c4e03;
+  border-color: #8c4e03;
 }
 
 .border-bronze-80 {
-  color: #693d07;
+  border-color: #693d07;
 }
 
 .border-bronze-90 {
-  color: #4c2f0b;
+  border-color: #4c2f0b;
 }
 
 .border-gray-base {
-  color: #8d98aa;
+  border-color: #8d98aa;
 }
 
 .border-gray-10 {
-  color: #f5f7fa;
+  border-color: #f5f7fa;
 }
 
 .border-gray-20 {
-  color: #ebeff5;
+  border-color: #ebeff5;
 }
 
 .border-gray-30 {
-  color: #dee3ed;
+  border-color: #dee3ed;
 }
 
 .border-gray-40 {
-  color: #c8d0e0;
+  border-color: #c8d0e0;
 }
 
 .border-gray-50 {
-  color: #aeb9cb;
+  border-color: #aeb9cb;
 }
 
 .border-gray-60 {
-  color: #8d98aa;
+  border-color: #8d98aa;
 }
 
 .border-gray-70 {
-  color: #707a89;
+  border-color: #707a89;
 }
 
 .border-gray-80 {
-  color: #59616e;
+  border-color: #59616e;
 }
 
 .border-gray-90 {
-  color: #444b55;
+  border-color: #444b55;
 }
 
 .border-width-medium {
