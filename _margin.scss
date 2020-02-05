@@ -54,7 +54,7 @@
   }
   
   @else if $top == 'none' {
-    margin-top: none;
+    margin-top: 0;
   }
   
   @else if $top == 'xxx-small' {
@@ -101,7 +101,7 @@
   }
   
   @else if $right == 'none' {
-    margin-right: none;
+    margin-right: 0;
   }
   
   @else if $right == 'xxx-small' {
@@ -148,7 +148,7 @@
   }
   
   @else if $bottom == 'none' {
-    margin-bottom: none;
+    margin-bottom: 0;
   }
   
   @else if $bottom == 'xxx-small' {
@@ -195,7 +195,7 @@
   }
   
   @else if $left == 'none' {
-    margin-left: none;
+    margin-left: 0;
   }
   
   @else if $left == 'xxx-small' {
@@ -243,8 +243,8 @@
   }
   
   @else if $horizontal == 'none' {
-    margin-left: none;
-    margin-right: none;
+    margin-left: 0;
+    margin-right: 0;
   }
   
   @else if $horizontal == 'xxx-small' {
@@ -301,8 +301,8 @@
   }
   
   @else if $vertical == 'none' {
-    margin-top: none;
-    margin-bottom: none;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   
   @else if $vertical == 'xxx-small' {
