@@ -73,6 +73,7 @@ These are all of the available mixins, and how you can reference them after inst
 @use "node_modules/midt/margin";
 @use "node_modules/midt/opacity";
 @use "node_modules/midt/padding";
+@use "node_modules/midt/sizing";
 @use "node_modules/midt/transitions";
 @use "node_modules/midt/z-index";
 ```
@@ -101,8 +102,4 @@ scss
 If you want to watch for changes to the `properties` folder, you can use `npm run watch` and `_variables.scss` will be updated continuously.
 
 You can read more about how Style Dictionary handles the merging and compilation of the JSON-files in the [Style Dictionary repository](https://github.com/amzn/style-dictionary).
-</details>
-
-<details><summary><b>Testing</b></summary>
-Run `npm run sass` to compile the `style.scss` test file to `style.css`.
 </details>
