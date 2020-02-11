@@ -39,7 +39,7 @@
 }
 
 .width-xxxx-large {
-  width: 72px;
+  width: 64px;
 }
 
 .min-width-none {
@@ -83,7 +83,7 @@
 }
 
 .min-width-xxxx-large {
-  min-width: 72px;
+  min-width: 64px;
 }
 
 .max-width-none {
@@ -127,7 +127,7 @@
 }
 
 .max-width-xxxx-large {
-  max-width: 72px;
+  max-width: 64px;
 }
 
 .height-none {
@@ -171,7 +171,7 @@
 }
 
 .height-xxxx-large {
-  height: 72px;
+  height: 64px;
 }
 
 .min-height-none {
@@ -215,7 +215,7 @@
 }
 
 .min-height-xxxx-large {
-  min-height: 72px;
+  min-height: 64px;
 }
 
 .max-height-none {
@@ -259,7 +259,7 @@
 }
 
 .max-height-xxxx-large {
-  max-height: 72px;
+  max-height: 64px;
 }
 
 .debug * {

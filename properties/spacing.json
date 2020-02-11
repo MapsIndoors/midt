@@ -9,6 +9,6 @@
 		"x-large": {"value": "32px"},
 		"xx-large": {"value": "40px"},
 		"xxx-large": {"value": "48px"},
-		"xxxx-large": {"value": "72px"}
+		"xxxx-large": {"value": "64px"}
 	}
 }
