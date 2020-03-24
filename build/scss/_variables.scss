@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Tue, 11 Feb 2020 13:46:01 GMT
+// Generated on Tue, 24 Mar 2020 10:12:38 GMT
 
 $breakpoints-xx-small: only screen and (max-width: 360px); // Targets devices between 0-360px
 $breakpoints-x-small: only screen and (max-width: 575px); // Targets devices between 0-575px
@@ -11,7 +11,7 @@ $breakpoints-x-large: only screen and (min-width: 1025px); // Targets desktop de
 $breakpoints-xx-large: only screen and (min-width: 1220px); // Targets desktop devices from 1220px and up
 $color-black-base: #1e2025; // The a11y rating of white on top of this color: AAA
 $color-black-black: #000000; // The a11y rating of white on top of this color: AAA
-$color-white-base: #fffdfa; // This is the standard background color.
+$color-white-base: #fcfcfc; // This is the standard background color.
 $color-white-white: #ffffff;
 $color-transparent-base: rgba(0, 0, 0, 0); // This is a 100% transparent color.
 $color-gray-10: #f5f7fa; // The a11y rating of black on top of this color: AAA
@@ -69,6 +69,39 @@ $color-bronze-80: #693d07; // The a11y rating of white on top of this color: AAA
 $color-bronze-90: #4c2f0b; // The a11y rating of white on top of this color: AAA
 $color-bronze-100: #32200c; // The a11y rating of white on top of this color: AAA
 $color-bronze-base: #ad5f00;
+$color-purple-10: #f5f0fa; // The a11y rating of black on top of this color: AAA
+$color-purple-20: #ebdbfa; // The a11y rating of black on top of this color: AAA
+$color-purple-30: #dabbf7; // The a11y rating of black on top of this color: AAA
+$color-purple-40: #c79cf2; // The a11y rating of black on top of this color: AAA
+$color-purple-50: #ad73e8; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
+$color-purple-60: #9657d6; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
+$color-purple-70: #7d3cbe; // The a11y rating of white on top of this color: AA
+$color-purple-80: #632b9c; // The a11y rating of white on top of this color: AAA
+$color-purple-90: #4a2173; // The a11y rating of white on top of this color: AAA
+$color-purple-100: #381d54; // The a11y rating of white on top of this color: AAA
+$color-purple-base: #9657d6;
+$color-magenta-10: #faf0f4; // The a11y rating of black on top of this color: AAA
+$color-magenta-20: #fad6e5; // The a11y rating of black on top of this color: AAA
+$color-magenta-30: #fab2d0; // The a11y rating of black on top of this color: AAA
+$color-magenta-40: #f78db9; // The a11y rating of black on top of this color: AAA
+$color-magenta-50: #ed5494; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
+$color-magenta-60: #d6246e; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
+$color-magenta-70: #af1254; // The a11y rating of white on top of this color: AA
+$color-magenta-80: #8c1245; // The a11y rating of white on top of this color: AAA
+$color-magenta-90: #601534; // The a11y rating of white on top of this color: AAA
+$color-magenta-100: #421527; // The a11y rating of white on top of this color: AAA
+$color-magenta-base: #d6246e;
+$color-indigo-10: #f3f3fc; // The a11y rating of black on top of this color: AAA
+$color-indigo-20: #dedefc; // The a11y rating of black on top of this color: AAA
+$color-indigo-30: #c0c0fc; // The a11y rating of black on top of this color: AAA
+$color-indigo-40: #a8a8fa; // The a11y rating of black on top of this color: AAA
+$color-indigo-50: #8787f2; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
+$color-indigo-60: #6565e6; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
+$color-indigo-70: #4d4dd1; // The a11y rating of white on top of this color: AA
+$color-indigo-80: #3737b3; // The a11y rating of white on top of this color: AAA
+$color-indigo-90: #28288a; // The a11y rating of white on top of this color: AAA
+$color-indigo-100: #202056; // The a11y rating of white on top of this color: AAA
+$color-indigo-base: #6565e6;
 $elevation-x-small: 0 1px 1px rgba(0, 0, 0, 0.125), 0 2px 2px rgba(0, 0, 0, 0.125);
 $elevation-small: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1);
 $elevation-medium: 0 1px 1px rgba(0, 0, 0, 0.075), 0 2px 2px rgba(0, 0, 0, 0.075), 0 4px 4px rgba(0, 0, 0, 0.075), 0 6px 6px rgba(0, 0, 0, 0.075), 0 8px 8px rgba(0, 0, 0, 0.075);

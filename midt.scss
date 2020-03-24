@@ -11,470 +11,1604 @@
 @use "transitions";
 @use "z-index";
 
-.elevation-x-small {@include elevation.elevation(x-small);}
-.elevation-small {@include elevation.elevation(small);}
-.elevation-medium {@include elevation.elevation(medium);}
-.elevation-large {@include elevation.elevation(large);}
-.elevation-x-large {@include elevation.elevation(x-large);}
+.elevation-x-small {
+  @include elevation.elevation(x-small);
+}
+.elevation-small {
+  @include elevation.elevation(small);
+}
+.elevation-medium {
+  @include elevation.elevation(medium);
+}
+.elevation-large {
+  @include elevation.elevation(large);
+}
+.elevation-x-large {
+  @include elevation.elevation(x-large);
+}
 
-.z-index-default {@include z-index.z-index(default);}
-.z-index-deep {@include z-index.z-index(deep);}
-.z-index-masked {@include z-index.z-index(masked);}
-.z-index-mask {@include z-index.z-index(mask);}
-.z-index-sticky {@include z-index.z-index(sticky);}
-.z-index-header {@include z-index.z-index(header);}
-.z-index-toast {@include z-index.z-index(toast);}
-.z-index-dropdown {@include z-index.z-index(dropdown);}
-.z-index-overlay {@include z-index.z-index(overlay);}
-.z-index-spinner {@include z-index.z-index(spinner);}
-.z-index-modal {@include z-index.z-index(modal);}
-.z-index-popup {@include z-index.z-index(popup);}
-.z-index-top {@include z-index.z-index(top);}
+.z-index-default {
+  @include z-index.z-index(default);
+}
+.z-index-deep {
+  @include z-index.z-index(deep);
+}
+.z-index-masked {
+  @include z-index.z-index(masked);
+}
+.z-index-mask {
+  @include z-index.z-index(mask);
+}
+.z-index-sticky {
+  @include z-index.z-index(sticky);
+}
+.z-index-header {
+  @include z-index.z-index(header);
+}
+.z-index-toast {
+  @include z-index.z-index(toast);
+}
+.z-index-dropdown {
+  @include z-index.z-index(dropdown);
+}
+.z-index-overlay {
+  @include z-index.z-index(overlay);
+}
+.z-index-spinner {
+  @include z-index.z-index(spinner);
+}
+.z-index-modal {
+  @include z-index.z-index(modal);
+}
+.z-index-popup {
+  @include z-index.z-index(popup);
+}
+.z-index-top {
+  @include z-index.z-index(top);
+}
 
-.transition-quickly {@include transitions.transition(quickly);}
-.transition-slowly {@include transitions.transition(slowly);}
+.transition-quickly {
+  @include transitions.transition(quickly);
+}
+.transition-slowly {
+  @include transitions.transition(slowly);
+}
 
-.icon-size-small {@include icons.size(small);}
-.icon-size-medium {@include icons.size(medium);}
-.icon-size-large {@include icons.size(large);}
-.icon-size-x-large {@include icons.size(x-large);}
-.icon-size-xx-large {@include icons.size(xx-large);}
+.icon-size-small {
+  @include icons.size(small);
+}
+.icon-size-medium {
+  @include icons.size(medium);
+}
+.icon-size-large {
+  @include icons.size(large);
+}
+.icon-size-x-large {
+  @include icons.size(x-large);
+}
+.icon-size-xx-large {
+  @include icons.size(xx-large);
+}
 
-.font-family-sans-serif {@include font.family(sans-serif);}
-.font-family-system {@include font.family(system);}
-.font-family-monospace {@include font.family(monospace);}
-.font-family-serif {@include font.family(serif);}
-.font-family-raleway {@include font.family(raleway);}
+.font-family-sans-serif {
+  @include font.family(sans-serif);
+}
+.font-family-system {
+  @include font.family(system);
+}
+.font-family-monospace {
+  @include font.family(monospace);
+}
+.font-family-serif {
+  @include font.family(serif);
+}
+.font-family-raleway {
+  @include font.family(raleway);
+}
 
-.font-size-x-small {@include font.size(x-small);}
-.font-size-small {@include font.size(small);}
-.font-size-medium {@include font.size(medium);}
-.font-size-large {@include font.size(large);}
-.font-size-x-large {@include font.size(x-large);}
-.font-size-xx-large {@include font.size(xx-large);}
-.font-size-xxx-large {@include font.size(xxx-large);}
-.font-size-xxxx-large {@include font.size(xxxx-large);}
+.font-size-x-small {
+  @include font.size(x-small);
+}
+.font-size-small {
+  @include font.size(small);
+}
+.font-size-medium {
+  @include font.size(medium);
+}
+.font-size-large {
+  @include font.size(large);
+}
+.font-size-x-large {
+  @include font.size(x-large);
+}
+.font-size-xx-large {
+  @include font.size(xx-large);
+}
+.font-size-xxx-large {
+  @include font.size(xxx-large);
+}
+.font-size-xxxx-large {
+  @include font.size(xxxx-large);
+}
 
-.font-weight-small {@include font.weight(small);}
-.font-weight-medium {@include font.weight(medium);}
-.font-weight-large {@include font.weight(large);}
-.font-weight-x-large {@include font.weight(x-large);}
-.font-weight-xx-large {@include font.weight(xx-large);}
+.font-weight-small {
+  @include font.weight(small);
+}
+.font-weight-medium {
+  @include font.weight(medium);
+}
+.font-weight-large {
+  @include font.weight(large);
+}
+.font-weight-x-large {
+  @include font.weight(x-large);
+}
+.font-weight-xx-large {
+  @include font.weight(xx-large);
+}
 
-.font-leading-x-small {@include font.leading(x-small);}
-.font-leading-small {@include font.leading(small);}
-.font-leading-medium {@include font.leading(medium);}
-.font-leading-large {@include font.leading(large);}
-.font-leading-x-large {@include font.leading(x-large);}
-.font-leading-xx-large {@include font.leading(xx-large);}
-.font-leading-xxx-large {@include font.leading(xxx-large);}
-.font-leading-xxxx-large {@include font.leading(xxxx-large);}
+.font-leading-x-small {
+  @include font.leading(x-small);
+}
+.font-leading-small {
+  @include font.leading(small);
+}
+.font-leading-medium {
+  @include font.leading(medium);
+}
+.font-leading-large {
+  @include font.leading(large);
+}
+.font-leading-x-large {
+  @include font.leading(x-large);
+}
+.font-leading-xx-large {
+  @include font.leading(xx-large);
+}
+.font-leading-xxx-large {
+  @include font.leading(xxx-large);
+}
+.font-leading-xxxx-large {
+  @include font.leading(xxxx-large);
+}
 
-.font-tracking-small {@include font.tracking(small);}
-.font-tracking-medium {@include font.tracking(medium);}
-.font-tracking-large {@include font.tracking(large);}
-.font-tracking-x-large {@include font.tracking(x-large);}
+.font-tracking-small {
+  @include font.tracking(small);
+}
+.font-tracking-medium {
+  @include font.tracking(medium);
+}
+.font-tracking-large {
+  @include font.tracking(large);
+}
+.font-tracking-x-large {
+  @include font.tracking(x-large);
+}
 
-.font-measure-small {@include font.measure(small);}
-.font-measure-medium {@include font.measure(medium);}
-.font-measure-large {@include font.measure(large);}
-.font-measure-x-large {@include font.measure(x-large);}
+.font-measure-small {
+  @include font.measure(small);
+}
+.font-measure-medium {
+  @include font.measure(medium);
+}
+.font-measure-large {
+  @include font.measure(large);
+}
+.font-measure-x-large {
+  @include font.measure(x-large);
+}
 
-.font-color-base {@include font.color(base);}
-.font-color-inverse {@include font.color(inverse);}
+.font-color-base {
+  @include font.color(base);
+}
+.font-color-inverse {
+  @include font.color(inverse);
+}
 
-.color-black-base {@include color.black(base);}
-.color-black-black {@include color.black(black);}
+.color-black-base {
+  @include color.black(base);
+}
+.color-black-black {
+  @include color.black(black);
+}
 
-.color-white-base {@include color.white(base);}
-.color-white-white {@include color.white(white);}
+.color-white-base {
+  @include color.white(base);
+}
+.color-white-white {
+  @include color.white(white);
+}
 
-.color-blue-base {@include color.blue(base);}
-.color-blue-10 {@include color.blue(10);}
-.color-blue-20 {@include color.blue(20);}
-.color-blue-30 {@include color.blue(30);}
-.color-blue-40 {@include color.blue(40);}
-.color-blue-50 {@include color.blue(50);}
-.color-blue-60 {@include color.blue(60);}
-.color-blue-70 {@include color.blue(70);}
-.color-blue-80 {@include color.blue(80);}
-.color-blue-90 {@include color.blue(90);}
-.color-blue-100 {@include color.blue(100);}
+.color-blue-base {
+  @include color.blue(base);
+}
+.color-blue-10 {
+  @include color.blue(10);
+}
+.color-blue-20 {
+  @include color.blue(20);
+}
+.color-blue-30 {
+  @include color.blue(30);
+}
+.color-blue-40 {
+  @include color.blue(40);
+}
+.color-blue-50 {
+  @include color.blue(50);
+}
+.color-blue-60 {
+  @include color.blue(60);
+}
+.color-blue-70 {
+  @include color.blue(70);
+}
+.color-blue-80 {
+  @include color.blue(80);
+}
+.color-blue-90 {
+  @include color.blue(90);
+}
+.color-blue-100 {
+  @include color.blue(100);
+}
 
-.color-green-base {@include color.green(base);}
-.color-green-10 {@include color.green(10);}
-.color-green-20 {@include color.green(20);}
-.color-green-30 {@include color.green(30);}
-.color-green-40 {@include color.green(40);}
-.color-green-50 {@include color.green(50);}
-.color-green-60 {@include color.green(60);}
-.color-green-70 {@include color.green(70);}
-.color-green-80 {@include color.green(80);}
-.color-green-90 {@include color.green(90);}
-.color-green-100 {@include color.green(100);}
+.color-green-base {
+  @include color.green(base);
+}
+.color-green-10 {
+  @include color.green(10);
+}
+.color-green-20 {
+  @include color.green(20);
+}
+.color-green-30 {
+  @include color.green(30);
+}
+.color-green-40 {
+  @include color.green(40);
+}
+.color-green-50 {
+  @include color.green(50);
+}
+.color-green-60 {
+  @include color.green(60);
+}
+.color-green-70 {
+  @include color.green(70);
+}
+.color-green-80 {
+  @include color.green(80);
+}
+.color-green-90 {
+  @include color.green(90);
+}
+.color-green-100 {
+  @include color.green(100);
+}
 
-.color-red-base {@include color.red(base);}
-.color-red-10 {@include color.red(10);}
-.color-red-20 {@include color.red(20);}
-.color-red-30 {@include color.red(30);}
-.color-red-40 {@include color.red(40);}
-.color-red-50 {@include color.red(50);}
-.color-red-60 {@include color.red(60);}
-.color-red-70 {@include color.red(70);}
-.color-red-80 {@include color.red(80);}
-.color-red-90 {@include color.red(90);}
-.color-red-100 {@include color.red(100);}
+.color-red-base {
+  @include color.red(base);
+}
+.color-red-10 {
+  @include color.red(10);
+}
+.color-red-20 {
+  @include color.red(20);
+}
+.color-red-30 {
+  @include color.red(30);
+}
+.color-red-40 {
+  @include color.red(40);
+}
+.color-red-50 {
+  @include color.red(50);
+}
+.color-red-60 {
+  @include color.red(60);
+}
+.color-red-70 {
+  @include color.red(70);
+}
+.color-red-80 {
+  @include color.red(80);
+}
+.color-red-90 {
+  @include color.red(90);
+}
+.color-red-100 {
+  @include color.red(100);
+}
 
-.color-bronze-base {@include color.bronze(base);}
-.color-bronze-10 {@include color.bronze(10);}
-.color-bronze-20 {@include color.bronze(20);}
-.color-bronze-30 {@include color.bronze(30);}
-.color-bronze-40 {@include color.bronze(40);}
-.color-bronze-50 {@include color.bronze(50);}
-.color-bronze-60 {@include color.bronze(60);}
-.color-bronze-70 {@include color.bronze(70);}
-.color-bronze-80 {@include color.bronze(80);}
-.color-bronze-90 {@include color.bronze(90);}
-.color-bronze-100 {@include color.bronze(100);}
+.color-bronze-base {
+  @include color.bronze(base);
+}
+.color-bronze-10 {
+  @include color.bronze(10);
+}
+.color-bronze-20 {
+  @include color.bronze(20);
+}
+.color-bronze-30 {
+  @include color.bronze(30);
+}
+.color-bronze-40 {
+  @include color.bronze(40);
+}
+.color-bronze-50 {
+  @include color.bronze(50);
+}
+.color-bronze-60 {
+  @include color.bronze(60);
+}
+.color-bronze-70 {
+  @include color.bronze(70);
+}
+.color-bronze-80 {
+  @include color.bronze(80);
+}
+.color-bronze-90 {
+  @include color.bronze(90);
+}
+.color-bronze-100 {
+  @include color.bronze(100);
+}
 
-.color-gray-base {@include color.gray(base);}
-.color-gray-10 {@include color.gray(10);}
-.color-gray-20 {@include color.gray(20);}
-.color-gray-30 {@include color.gray(30);}
-.color-gray-40 {@include color.gray(40);}
-.color-gray-50 {@include color.gray(50);}
-.color-gray-60 {@include color.gray(60);}
-.color-gray-70 {@include color.gray(70);}
-.color-gray-80 {@include color.gray(80);}
-.color-gray-90 {@include color.gray(90);}
-.color-gray-100 {@include color.gray(100);}
+.color-gray-base {
+  @include color.gray(base);
+}
+.color-gray-10 {
+  @include color.gray(10);
+}
+.color-gray-20 {
+  @include color.gray(20);
+}
+.color-gray-30 {
+  @include color.gray(30);
+}
+.color-gray-40 {
+  @include color.gray(40);
+}
+.color-gray-50 {
+  @include color.gray(50);
+}
+.color-gray-60 {
+  @include color.gray(60);
+}
+.color-gray-70 {
+  @include color.gray(70);
+}
+.color-gray-80 {
+  @include color.gray(80);
+}
+.color-gray-90 {
+  @include color.gray(90);
+}
+.color-gray-100 {
+  @include color.gray(100);
+}
 
-.background-black-base {@include background-color.black(base);}
-.background-black-black {@include background-color.black(black);}
+.color-purple-base {
+  @include color.purple(base);
+}
+.color-purple-10 {
+  @include color.purple(10);
+}
+.color-purple-20 {
+  @include color.purple(20);
+}
+.color-purple-30 {
+  @include color.purple(30);
+}
+.color-purple-40 {
+  @include color.purple(40);
+}
+.color-purple-50 {
+  @include color.purple(50);
+}
+.color-purple-60 {
+  @include color.purple(60);
+}
+.color-purple-70 {
+  @include color.purple(70);
+}
+.color-purple-80 {
+  @include color.purple(80);
+}
+.color-purple-90 {
+  @include color.purple(90);
+}
+.color-purple-100 {
+  @include color.purple(100);
+}
 
-.background-white-base {@include background-color.white(base);}
-.background-white-white {@include background-color.white(white);}
+.color-magenta-base {
+  @include color.magenta(base);
+}
+.color-magenta-10 {
+  @include color.magenta(10);
+}
+.color-magenta-20 {
+  @include color.magenta(20);
+}
+.color-magenta-30 {
+  @include color.magenta(30);
+}
+.color-magenta-40 {
+  @include color.magenta(40);
+}
+.color-magenta-50 {
+  @include color.magenta(50);
+}
+.color-magenta-60 {
+  @include color.magenta(60);
+}
+.color-magenta-70 {
+  @include color.magenta(70);
+}
+.color-magenta-80 {
+  @include color.magenta(80);
+}
+.color-magenta-90 {
+  @include color.magenta(90);
+}
+.color-magenta-100 {
+  @include color.magenta(100);
+}
 
-.background-blue-base {@include background-color.blue(base);}
-.background-blue-10 {@include background-color.blue(10);}
-.background-blue-20 {@include background-color.blue(20);}
-.background-blue-30 {@include background-color.blue(30);}
-.background-blue-40 {@include background-color.blue(40);}
-.background-blue-50 {@include background-color.blue(50);}
-.background-blue-60 {@include background-color.blue(60);}
-.background-blue-70 {@include background-color.blue(70);}
-.background-blue-80 {@include background-color.blue(80);}
-.background-blue-90 {@include background-color.blue(90);}
-.background-blue-100 {@include background-color.blue(100);}
+.color-indigo-base {
+  @include color.indigo(base);
+}
+.color-indigo-10 {
+  @include color.indigo(10);
+}
+.color-indigo-20 {
+  @include color.indigo(20);
+}
+.color-indigo-30 {
+  @include color.indigo(30);
+}
+.color-indigo-40 {
+  @include color.indigo(40);
+}
+.color-indigo-50 {
+  @include color.indigo(50);
+}
+.color-indigo-60 {
+  @include color.indigo(60);
+}
+.color-indigo-70 {
+  @include color.indigo(70);
+}
+.color-indigo-80 {
+  @include color.indigo(80);
+}
+.color-indigo-90 {
+  @include color.indigo(90);
+}
+.color-indigo-100 {
+  @include color.indigo(100);
+}
 
-.background-green-base {@include background-color.green(base);}
-.background-green-10 {@include background-color.green(10);}
-.background-green-20 {@include background-color.green(20);}
-.background-green-30 {@include background-color.green(30);}
-.background-green-40 {@include background-color.green(40);}
-.background-green-50 {@include background-color.green(50);}
-.background-green-60 {@include background-color.green(60);}
-.background-green-70 {@include background-color.green(70);}
-.background-green-80 {@include background-color.green(80);}
-.background-green-90 {@include background-color.green(90);}
-.background-green-100 {@include background-color.green(100);}
+.background-black-base {
+  @include background-color.black(base);
+}
+.background-black-black {
+  @include background-color.black(black);
+}
 
-.background-red-base {@include background-color.red(base);}
-.background-red-10 {@include background-color.red(10);}
-.background-red-20 {@include background-color.red(20);}
-.background-red-30 {@include background-color.red(30);}
-.background-red-40 {@include background-color.red(40);}
-.background-red-50 {@include background-color.red(50);}
-.background-red-60 {@include background-color.red(60);}
-.background-red-70 {@include background-color.red(70);}
-.background-red-80 {@include background-color.red(80);}
-.background-red-90 {@include background-color.red(90);}
-.background-red-100 {@include background-color.red(100);}
+.background-white-base {
+  @include background-color.white(base);
+}
+.background-white-white {
+  @include background-color.white(white);
+}
 
-.background-bronze-base {@include background-color.bronze(base);}
-.background-bronze-10 {@include background-color.bronze(10);}
-.background-bronze-20 {@include background-color.bronze(20);}
-.background-bronze-30 {@include background-color.bronze(30);}
-.background-bronze-40 {@include background-color.bronze(40);}
-.background-bronze-50 {@include background-color.bronze(50);}
-.background-bronze-60 {@include background-color.bronze(60);}
-.background-bronze-70 {@include background-color.bronze(70);}
-.background-bronze-80 {@include background-color.bronze(80);}
-.background-bronze-90 {@include background-color.bronze(90);}
-.background-bronze-100 {@include background-color.bronze(100);}
+.background-blue-base {
+  @include background-color.blue(base);
+}
+.background-blue-10 {
+  @include background-color.blue(10);
+}
+.background-blue-20 {
+  @include background-color.blue(20);
+}
+.background-blue-30 {
+  @include background-color.blue(30);
+}
+.background-blue-40 {
+  @include background-color.blue(40);
+}
+.background-blue-50 {
+  @include background-color.blue(50);
+}
+.background-blue-60 {
+  @include background-color.blue(60);
+}
+.background-blue-70 {
+  @include background-color.blue(70);
+}
+.background-blue-80 {
+  @include background-color.blue(80);
+}
+.background-blue-90 {
+  @include background-color.blue(90);
+}
+.background-blue-100 {
+  @include background-color.blue(100);
+}
 
-.background-gray-base {@include background-color.gray(base);}
-.background-gray-10 {@include background-color.gray(10);}
-.background-gray-20 {@include background-color.gray(20);}
-.background-gray-30 {@include background-color.gray(30);}
-.background-gray-40 {@include background-color.gray(40);}
-.background-gray-50 {@include background-color.gray(50);}
-.background-gray-60 {@include background-color.gray(60);}
-.background-gray-70 {@include background-color.gray(70);}
-.background-gray-80 {@include background-color.gray(80);}
-.background-gray-90 {@include background-color.gray(90);}
-.background-gray-100 {@include background-color.gray(100);}
+.background-green-base {
+  @include background-color.green(base);
+}
+.background-green-10 {
+  @include background-color.green(10);
+}
+.background-green-20 {
+  @include background-color.green(20);
+}
+.background-green-30 {
+  @include background-color.green(30);
+}
+.background-green-40 {
+  @include background-color.green(40);
+}
+.background-green-50 {
+  @include background-color.green(50);
+}
+.background-green-60 {
+  @include background-color.green(60);
+}
+.background-green-70 {
+  @include background-color.green(70);
+}
+.background-green-80 {
+  @include background-color.green(80);
+}
+.background-green-90 {
+  @include background-color.green(90);
+}
+.background-green-100 {
+  @include background-color.green(100);
+}
 
-.border-black-base {@include border.black(base);}
-.border-black-black {@include border.black(black);}
+.background-red-base {
+  @include background-color.red(base);
+}
+.background-red-10 {
+  @include background-color.red(10);
+}
+.background-red-20 {
+  @include background-color.red(20);
+}
+.background-red-30 {
+  @include background-color.red(30);
+}
+.background-red-40 {
+  @include background-color.red(40);
+}
+.background-red-50 {
+  @include background-color.red(50);
+}
+.background-red-60 {
+  @include background-color.red(60);
+}
+.background-red-70 {
+  @include background-color.red(70);
+}
+.background-red-80 {
+  @include background-color.red(80);
+}
+.background-red-90 {
+  @include background-color.red(90);
+}
+.background-red-100 {
+  @include background-color.red(100);
+}
 
-.border-white-base {@include border.white(base);}
-.border-white-white {@include border.white(white);}
+.background-bronze-base {
+  @include background-color.bronze(base);
+}
+.background-bronze-10 {
+  @include background-color.bronze(10);
+}
+.background-bronze-20 {
+  @include background-color.bronze(20);
+}
+.background-bronze-30 {
+  @include background-color.bronze(30);
+}
+.background-bronze-40 {
+  @include background-color.bronze(40);
+}
+.background-bronze-50 {
+  @include background-color.bronze(50);
+}
+.background-bronze-60 {
+  @include background-color.bronze(60);
+}
+.background-bronze-70 {
+  @include background-color.bronze(70);
+}
+.background-bronze-80 {
+  @include background-color.bronze(80);
+}
+.background-bronze-90 {
+  @include background-color.bronze(90);
+}
+.background-bronze-100 {
+  @include background-color.bronze(100);
+}
 
-.border-blue-base {@include border.blue(base);}
-.border-blue-10 {@include border.blue(10);}
-.border-blue-20 {@include border.blue(20);}
-.border-blue-30 {@include border.blue(30);}
-.border-blue-40 {@include border.blue(40);}
-.border-blue-50 {@include border.blue(50);}
-.border-blue-60 {@include border.blue(60);}
-.border-blue-70 {@include border.blue(70);}
-.border-blue-80 {@include border.blue(80);}
-.border-blue-90 {@include border.blue(90);}
-.border-blue-100 {@include border.blue(100);}
+.background-gray-base {
+  @include background-color.gray(base);
+}
+.background-gray-10 {
+  @include background-color.gray(10);
+}
+.background-gray-20 {
+  @include background-color.gray(20);
+}
+.background-gray-30 {
+  @include background-color.gray(30);
+}
+.background-gray-40 {
+  @include background-color.gray(40);
+}
+.background-gray-50 {
+  @include background-color.gray(50);
+}
+.background-gray-60 {
+  @include background-color.gray(60);
+}
+.background-gray-70 {
+  @include background-color.gray(70);
+}
+.background-gray-80 {
+  @include background-color.gray(80);
+}
+.background-gray-90 {
+  @include background-color.gray(90);
+}
+.background-gray-100 {
+  @include background-color.gray(100);
+}
 
-.border-green-base {@include border.green(base);}
-.border-green-10 {@include border.green(10);}
-.border-green-20 {@include border.green(20);}
-.border-green-30 {@include border.green(30);}
-.border-green-40 {@include border.green(40);}
-.border-green-50 {@include border.green(50);}
-.border-green-60 {@include border.green(60);}
-.border-green-70 {@include border.green(70);}
-.border-green-80 {@include border.green(80);}
-.border-green-90 {@include border.green(90);}
-.border-green-100 {@include border.green(100);}
+.background-purple-base {
+  @include background-color.purple(base);
+}
+.background-purple-10 {
+  @include background-color.purple(10);
+}
+.background-purple-20 {
+  @include background-color.purple(20);
+}
+.background-purple-30 {
+  @include background-color.purple(30);
+}
+.background-purple-40 {
+  @include background-color.purple(40);
+}
+.background-purple-50 {
+  @include background-color.purple(50);
+}
+.background-purple-60 {
+  @include background-color.purple(60);
+}
+.background-purple-70 {
+  @include background-color.purple(70);
+}
+.background-purple-80 {
+  @include background-color.purple(80);
+}
+.background-purple-90 {
+  @include background-color.purple(90);
+}
+.background-purple-100 {
+  @include background-color.purple(100);
+}
 
-.border-red-base {@include border.red(base);}
-.border-red-10 {@include border.red(10);}
-.border-red-20 {@include border.red(20);}
-.border-red-30 {@include border.red(30);}
-.border-red-40 {@include border.red(40);}
-.border-red-50 {@include border.red(50);}
-.border-red-60 {@include border.red(60);}
-.border-red-70 {@include border.red(70);}
-.border-red-80 {@include border.red(80);}
-.border-red-90 {@include border.red(90);}
-.border-red-100 {@include border.red(100);}
+.background-magenta-base {
+  @include background-color.magenta(base);
+}
+.background-magenta-10 {
+  @include background-color.magenta(10);
+}
+.background-magenta-20 {
+  @include background-color.magenta(20);
+}
+.background-magenta-30 {
+  @include background-color.magenta(30);
+}
+.background-magenta-40 {
+  @include background-color.magenta(40);
+}
+.background-magenta-50 {
+  @include background-color.magenta(50);
+}
+.background-magenta-60 {
+  @include background-color.magenta(60);
+}
+.background-magenta-70 {
+  @include background-color.magenta(70);
+}
+.background-magenta-80 {
+  @include background-color.magenta(80);
+}
+.background-magenta-90 {
+  @include background-color.magenta(90);
+}
+.background-magenta-100 {
+  @include background-color.magenta(100);
+}
 
-.border-bronze-base {@include border.bronze(base);}
-.border-bronze-10 {@include border.bronze(10);}
-.border-bronze-20 {@include border.bronze(20);}
-.border-bronze-30 {@include border.bronze(30);}
-.border-bronze-40 {@include border.bronze(40);}
-.border-bronze-50 {@include border.bronze(50);}
-.border-bronze-60 {@include border.bronze(60);}
-.border-bronze-70 {@include border.bronze(70);}
-.border-bronze-80 {@include border.bronze(80);}
-.border-bronze-90 {@include border.bronze(90);}
-.border-bronze-100 {@include border.bronze(100);}
+.background-indigo-base {
+  @include background-color.indigo(base);
+}
+.background-indigo-10 {
+  @include background-color.indigo(10);
+}
+.background-indigo-20 {
+  @include background-color.indigo(20);
+}
+.background-indigo-30 {
+  @include background-color.indigo(30);
+}
+.background-indigo-40 {
+  @include background-color.indigo(40);
+}
+.background-indigo-50 {
+  @include background-color.indigo(50);
+}
+.background-indigo-60 {
+  @include background-color.indigo(60);
+}
+.background-indigo-70 {
+  @include background-color.indigo(70);
+}
+.background-indigo-80 {
+  @include background-color.indigo(80);
+}
+.background-indigo-90 {
+  @include background-color.indigo(90);
+}
+.background-indigo-100 {
+  @include background-color.indigo(100);
+}
 
-.border-gray-base {@include border.gray(base);}
-.border-gray-10 {@include border.gray(10);}
-.border-gray-20 {@include border.gray(20);}
-.border-gray-30 {@include border.gray(30);}
-.border-gray-40 {@include border.gray(40);}
-.border-gray-50 {@include border.gray(50);}
-.border-gray-60 {@include border.gray(60);}
-.border-gray-70 {@include border.gray(70);}
-.border-gray-80 {@include border.gray(80);}
-.border-gray-90 {@include border.gray(90);}
-.border-gray-100 {@include border.gray(100);}
+.border-black-base {
+  @include border.black(base);
+}
+.border-black-black {
+  @include border.black(black);
+}
 
-.border-width-medium {@include border.width(medium);}
-.border-width-large {@include border.width(large);}
-.border-width-x-large {@include border.width(x-large);}
+.border-white-base {
+  @include border.white(base);
+}
+.border-white-white {
+  @include border.white(white);
+}
 
-.border-style-solid {@include border.style(solid);}
-.border-style-none {@include border.style(none);}
+.border-blue-base {
+  @include border.blue(base);
+}
+.border-blue-10 {
+  @include border.blue(10);
+}
+.border-blue-20 {
+  @include border.blue(20);
+}
+.border-blue-30 {
+  @include border.blue(30);
+}
+.border-blue-40 {
+  @include border.blue(40);
+}
+.border-blue-50 {
+  @include border.blue(50);
+}
+.border-blue-60 {
+  @include border.blue(60);
+}
+.border-blue-70 {
+  @include border.blue(70);
+}
+.border-blue-80 {
+  @include border.blue(80);
+}
+.border-blue-90 {
+  @include border.blue(90);
+}
+.border-blue-100 {
+  @include border.blue(100);
+}
 
-.border-radius-xx-small {@include border.radius(xx-small);}
-.border-radius-x-small {@include border.radius(x-small);}
-.border-radius-small {@include border.radius(small);}
-.border-radius-medium {@include border.radius(medium);}
-.border-radius-large {@include border.radius(large);}
-.border-radius-x-large {@include border.radius(x-large);}
-.border-radius-pill {@include border.radius(pill);}
-.border-radius-circle {@include border.radius(circle);}
+.border-green-base {
+  @include border.green(base);
+}
+.border-green-10 {
+  @include border.green(10);
+}
+.border-green-20 {
+  @include border.green(20);
+}
+.border-green-30 {
+  @include border.green(30);
+}
+.border-green-40 {
+  @include border.green(40);
+}
+.border-green-50 {
+  @include border.green(50);
+}
+.border-green-60 {
+  @include border.green(60);
+}
+.border-green-70 {
+  @include border.green(70);
+}
+.border-green-80 {
+  @include border.green(80);
+}
+.border-green-90 {
+  @include border.green(90);
+}
+.border-green-100 {
+  @include border.green(100);
+}
 
-.border-top-solid {@include border.top(solid);}
-.border-top-none {@include border.top(none);}
+.border-red-base {
+  @include border.red(base);
+}
+.border-red-10 {
+  @include border.red(10);
+}
+.border-red-20 {
+  @include border.red(20);
+}
+.border-red-30 {
+  @include border.red(30);
+}
+.border-red-40 {
+  @include border.red(40);
+}
+.border-red-50 {
+  @include border.red(50);
+}
+.border-red-60 {
+  @include border.red(60);
+}
+.border-red-70 {
+  @include border.red(70);
+}
+.border-red-80 {
+  @include border.red(80);
+}
+.border-red-90 {
+  @include border.red(90);
+}
+.border-red-100 {
+  @include border.red(100);
+}
 
-.border-right-solid {@include border.right(solid);}
-.border-right-none {@include border.right(none);}
+.border-bronze-base {
+  @include border.bronze(base);
+}
+.border-bronze-10 {
+  @include border.bronze(10);
+}
+.border-bronze-20 {
+  @include border.bronze(20);
+}
+.border-bronze-30 {
+  @include border.bronze(30);
+}
+.border-bronze-40 {
+  @include border.bronze(40);
+}
+.border-bronze-50 {
+  @include border.bronze(50);
+}
+.border-bronze-60 {
+  @include border.bronze(60);
+}
+.border-bronze-70 {
+  @include border.bronze(70);
+}
+.border-bronze-80 {
+  @include border.bronze(80);
+}
+.border-bronze-90 {
+  @include border.bronze(90);
+}
+.border-bronze-100 {
+  @include border.bronze(100);
+}
 
-.border-bottom-solid {@include border.bottom(solid);}
-.border-bottom-none {@include border.bottom(none);}
+.border-gray-base {
+  @include border.gray(base);
+}
+.border-gray-10 {
+  @include border.gray(10);
+}
+.border-gray-20 {
+  @include border.gray(20);
+}
+.border-gray-30 {
+  @include border.gray(30);
+}
+.border-gray-40 {
+  @include border.gray(40);
+}
+.border-gray-50 {
+  @include border.gray(50);
+}
+.border-gray-60 {
+  @include border.gray(60);
+}
+.border-gray-70 {
+  @include border.gray(70);
+}
+.border-gray-80 {
+  @include border.gray(80);
+}
+.border-gray-90 {
+  @include border.gray(90);
+}
+.border-gray-100 {
+  @include border.gray(100);
+}
 
-.border-left-solid {@include border.left(solid);}
-.border-left-none {@include border.left(none);}
+.border-purple-base {
+  @include border.purple(base);
+}
+.border-purple-10 {
+  @include border.purple(10);
+}
+.border-purple-20 {
+  @include border.purple(20);
+}
+.border-purple-30 {
+  @include border.purple(30);
+}
+.border-purple-40 {
+  @include border.purple(40);
+}
+.border-purple-50 {
+  @include border.purple(50);
+}
+.border-purple-60 {
+  @include border.purple(60);
+}
+.border-purple-70 {
+  @include border.purple(70);
+}
+.border-purple-80 {
+  @include border.purple(80);
+}
+.border-purple-90 {
+  @include border.purple(90);
+}
+.border-purple-100 {
+  @include border.purple(100);
+}
 
-.border-all-none {@include border.all(none);}
+.border-magenta-base {
+  @include border.magenta(base);
+}
+.border-magenta-10 {
+  @include border.magenta(10);
+}
+.border-magenta-20 {
+  @include border.magenta(20);
+}
+.border-magenta-30 {
+  @include border.magenta(30);
+}
+.border-magenta-40 {
+  @include border.magenta(40);
+}
+.border-magenta-50 {
+  @include border.magenta(50);
+}
+.border-magenta-60 {
+  @include border.magenta(60);
+}
+.border-magenta-70 {
+  @include border.magenta(70);
+}
+.border-magenta-80 {
+  @include border.magenta(80);
+}
+.border-magenta-90 {
+  @include border.magenta(90);
+}
+.border-magenta-100 {
+  @include border.magenta(100);
+}
 
-.margin-all-none {@include margin.all(none);}
-.margin-all-xxx-small {@include margin.all(xxx-small);}
-.margin-all-xx-small {@include margin.all(xx-small);}
-.margin-all-x-small {@include margin.all(x-small);}
-.margin-all-small {@include margin.all(small);}
-.margin-all-medium {@include margin.all(medium);}
-.margin-all-large {@include margin.all(large);}
-.margin-all-x-large {@include margin.all(x-large);}
-.margin-all-xx-large {@include margin.all(xx-large);}
-.margin-all-xxx-large {@include margin.all(xxx-large);}
-.margin-all-xxxx-large {@include margin.all(xxxx-large);}
+.border-indigo-base {
+  @include border.indigo(base);
+}
+.border-indigo-10 {
+  @include border.indigo(10);
+}
+.border-indigo-20 {
+  @include border.indigo(20);
+}
+.border-indigo-30 {
+  @include border.indigo(30);
+}
+.border-indigo-40 {
+  @include border.indigo(40);
+}
+.border-indigo-50 {
+  @include border.indigo(50);
+}
+.border-indigo-60 {
+  @include border.indigo(60);
+}
+.border-indigo-70 {
+  @include border.indigo(70);
+}
+.border-indigo-80 {
+  @include border.indigo(80);
+}
+.border-indigo-90 {
+  @include border.indigo(90);
+}
+.border-indigo-100 {
+  @include border.indigo(100);
+}
 
-.margin-top-none {@include margin.top(none);}
-.margin-top-xxx-small {@include margin.top(xxx-small);}
-.margin-top-xx-small {@include margin.top(xx-small);}
-.margin-top-x-small {@include margin.top(x-small);}
-.margin-top-small {@include margin.top(small);}
-.margin-top-medium {@include margin.top(medium);}
-.margin-top-large {@include margin.top(large);}
-.margin-top-x-large {@include margin.top(x-large);}
-.margin-top-xx-large {@include margin.top(xx-large);}
-.margin-top-xxx-large {@include margin.top(xxx-large);}
-.margin-top-xxxx-large {@include margin.top(xxxx-large);}
+.border-width-medium {
+  @include border.width(medium);
+}
+.border-width-large {
+  @include border.width(large);
+}
+.border-width-x-large {
+  @include border.width(x-large);
+}
 
-.margin-right-none {@include margin.right(none);}
-.margin-right-xxx-small {@include margin.right(xxx-small);}
-.margin-right-xx-small {@include margin.right(xx-small);}
-.margin-right-x-small {@include margin.right(x-small);}
-.margin-right-small {@include margin.right(small);}
-.margin-right-medium {@include margin.right(medium);}
-.margin-right-large {@include margin.right(large);}
-.margin-right-x-large {@include margin.right(x-large);}
-.margin-right-xx-large {@include margin.right(xx-large);}
-.margin-right-xxx-large {@include margin.right(xxx-large);}
-.margin-right-xxxx-large {@include margin.right(xxxx-large);}
+.border-style-solid {
+  @include border.style(solid);
+}
+.border-style-none {
+  @include border.style(none);
+}
 
-.margin-bottom-none {@include margin.bottom(none);}
-.margin-bottom-xxx-small {@include margin.bottom(xxx-small);}
-.margin-bottom-xx-small {@include margin.bottom(xx-small);}
-.margin-bottom-x-small {@include margin.bottom(x-small);}
-.margin-bottom-small {@include margin.bottom(small);}
-.margin-bottom-medium {@include margin.bottom(medium);}
-.margin-bottom-large {@include margin.bottom(large);}
-.margin-bottom-x-large {@include margin.bottom(x-large);}
-.margin-bottom-xx-large {@include margin.bottom(xx-large);}
-.margin-bottom-xxx-large {@include margin.bottom(xxx-large);}
-.margin-bottom-xxxx-large {@include margin.bottom(xxxx-large);}
+.border-radius-xx-small {
+  @include border.radius(xx-small);
+}
+.border-radius-x-small {
+  @include border.radius(x-small);
+}
+.border-radius-small {
+  @include border.radius(small);
+}
+.border-radius-medium {
+  @include border.radius(medium);
+}
+.border-radius-large {
+  @include border.radius(large);
+}
+.border-radius-x-large {
+  @include border.radius(x-large);
+}
+.border-radius-pill {
+  @include border.radius(pill);
+}
+.border-radius-circle {
+  @include border.radius(circle);
+}
 
-.margin-left-none {@include margin.left(none);}
-.margin-left-xxx-small {@include margin.left(xxx-small);}
-.margin-left-xx-small {@include margin.left(xx-small);}
-.margin-left-x-small {@include margin.left(x-small);}
-.margin-left-small {@include margin.left(small);}
-.margin-left-medium {@include margin.left(medium);}
-.margin-left-large {@include margin.left(large);}
-.margin-left-x-large {@include margin.left(x-large);}
-.margin-left-xx-large {@include margin.left(xx-large);}
-.margin-left-xxx-large {@include margin.left(xxx-large);}
-.margin-left-xxxx-large {@include margin.left(xxxx-large);}
+.border-top-solid {
+  @include border.top(solid);
+}
+.border-top-none {
+  @include border.top(none);
+}
 
-.margin-vertical-none {@include margin.vertical(none);}
-.margin-vertical-xxx-small {@include margin.vertical(xxx-small);}
-.margin-vertical-xx-small {@include margin.vertical(xx-small);}
-.margin-vertical-x-small {@include margin.vertical(x-small);}
-.margin-vertical-small {@include margin.vertical(small);}
-.margin-vertical-medium {@include margin.vertical(medium);}
-.margin-vertical-large {@include margin.vertical(large);}
-.margin-vertical-x-large {@include margin.vertical(x-large);}
-.margin-vertical-xx-large {@include margin.vertical(xx-large);}
-.margin-vertical-xxx-large {@include margin.vertical(xxx-large);}
-.margin-vertical-xxxx-large {@include margin.vertical(xxxx-large);}
+.border-right-solid {
+  @include border.right(solid);
+}
+.border-right-none {
+  @include border.right(none);
+}
 
-.margin-horizontal-none {@include margin.horizontal(none);}
-.margin-horizontal-xxx-small {@include margin.horizontal(xxx-small);}
-.margin-horizontal-xx-small {@include margin.horizontal(xx-small);}
-.margin-horizontal-x-small {@include margin.horizontal(x-small);}
-.margin-horizontal-small {@include margin.horizontal(small);}
-.margin-horizontal-medium {@include margin.horizontal(medium);}
-.margin-horizontal-large {@include margin.horizontal(large);}
-.margin-horizontal-x-large {@include margin.horizontal(x-large);}
-.margin-horizontal-xx-large {@include margin.horizontal(xx-large);}
-.margin-horizontal-xxx-large {@include margin.horizontal(xxx-large);}
-.margin-horizontal-xxxx-large {@include margin.horizontal(xxxx-large);}
+.border-bottom-solid {
+  @include border.bottom(solid);
+}
+.border-bottom-none {
+  @include border.bottom(none);
+}
 
-.padding-all-none {@include padding.all(none);}
-.padding-all-xxx-small {@include padding.all(xxx-small);}
-.padding-all-xx-small {@include padding.all(xx-small);}
-.padding-all-x-small {@include padding.all(x-small);}
-.padding-all-small {@include padding.all(small);}
-.padding-all-medium {@include padding.all(medium);}
-.padding-all-large {@include padding.all(large);}
-.padding-all-x-large {@include padding.all(x-large);}
-.padding-all-xx-large {@include padding.all(xx-large);}
-.padding-all-xxx-large {@include padding.all(xxx-large);}
-.padding-all-xxxx-large {@include padding.all(xxxx-large);}
+.border-left-solid {
+  @include border.left(solid);
+}
+.border-left-none {
+  @include border.left(none);
+}
 
-.padding-top-none {@include padding.top(none);}
-.padding-top-xxx-small {@include padding.top(xxx-small);}
-.padding-top-xx-small {@include padding.top(xx-small);}
-.padding-top-x-small {@include padding.top(x-small);}
-.padding-top-small {@include padding.top(small);}
-.padding-top-medium {@include padding.top(medium);}
-.padding-top-large {@include padding.top(large);}
-.padding-top-x-large {@include padding.top(x-large);}
-.padding-top-xx-large {@include padding.top(xx-large);}
-.padding-top-xxx-large {@include padding.top(xxx-large);}
-.padding-top-xxxx-large {@include padding.top(xxxx-large);}
+.border-all-none {
+  @include border.all(none);
+}
 
-.padding-right-none {@include padding.right(none);}
-.padding-right-xxx-small {@include padding.right(xxx-small);}
-.padding-right-xx-small {@include padding.right(xx-small);}
-.padding-right-x-small {@include padding.right(x-small);}
-.padding-right-small {@include padding.right(small);}
-.padding-right-medium {@include padding.right(medium);}
-.padding-right-large {@include padding.right(large);}
-.padding-right-x-large {@include padding.right(x-large);}
-.padding-right-xx-large {@include padding.right(xx-large);}
-.padding-right-xxx-large {@include padding.right(xxx-large);}
-.padding-right-xxxx-large {@include padding.right(xxxx-large);}
+.margin-all-none {
+  @include margin.all(none);
+}
+.margin-all-xxx-small {
+  @include margin.all(xxx-small);
+}
+.margin-all-xx-small {
+  @include margin.all(xx-small);
+}
+.margin-all-x-small {
+  @include margin.all(x-small);
+}
+.margin-all-small {
+  @include margin.all(small);
+}
+.margin-all-medium {
+  @include margin.all(medium);
+}
+.margin-all-large {
+  @include margin.all(large);
+}
+.margin-all-x-large {
+  @include margin.all(x-large);
+}
+.margin-all-xx-large {
+  @include margin.all(xx-large);
+}
+.margin-all-xxx-large {
+  @include margin.all(xxx-large);
+}
+.margin-all-xxxx-large {
+  @include margin.all(xxxx-large);
+}
 
-.padding-bottom-none {@include padding.bottom(none);}
-.padding-bottom-xxx-small {@include padding.bottom(xxx-small);}
-.padding-bottom-xx-small {@include padding.bottom(xx-small);}
-.padding-bottom-x-small {@include padding.bottom(x-small);}
-.padding-bottom-small {@include padding.bottom(small);}
-.padding-bottom-medium {@include padding.bottom(medium);}
-.padding-bottom-large {@include padding.bottom(large);}
-.padding-bottom-x-large {@include padding.bottom(x-large);}
-.padding-bottom-xx-large {@include padding.bottom(xx-large);}
-.padding-bottom-xxx-large {@include padding.bottom(xxx-large);}
-.padding-bottom-xxxx-large {@include padding.bottom(xxxx-large);}
+.margin-top-none {
+  @include margin.top(none);
+}
+.margin-top-xxx-small {
+  @include margin.top(xxx-small);
+}
+.margin-top-xx-small {
+  @include margin.top(xx-small);
+}
+.margin-top-x-small {
+  @include margin.top(x-small);
+}
+.margin-top-small {
+  @include margin.top(small);
+}
+.margin-top-medium {
+  @include margin.top(medium);
+}
+.margin-top-large {
+  @include margin.top(large);
+}
+.margin-top-x-large {
+  @include margin.top(x-large);
+}
+.margin-top-xx-large {
+  @include margin.top(xx-large);
+}
+.margin-top-xxx-large {
+  @include margin.top(xxx-large);
+}
+.margin-top-xxxx-large {
+  @include margin.top(xxxx-large);
+}
 
-.padding-left-none {@include padding.left(none);}
-.padding-left-xxx-small {@include padding.left(xxx-small);}
-.padding-left-xx-small {@include padding.left(xx-small);}
-.padding-left-x-small {@include padding.left(x-small);}
-.padding-left-small {@include padding.left(small);}
-.padding-left-medium {@include padding.left(medium);}
-.padding-left-large {@include padding.left(large);}
-.padding-left-x-large {@include padding.left(x-large);}
-.padding-left-xx-large {@include padding.left(xx-large);}
-.padding-left-xxx-large {@include padding.left(xxx-large);}
-.padding-left-xxxx-large {@include padding.left(xxxx-large);}
+.margin-right-none {
+  @include margin.right(none);
+}
+.margin-right-xxx-small {
+  @include margin.right(xxx-small);
+}
+.margin-right-xx-small {
+  @include margin.right(xx-small);
+}
+.margin-right-x-small {
+  @include margin.right(x-small);
+}
+.margin-right-small {
+  @include margin.right(small);
+}
+.margin-right-medium {
+  @include margin.right(medium);
+}
+.margin-right-large {
+  @include margin.right(large);
+}
+.margin-right-x-large {
+  @include margin.right(x-large);
+}
+.margin-right-xx-large {
+  @include margin.right(xx-large);
+}
+.margin-right-xxx-large {
+  @include margin.right(xxx-large);
+}
+.margin-right-xxxx-large {
+  @include margin.right(xxxx-large);
+}
 
-.padding-vertical-none {@include padding.vertical(none);}
-.padding-vertical-xxx-small {@include padding.vertical(xxx-small);}
-.padding-vertical-xx-small {@include padding.vertical(xx-small);}
-.padding-vertical-x-small {@include padding.vertical(x-small);}
-.padding-vertical-small {@include padding.vertical(small);}
-.padding-vertical-medium {@include padding.vertical(medium);}
-.padding-vertical-large {@include padding.vertical(large);}
-.padding-vertical-x-large {@include padding.vertical(x-large);}
-.padding-vertical-xx-large {@include padding.vertical(xx-large);}
-.padding-vertical-xxx-large {@include padding.vertical(xxx-large);}
-.padding-vertical-xxxx-large {@include padding.vertical(xxxx-large);}
+.margin-bottom-none {
+  @include margin.bottom(none);
+}
+.margin-bottom-xxx-small {
+  @include margin.bottom(xxx-small);
+}
+.margin-bottom-xx-small {
+  @include margin.bottom(xx-small);
+}
+.margin-bottom-x-small {
+  @include margin.bottom(x-small);
+}
+.margin-bottom-small {
+  @include margin.bottom(small);
+}
+.margin-bottom-medium {
+  @include margin.bottom(medium);
+}
+.margin-bottom-large {
+  @include margin.bottom(large);
+}
+.margin-bottom-x-large {
+  @include margin.bottom(x-large);
+}
+.margin-bottom-xx-large {
+  @include margin.bottom(xx-large);
+}
+.margin-bottom-xxx-large {
+  @include margin.bottom(xxx-large);
+}
+.margin-bottom-xxxx-large {
+  @include margin.bottom(xxxx-large);
+}
 
-.padding-horizontal-none {@include padding.horizontal(none);}
-.padding-horizontal-xxx-small {@include padding.horizontal(xxx-small);}
-.padding-horizontal-xx-small {@include padding.horizontal(xx-small);}
-.padding-horizontal-x-small {@include padding.horizontal(x-small);}
-.padding-horizontal-small {@include padding.horizontal(small);}
-.padding-horizontal-medium {@include padding.horizontal(medium);}
-.padding-horizontal-large {@include padding.horizontal(large);}
-.padding-horizontal-x-large {@include padding.horizontal(x-large);}
-.padding-horizontal-xx-large {@include padding.horizontal(xx-large);}
-.padding-horizontal-xxx-large {@include padding.horizontal(xxx-large);}
-.padding-horizontal-xxxx-large {@include padding.horizontal(xxxx-large);}
+.margin-left-none {
+  @include margin.left(none);
+}
+.margin-left-xxx-small {
+  @include margin.left(xxx-small);
+}
+.margin-left-xx-small {
+  @include margin.left(xx-small);
+}
+.margin-left-x-small {
+  @include margin.left(x-small);
+}
+.margin-left-small {
+  @include margin.left(small);
+}
+.margin-left-medium {
+  @include margin.left(medium);
+}
+.margin-left-large {
+  @include margin.left(large);
+}
+.margin-left-x-large {
+  @include margin.left(x-large);
+}
+.margin-left-xx-large {
+  @include margin.left(xx-large);
+}
+.margin-left-xxx-large {
+  @include margin.left(xxx-large);
+}
+.margin-left-xxxx-large {
+  @include margin.left(xxxx-large);
+}
+
+.margin-vertical-none {
+  @include margin.vertical(none);
+}
+.margin-vertical-xxx-small {
+  @include margin.vertical(xxx-small);
+}
+.margin-vertical-xx-small {
+  @include margin.vertical(xx-small);
+}
+.margin-vertical-x-small {
+  @include margin.vertical(x-small);
+}
+.margin-vertical-small {
+  @include margin.vertical(small);
+}
+.margin-vertical-medium {
+  @include margin.vertical(medium);
+}
+.margin-vertical-large {
+  @include margin.vertical(large);
+}
+.margin-vertical-x-large {
+  @include margin.vertical(x-large);
+}
+.margin-vertical-xx-large {
+  @include margin.vertical(xx-large);
+}
+.margin-vertical-xxx-large {
+  @include margin.vertical(xxx-large);
+}
+.margin-vertical-xxxx-large {
+  @include margin.vertical(xxxx-large);
+}
+
+.margin-horizontal-none {
+  @include margin.horizontal(none);
+}
+.margin-horizontal-xxx-small {
+  @include margin.horizontal(xxx-small);
+}
+.margin-horizontal-xx-small {
+  @include margin.horizontal(xx-small);
+}
+.margin-horizontal-x-small {
+  @include margin.horizontal(x-small);
+}
+.margin-horizontal-small {
+  @include margin.horizontal(small);
+}
+.margin-horizontal-medium {
+  @include margin.horizontal(medium);
+}
+.margin-horizontal-large {
+  @include margin.horizontal(large);
+}
+.margin-horizontal-x-large {
+  @include margin.horizontal(x-large);
+}
+.margin-horizontal-xx-large {
+  @include margin.horizontal(xx-large);
+}
+.margin-horizontal-xxx-large {
+  @include margin.horizontal(xxx-large);
+}
+.margin-horizontal-xxxx-large {
+  @include margin.horizontal(xxxx-large);
+}
+
+.padding-all-none {
+  @include padding.all(none);
+}
+.padding-all-xxx-small {
+  @include padding.all(xxx-small);
+}
+.padding-all-xx-small {
+  @include padding.all(xx-small);
+}
+.padding-all-x-small {
+  @include padding.all(x-small);
+}
+.padding-all-small {
+  @include padding.all(small);
+}
+.padding-all-medium {
+  @include padding.all(medium);
+}
+.padding-all-large {
+  @include padding.all(large);
+}
+.padding-all-x-large {
+  @include padding.all(x-large);
+}
+.padding-all-xx-large {
+  @include padding.all(xx-large);
+}
+.padding-all-xxx-large {
+  @include padding.all(xxx-large);
+}
+.padding-all-xxxx-large {
+  @include padding.all(xxxx-large);
+}
+
+.padding-top-none {
+  @include padding.top(none);
+}
+.padding-top-xxx-small {
+  @include padding.top(xxx-small);
+}
+.padding-top-xx-small {
+  @include padding.top(xx-small);
+}
+.padding-top-x-small {
+  @include padding.top(x-small);
+}
+.padding-top-small {
+  @include padding.top(small);
+}
+.padding-top-medium {
+  @include padding.top(medium);
+}
+.padding-top-large {
+  @include padding.top(large);
+}
+.padding-top-x-large {
+  @include padding.top(x-large);
+}
+.padding-top-xx-large {
+  @include padding.top(xx-large);
+}
+.padding-top-xxx-large {
+  @include padding.top(xxx-large);
+}
+.padding-top-xxxx-large {
+  @include padding.top(xxxx-large);
+}
+
+.padding-right-none {
+  @include padding.right(none);
+}
+.padding-right-xxx-small {
+  @include padding.right(xxx-small);
+}
+.padding-right-xx-small {
+  @include padding.right(xx-small);
+}
+.padding-right-x-small {
+  @include padding.right(x-small);
+}
+.padding-right-small {
+  @include padding.right(small);
+}
+.padding-right-medium {
+  @include padding.right(medium);
+}
+.padding-right-large {
+  @include padding.right(large);
+}
+.padding-right-x-large {
+  @include padding.right(x-large);
+}
+.padding-right-xx-large {
+  @include padding.right(xx-large);
+}
+.padding-right-xxx-large {
+  @include padding.right(xxx-large);
+}
+.padding-right-xxxx-large {
+  @include padding.right(xxxx-large);
+}
+
+.padding-bottom-none {
+  @include padding.bottom(none);
+}
+.padding-bottom-xxx-small {
+  @include padding.bottom(xxx-small);
+}
+.padding-bottom-xx-small {
+  @include padding.bottom(xx-small);
+}
+.padding-bottom-x-small {
+  @include padding.bottom(x-small);
+}
+.padding-bottom-small {
+  @include padding.bottom(small);
+}
+.padding-bottom-medium {
+  @include padding.bottom(medium);
+}
+.padding-bottom-large {
+  @include padding.bottom(large);
+}
+.padding-bottom-x-large {
+  @include padding.bottom(x-large);
+}
+.padding-bottom-xx-large {
+  @include padding.bottom(xx-large);
+}
+.padding-bottom-xxx-large {
+  @include padding.bottom(xxx-large);
+}
+.padding-bottom-xxxx-large {
+  @include padding.bottom(xxxx-large);
+}
+
+.padding-left-none {
+  @include padding.left(none);
+}
+.padding-left-xxx-small {
+  @include padding.left(xxx-small);
+}
+.padding-left-xx-small {
+  @include padding.left(xx-small);
+}
+.padding-left-x-small {
+  @include padding.left(x-small);
+}
+.padding-left-small {
+  @include padding.left(small);
+}
+.padding-left-medium {
+  @include padding.left(medium);
+}
+.padding-left-large {
+  @include padding.left(large);
+}
+.padding-left-x-large {
+  @include padding.left(x-large);
+}
+.padding-left-xx-large {
+  @include padding.left(xx-large);
+}
+.padding-left-xxx-large {
+  @include padding.left(xxx-large);
+}
+.padding-left-xxxx-large {
+  @include padding.left(xxxx-large);
+}
+
+.padding-vertical-none {
+  @include padding.vertical(none);
+}
+.padding-vertical-xxx-small {
+  @include padding.vertical(xxx-small);
+}
+.padding-vertical-xx-small {
+  @include padding.vertical(xx-small);
+}
+.padding-vertical-x-small {
+  @include padding.vertical(x-small);
+}
+.padding-vertical-small {
+  @include padding.vertical(small);
+}
+.padding-vertical-medium {
+  @include padding.vertical(medium);
+}
+.padding-vertical-large {
+  @include padding.vertical(large);
+}
+.padding-vertical-x-large {
+  @include padding.vertical(x-large);
+}
+.padding-vertical-xx-large {
+  @include padding.vertical(xx-large);
+}
+.padding-vertical-xxx-large {
+  @include padding.vertical(xxx-large);
+}
+.padding-vertical-xxxx-large {
+  @include padding.vertical(xxxx-large);
+}
+
+.padding-horizontal-none {
+  @include padding.horizontal(none);
+}
+.padding-horizontal-xxx-small {
+  @include padding.horizontal(xxx-small);
+}
+.padding-horizontal-xx-small {
+  @include padding.horizontal(xx-small);
+}
+.padding-horizontal-x-small {
+  @include padding.horizontal(x-small);
+}
+.padding-horizontal-small {
+  @include padding.horizontal(small);
+}
+.padding-horizontal-medium {
+  @include padding.horizontal(medium);
+}
+.padding-horizontal-large {
+  @include padding.horizontal(large);
+}
+.padding-horizontal-x-large {
+  @include padding.horizontal(x-large);
+}
+.padding-horizontal-xx-large {
+  @include padding.horizontal(xx-large);
+}
+.padding-horizontal-xxx-large {
+  @include padding.horizontal(xxx-large);
+}
+.padding-horizontal-xxxx-large {
+  @include padding.horizontal(xxxx-large);
+}
