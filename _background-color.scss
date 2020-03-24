@@ -37,6 +37,8 @@
     background-color: variables.$color-gray-80;
   } @else if $background-gray == 90 {
     background-color: variables.$color-gray-90;
+  } @else if $background-gray == 100 {
+    background-color: variables.$color-gray-100;
   }
 }
 
@@ -61,6 +63,8 @@
     background-color: variables.$color-red-80;
   } @else if $background-red == 90 {
     background-color: variables.$color-red-90;
+  } @else if $background-red == 100 {
+    background-color: variables.$color-red-100;
   }
 }
 
@@ -85,6 +89,8 @@
     background-color: variables.$color-green-80;
   } @else if $background-green == 90 {
     background-color: variables.$color-green-90;
+  } @else if $background-green == 100 {
+    background-color: variables.$color-green-100;
   }
 }
 
@@ -109,6 +115,8 @@
     background-color: variables.$color-blue-80;
   } @else if $background-blue == 90 {
     background-color: variables.$color-blue-90;
+  } @else if $background-blue == 100 {
+    background-color: variables.$color-blue-100;
   }
 }
 
@@ -133,6 +141,8 @@
     background-color: variables.$color-bronze-80;
   } @else if $background-bronze == 90 {
     background-color: variables.$color-bronze-90;
+  } @else if $background-bronze == 100 {
+    background-color: variables.$color-bronze-100;
   }
 }
 
@@ -157,6 +167,8 @@
     background-color: variables.$color-purple-80;
   } @else if $background-purple == 90 {
     background-color: variables.$color-purple-90;
+  } @else if $background-purple == 100 {
+    background-color: variables.$color-purple-100;
   }
 }
 
@@ -181,6 +193,8 @@
     background-color: variables.$color-magenta-80;
   } @else if $background-magenta == 90 {
     background-color: variables.$color-magenta-90;
+  } @else if $background-magenta == 100 {
+    background-color: variables.$color-magenta-100;
   }
 }
 
@@ -205,5 +219,7 @@
     background-color: variables.$color-indigo-80;
   } @else if $background-indigo == 90 {
     background-color: variables.$color-indigo-90;
+  } @else if $background-indigo == 100 {
+    background-color: variables.$color-indigo-100;
   }
 }
