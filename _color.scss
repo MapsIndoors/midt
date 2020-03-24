@@ -1,245 +1,231 @@
 @use 'build/scss/variables';
 
 @mixin black($black: 'base') {
-  
   @if $black == base {
     color: variables.$color-black-base;
-  }
-  
-  @else if $black == black {
+  } @else if $black == black {
     color: variables.$color-black-black;
   }
 }
 
 @mixin white($white: 'base') {
-  
   @if $white == base {
     color: variables.$color-white-base;
-  }
-  
-  @else if $white == white {
+  } @else if $white == white {
     color: variables.$color-white-white;
   }
 }
 
 @mixin transparent($transparent: 'base') {
-  
   @if $transparent == base {
     color: variables.$color-transparent-base;
   }
 }
 
 @mixin gray($gray: 'base') {
-  
   @if $gray == base {
     color: variables.$color-gray-base;
-  }
-  
-  @else if $gray == 10 {
+  } @else if $gray == 10 {
     color: variables.$color-gray-10;
-  }
-  
-  @else if $gray == 20 {
+  } @else if $gray == 20 {
     color: variables.$color-gray-20;
-  }
-  
-  @else if $gray == 30 {
+  } @else if $gray == 30 {
     color: variables.$color-gray-30;
-  }
-  
-  @else if $gray == 40 {
+  } @else if $gray == 40 {
     color: variables.$color-gray-40;
-  }
-  
-  @else if $gray == 50 {
+  } @else if $gray == 50 {
     color: variables.$color-gray-50;
-  }
-  
-  @else if $gray == 60 {
+  } @else if $gray == 60 {
     color: variables.$color-gray-60;
-  }
-  
-  @else if $gray == 70 {
+  } @else if $gray == 70 {
     color: variables.$color-gray-70;
-  }
-  
-  @else if $gray == 80 {
+  } @else if $gray == 80 {
     color: variables.$color-gray-80;
-  }
-  
-  @else if $gray == 90 {
+  } @else if $gray == 90 {
     color: variables.$color-gray-90;
+  } @else if $gray == 100 {
+    color: variables.$color-gray-100;
   }
 }
 
 @mixin red($red: 'base') {
-  
   @if $red == base {
     color: variables.$color-red-base;
-  }
-  
-  @else if $red == 10 {
+  } @else if $red == 10 {
     color: variables.$color-red-10;
-  }
-  
-  @else if $red == 20 {
+  } @else if $red == 20 {
     color: variables.$color-red-20;
-  }
-  
-  @else if $red == 30 {
+  } @else if $red == 30 {
     color: variables.$color-red-30;
-  }
-  
-  @else if $red == 40 {
+  } @else if $red == 40 {
     color: variables.$color-red-40;
-  }
-  
-  @else if $red == 50 {
+  } @else if $red == 50 {
     color: variables.$color-red-50;
-  }
-  
-  @else if $red == 60 {
+  } @else if $red == 60 {
     color: variables.$color-red-60;
-  }
-  
-  @else if $red == 70 {
+  } @else if $red == 70 {
     color: variables.$color-red-70;
-  }
-  
-  @else if $red == 80 {
+  } @else if $red == 80 {
     color: variables.$color-red-80;
-  }
-  
-  @else if $red == 90 {
+  } @else if $red == 90 {
     color: variables.$color-red-90;
+  } @else if $red == 100 {
+    color: variables.$color-red-100;
   }
 }
 
 @mixin green($green: 'base') {
-  
   @if $green == base {
     color: variables.$color-green-base;
-  }
-  
-  @else if $green == 10 {
+  } @else if $green == 10 {
     color: variables.$color-green-10;
-  }
-  
-  @else if $green == 20 {
+  } @else if $green == 20 {
     color: variables.$color-green-20;
-  }
-  
-  @else if $green == 30 {
+  } @else if $green == 30 {
     color: variables.$color-green-30;
-  }
-  
-  @else if $green == 40 {
+  } @else if $green == 40 {
     color: variables.$color-green-40;
-  }
-  
-  @else if $green == 50 {
+  } @else if $green == 50 {
     color: variables.$color-green-50;
-  }
-  
-  @else if $green == 60 {
+  } @else if $green == 60 {
     color: variables.$color-green-60;
-  }
-  
-  @else if $green == 70 {
+  } @else if $green == 70 {
     color: variables.$color-green-70;
-  }
-  
-  @else if $green == 80 {
+  } @else if $green == 80 {
     color: variables.$color-green-80;
-  }
-  
-  @else if $green == 90 {
+  } @else if $green == 90 {
     color: variables.$color-green-90;
+  } @else if $green == 100 {
+    color: variables.$color-green-100;
   }
 }
 
 @mixin blue($blue: 'base') {
-  
   @if $blue == base {
     color: variables.$color-blue-base;
-  }
-  
-  @else if $blue == 10 {
+  } @else if $blue == 10 {
     color: variables.$color-blue-10;
-  }
-  
-  @else if $blue == 20 {
+  } @else if $blue == 20 {
     color: variables.$color-blue-20;
-  }
-  
-  @else if $blue == 30 {
+  } @else if $blue == 30 {
     color: variables.$color-blue-30;
-  }
-  
-  @else if $blue == 40 {
+  } @else if $blue == 40 {
     color: variables.$color-blue-40;
-  }
-  
-  @else if $blue == 50 {
+  } @else if $blue == 50 {
     color: variables.$color-blue-50;
-  }
-  
-  @else if $blue == 60 {
+  } @else if $blue == 60 {
     color: variables.$color-blue-60;
-  }
-  
-  @else if $blue == 70 {
+  } @else if $blue == 70 {
     color: variables.$color-blue-70;
-  }
-  
-  @else if $blue == 80 {
+  } @else if $blue == 80 {
     color: variables.$color-blue-80;
-  }
-  
-  @else if $blue == 90 {
+  } @else if $blue == 90 {
     color: variables.$color-blue-90;
+  } @else if $blue == 100 {
+    color: variables.$color-blue-100;
   }
 }
 
 @mixin bronze($bronze: 'base') {
-  
   @if $bronze == base {
     color: variables.$color-bronze-base;
-  }
-  
-  @else if $bronze == 10 {
+  } @else if $bronze == 10 {
     color: variables.$color-bronze-10;
-  }
-  
-  @else if $bronze == 20 {
+  } @else if $bronze == 20 {
     color: variables.$color-bronze-20;
-  }
-  
-  @else if $bronze == 30 {
+  } @else if $bronze == 30 {
     color: variables.$color-bronze-30;
-  }
-  
-  @else if $bronze == 40 {
+  } @else if $bronze == 40 {
     color: variables.$color-bronze-40;
-  }
-  
-  @else if $bronze == 50 {
+  } @else if $bronze == 50 {
     color: variables.$color-bronze-50;
-  }
-  
-  @else if $bronze == 60 {
+  } @else if $bronze == 60 {
     color: variables.$color-bronze-60;
-  }
-  
-  @else if $bronze == 70 {
+  } @else if $bronze == 70 {
     color: variables.$color-bronze-70;
-  }
-  
-  @else if $bronze == 80 {
+  } @else if $bronze == 80 {
     color: variables.$color-bronze-80;
-  }
-  
-  @else if $bronze == 90 {
+  } @else if $bronze == 90 {
     color: variables.$color-bronze-90;
+  } @else if $bronze == 100 {
+    color: variables.$color-bronze-100;
+  }
+}
+
+@mixin purple($purple: 'base') {
+  @if $purple == base {
+    color: variables.$color-purple-base;
+  } @else if $purple == 10 {
+    color: variables.$color-purple-10;
+  } @else if $purple == 20 {
+    color: variables.$color-purple-20;
+  } @else if $purple == 30 {
+    color: variables.$color-purple-30;
+  } @else if $purple == 40 {
+    color: variables.$color-purple-40;
+  } @else if $purple == 50 {
+    color: variables.$color-purple-50;
+  } @else if $purple == 60 {
+    color: variables.$color-purple-60;
+  } @else if $purple == 70 {
+    color: variables.$color-purple-70;
+  } @else if $purple == 80 {
+    color: variables.$color-purple-80;
+  } @else if $purple == 90 {
+    color: variables.$color-purple-90;
+  } @else if $purple == 100 {
+    color: variables.$color-purple-100;
+  }
+}
+
+@mixin magenta($magenta: 'base') {
+  @if $magenta == base {
+    color: variables.$color-magenta-base;
+  } @else if $magenta == 10 {
+    color: variables.$color-magenta-10;
+  } @else if $magenta == 20 {
+    color: variables.$color-magenta-20;
+  } @else if $magenta == 30 {
+    color: variables.$color-magenta-30;
+  } @else if $magenta == 40 {
+    color: variables.$color-magenta-40;
+  } @else if $magenta == 50 {
+    color: variables.$color-magenta-50;
+  } @else if $magenta == 60 {
+    color: variables.$color-magenta-60;
+  } @else if $magenta == 70 {
+    color: variables.$color-magenta-70;
+  } @else if $magenta == 80 {
+    color: variables.$color-magenta-80;
+  } @else if $magenta == 90 {
+    color: variables.$color-magenta-90;
+  } @else if $magenta == 100 {
+    color: variables.$color-magenta-100;
+  }
+}
+
+@mixin indigo($indigo: 'base') {
+  @if $indigo == base {
+    color: variables.$color-indigo-base;
+  } @else if $indigo == 10 {
+    color: variables.$color-indigo-10;
+  } @else if $indigo == 20 {
+    color: variables.$color-indigo-20;
+  } @else if $indigo == 30 {
+    color: variables.$color-indigo-30;
+  } @else if $indigo == 40 {
+    color: variables.$color-indigo-40;
+  } @else if $indigo == 50 {
+    color: variables.$color-indigo-50;
+  } @else if $indigo == 60 {
+    color: variables.$color-indigo-60;
+  } @else if $indigo == 70 {
+    color: variables.$color-indigo-70;
+  } @else if $indigo == 80 {
+    color: variables.$color-indigo-80;
+  } @else if $indigo == 90 {
+    color: variables.$color-indigo-90;
+  } @else if $indigo == 100 {
+    color: variables.$color-indigo-100;
   }
 }
