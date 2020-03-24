@@ -13,9 +13,10 @@
     },
     "white": {
       "base": {
-        "value": "hsl(40, 100%, 99%)",
-        "comment": "This is the standard background color."},
-      "white": {"value": "hsl(0, 0%, 100%)"}
+        "value": "hsl(0, 0%, 99%)",
+        "comment": "This is the standard background color."
+      },
+      "white": { "value": "hsl(0, 0%, 100%)" }
     },
     "transparent": {
       "base": {
