@@ -81,6 +81,8 @@
     border-color: variables.$color-gray-80;
   } @else if $border-gray == 90 {
     border-color: variables.$color-gray-90;
+  } @else if $border-gray == 100 {
+    border-color: variables.$color-gray-100;
   }
 }
 
@@ -105,6 +107,8 @@
     border-color: variables.$color-red-80;
   } @else if $border-red == 90 {
     border-color: variables.$color-red-90;
+  } @else if $border-red == 100 {
+    border-color: variables.$color-red-100;
   }
 }
 
@@ -129,6 +133,8 @@
     border-color: variables.$color-green-80;
   } @else if $border-green == 90 {
     border-color: variables.$color-green-90;
+  } @else if $border-green == 100 {
+    border-color: variables.$color-green-100;
   }
 }
 
@@ -153,6 +159,8 @@
     border-color: variables.$color-blue-80;
   } @else if $border-blue == 90 {
     border-color: variables.$color-blue-90;
+  } @else if $border-blue == 100 {
+    border-color: variables.$color-blue-100;
   }
 }
 
@@ -177,6 +185,8 @@
     border-color: variables.$color-bronze-80;
   } @else if $border-bronze == 90 {
     border-color: variables.$color-bronze-90;
+  } @else if $border-bronze == 100 {
+    border-color: variables.$color-bronze-100;
   }
 }
 
@@ -201,6 +211,8 @@
     border-color: variables.$color-purple-80;
   } @else if $border-purple == 90 {
     border-color: variables.$color-purple-90;
+  } @else if $border-purple == 100 {
+    border-color: variables.$color-purple-100;
   }
 }
 
@@ -225,6 +237,8 @@
     border-color: variables.$color-magenta-80;
   } @else if $border-magenta == 90 {
     border-color: variables.$color-magenta-90;
+  } @else if $border-magenta == 100 {
+    border-color: variables.$color-magenta-100;
   }
 }
 
@@ -249,6 +263,8 @@
     border-color: variables.$color-indigo-80;
   } @else if $border-indigo == 90 {
     border-color: variables.$color-indigo-90;
+  } @else if $border-indigo == 100 {
+    border-color: variables.$color-indigo-100;
   }
 }
 
