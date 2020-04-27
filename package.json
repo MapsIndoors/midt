@@ -1,6 +1,6 @@
 {
   "name": "@mapsindoors/midt",
-  "version": "10.2.10",
+  "version": "11.0.0",
   "description": "Design Tokens for MapsIndoors",
   "author": "MapsPeople A/S",
   "license": "MIT",
@@ -17,12 +17,10 @@
   "sass": "mixins/_index.scss",
   "style": "midt.css",
   "scripts": {
-    "build": "npm run clean && node_modules/.bin/style-dictionary build && sass midt.scss:midt.css midt-helpers.scss:midt-helpers.css --no-source-map",
+    "build": "npm run clean && node_modules/.bin/style-dictionary build && sass midt.scss:midt.css --no-source-map",
     "clean": "rm -rf build",
-    "postversion": "git push -u origin --tags && npm publish --access public",
-    "sass-watch": "sass --watch midt.scss:midt.css midt-helpers.scss:midt-helpers.css --no-source-map",
-    "sass": "sass midt.scss:midt.css midt-helpers.scss:midt-helpers.css --no-source-map",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-watch": "sass --watch midt.scss:midt.css --no-source-map",
+    "sass": "sass midt.scss:midt.css --no-source-map",
     "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\""
   },
   "dependencies": {},
