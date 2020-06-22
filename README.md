@@ -109,6 +109,5 @@ You can read more about how Style Dictionary handles the merging and compilation
 To release a new version:
 
 1. Make your changes and commit them
-1. Update the version number in `package.json` based on [Semantic Versioning](https://semver.org)
-1. Commit the version number change with this message: `Release vX.Y.Z`
-1. The GitHub Action to publish to npm will automatically check for a difference between the latest version and the new version in `package.json` and make the release
+2. Run `npm login` to authenticate with npmjs.org
+3. Run `np patch` (or `minor`, or `major`) and follow the guide to publish your changes to `npm`

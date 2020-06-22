@@ -26,6 +26,7 @@
   "dependencies": {},
   "devDependencies": {
     "chokidar-cli": "^2.1.0",
+    "np": "^6.2.4",
     "sass": "^1.26.3",
     "style-dictionary": "^2.9.0"
   }
