@@ -208,7 +208,7 @@
 }
 
 .font-tracking-small {
-  letter-spacing: normal;
+  letter-spacing: -0.05rem;
 }
 
 .font-tracking-medium {
@@ -220,7 +220,7 @@
 }
 
 .font-tracking-x-large {
-  letter-spacing: normal;
+  letter-spacing: 0.1rem;
 }
 
 .font-measure-small {
