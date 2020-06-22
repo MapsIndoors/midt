@@ -6,6 +6,8 @@ The tokes are compiled from JSON to SCSS mixins using [Amazon's Style Dictionary
 
 Install from `npm` using `npm i -D midt@latest`.
 
+This repository uses `main` as the primary branch.
+
 <details><summary><b>Use the SCSS mixins</b></summary>
 
 Using the color-`@mixin` on a class in your CSS could look like this:
