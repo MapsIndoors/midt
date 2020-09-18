@@ -112,4 +112,4 @@ To release a new version:
 
 1. Make your changes and commit them
 2. Run `npm login` to authenticate with npmjs.org
-3. Run `np patch` (or `minor`, or `major`) and follow the guide to publish your changes to `npm`
+3. Run `npm patch` (or `npm minor`, or `npm major`) and follow the guide to publish your changes to `npm`
