@@ -24,6 +24,11 @@
         "comment": "This is a 100% transparent color."
       }
     },
+    "hotorchid": {
+      "base": {
+        "value": "#EF6CCE"
+      }
+    },
     "gray": {
       "base": {
         "value": "{color.gray.60.value}"

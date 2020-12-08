@@ -1,6 +1,6 @@
 {
   "name": "@mapsindoors/midt",
-  "version": "12.0.0",
+  "version": "13.0.0",
   "description": "Design Tokens for MapsIndoors",
   "author": "MapsPeople A/S",
   "license": "MIT",
@@ -17,7 +17,7 @@
   "sass": "mixins/_index.scss",
   "style": "midt.css",
   "scripts": {
-    "build": "npm run clean && node_modules/.bin/style-dictionary build && sass midt.scss:midt.css --no-source-map",
+    "build": "npm run clean && node_modules/.bin/style-dictionary build && npm run sass",
     "clean": "rm -rf build",
     "sass-watch": "sass --watch midt.scss:midt.css --no-source-map",
     "sass": "sass midt.scss:midt.css --no-source-map",
