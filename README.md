@@ -110,6 +110,8 @@ You can read more about how Style Dictionary handles the merging and compilation
 
 To release a new version:
 
-1. Make your changes and commit them
-2. Run `npm login` to authenticate with npmjs.org
-3. Run `npm patch` (or `npm minor`, or `npm major`) and follow the guide to publish your changes to `npm`
+1. Make your changes
+2. Update the version number in `package.json`
+3. Commit the changes
+4. Run `npm login` to authenticate with npmjs.org
+5. Run `npm publish` and follow the guide to publish your changes to `npm` (try it out safely with `npm publish --dry-run`)
