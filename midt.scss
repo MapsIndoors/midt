@@ -205,6 +205,10 @@
   @include font.color(inverse);
 }
 
+.color-hotorchid-base {
+  @include color.hotorchid(base);
+}
+
 .color-black-base {
   @include color.black(base);
 }

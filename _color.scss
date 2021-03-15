@@ -22,6 +22,12 @@
   }
 }
 
+@mixin hotorchid($hotorchid: 'base') {
+  @if $hotorchid == base {
+    color: variables.$color-hotorchid-base;
+  }
+}
+
 @mixin gray($gray: 'base') {
   @if $gray == base {
     color: variables.$color-gray-base;
