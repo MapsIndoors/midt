@@ -223,3 +223,107 @@
     background-color: variables.$color-indigo-100;
   }
 }
+
+@mixin sky($background-sky: 'base') {
+  @if $background-sky == base {
+    background-color: variables.$color-sky-base;
+  } @else if $background-sky == 10 {
+    background-color: variables.$color-sky-10;
+  } @else if $background-sky == 20 {
+    background-color: variables.$color-sky-20;
+  } @else if $background-sky == 30 {
+    background-color: variables.$color-sky-30;
+  } @else if $background-sky == 40 {
+    background-color: variables.$color-sky-40;
+  } @else if $background-sky == 50 {
+    background-color: variables.$color-sky-50;
+  } @else if $background-sky == 60 {
+    background-color: variables.$color-sky-60;
+  } @else if $background-sky == 70 {
+    background-color: variables.$color-sky-70;
+  } @else if $background-sky == 80 {
+    background-color: variables.$color-sky-80;
+  } @else if $background-sky == 90 {
+    background-color: variables.$color-sky-90;
+  } @else if $background-sky == 100 {
+    background-color: variables.$color-sky-100;
+  }
+}
+
+@mixin teal($background-teal: 'base') {
+  @if $background-teal == base {
+    background-color: variables.$color-teal-base;
+  } @else if $background-teal == 10 {
+    background-color: variables.$color-teal-10;
+  } @else if $background-teal == 20 {
+    background-color: variables.$color-teal-20;
+  } @else if $background-teal == 30 {
+    background-color: variables.$color-teal-30;
+  } @else if $background-teal == 40 {
+    background-color: variables.$color-teal-40;
+  } @else if $background-teal == 50 {
+    background-color: variables.$color-teal-50;
+  } @else if $background-teal == 60 {
+    background-color: variables.$color-teal-60;
+  } @else if $background-teal == 70 {
+    background-color: variables.$color-teal-70;
+  } @else if $background-teal == 80 {
+    background-color: variables.$color-teal-80;
+  } @else if $background-teal == 90 {
+    background-color: variables.$color-teal-90;
+  } @else if $background-teal == 100 {
+    background-color: variables.$color-teal-100;
+  }
+}
+
+@mixin slate($background-slate: 'base') {
+  @if $background-slate == base {
+    background-color: variables.$color-slate-base;
+  } @else if $background-slate == 10 {
+    background-color: variables.$color-slate-10;
+  } @else if $background-slate == 20 {
+    background-color: variables.$color-slate-20;
+  } @else if $background-slate == 30 {
+    background-color: variables.$color-slate-30;
+  } @else if $background-slate == 40 {
+    background-color: variables.$color-slate-40;
+  } @else if $background-slate == 50 {
+    background-color: variables.$color-slate-50;
+  } @else if $background-slate == 60 {
+    background-color: variables.$color-slate-60;
+  } @else if $background-slate == 70 {
+    background-color: variables.$color-slate-70;
+  } @else if $background-slate == 80 {
+    background-color: variables.$color-slate-80;
+  } @else if $background-slate == 90 {
+    background-color: variables.$color-slate-90;
+  } @else if $background-slate == 100 {
+    background-color: variables.$color-slate-100;
+  }
+}
+
+@mixin dusk($background-dusk: 'base') {
+  @if $background-dusk == base {
+    background-color: variables.$color-dusk-base;
+  } @else if $background-dusk == 10 {
+    background-color: variables.$color-dusk-10;
+  } @else if $background-dusk == 20 {
+    background-color: variables.$color-dusk-20;
+  } @else if $background-dusk == 30 {
+    background-color: variables.$color-dusk-30;
+  } @else if $background-dusk == 40 {
+    background-color: variables.$color-dusk-40;
+  } @else if $background-dusk == 50 {
+    background-color: variables.$color-dusk-50;
+  } @else if $background-dusk == 60 {
+    background-color: variables.$color-dusk-60;
+  } @else if $background-dusk == 70 {
+    background-color: variables.$color-dusk-70;
+  } @else if $background-dusk == 80 {
+    background-color: variables.$color-dusk-80;
+  } @else if $background-dusk == 90 {
+    background-color: variables.$color-dusk-90;
+  } @else if $background-dusk == 100 {
+    background-color: variables.$color-dusk-100;
+  }
+}

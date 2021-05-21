@@ -16,7 +16,9 @@
         "value": "hsl(0, 0%, 99%)",
         "comment": "This is the standard background color."
       },
-      "white": { "value": "hsl(0, 0%, 100%)" }
+      "white": {
+        "value": "hsl(0, 0%, 100%)"
+      }
     },
     "transparent": {
       "base": {
@@ -386,6 +388,186 @@
       },
       "100": {
         "value": "hsl(240, 46%, 23%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      }
+    },
+    "sky": {
+      "base": {
+        "value": "{color.sky.60.value}"
+      },
+      "10": {
+        "value": "hsl(200, 64%, 95%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "20": {
+        "value": "hsl(200, 86%, 86%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "30": {
+        "value": "hsl(200, 87%, 76%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "40": {
+        "value": "hsl(200, 81%, 63%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "50": {
+        "value": "hsl(200, 73%, 49%)",
+        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+      },
+      "60": {
+        "value": "hsl(200, 87%, 37%)",
+        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+      },
+      "70": {
+        "value": "hsl(200, 92%, 30%)",
+        "comment": "The a11y rating of white on top of this color: AA."
+      },
+      "80": {
+        "value": "hsl(200, 90%, 23%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "90": {
+        "value": "hsl(201, 80%, 18%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "100": {
+        "value": "hsl(200, 65%, 13%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      }
+    },
+    "teal": {
+      "base": {
+        "value": "{color.teal.60.value}"
+      },
+      "10": {
+        "value": "hsl(177, 54%, 93%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "20": {
+        "value": "hsl(177, 66%, 79%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "30": {
+        "value": "hsl(176, 59%, 64%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "40": {
+        "value": "hsl(176, 49%, 51%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "50": {
+        "value": "hsl(176, 60%, 39%)",
+        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+      },
+      "60": {
+        "value": "hsl(176, 70%, 30%)",
+        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+      },
+      "70": {
+        "value": "hsl(176, 72%, 24%)",
+        "comment": "The a11y rating of white on top of this color: AA"
+      },
+      "80": {
+        "value": "hsl(176, 73%, 19%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "90": {
+        "value": "hsl(176, 69%, 14%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "100": {
+        "value": "hsl(176, 65%, 10%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      }
+    },
+    "slate": {
+      "base": {
+        "value": "{color.slate.60.value}"
+      },
+      "10": {
+        "value": "hsl(198, 38%, 95%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "20": {
+        "value": "hsl(206, 68%, 88%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "30": {
+        "value": "hsl(206, 63%, 79%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "40": {
+        "value": "hsl(205, 55%, 69%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "50": {
+        "value": "hsl(205, 42%, 55%)",
+        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+      },
+      "60": {
+        "value": "hsl(205, 37%, 45%)",
+        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+      },
+      "70": {
+        "value": "hsl(205, 40%, 36%)",
+        "comment": "The a11y rating of white on top of this color: AA"
+      },
+      "80": {
+        "value": "hsl(204, 38%, 28%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "90": {
+        "value": "hsl(204, 33%, 21%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "100": {
+        "value": "hsl(205, 25%, 15%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      }
+    },
+    "dusk": {
+      "base": {
+        "value": "{color.dusk.60.value}"
+      },
+      "10": {
+        "value": "hsl(264, 24%, 96%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "20": {
+        "value": "hsl(256, 63%, 92%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "30": {
+        "value": "hsl(256, 61%, 85%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "40": {
+        "value": "hsl(255, 52%, 77%)",
+        "comment": "The a11y rating of black on top of this color: AAA"
+      },
+      "50": {
+        "value": "hsl(255, 43%, 67%)",
+        "comment": "The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large."
+      },
+      "60": {
+        "value": "hsl(254, 33%, 55%)",
+        "comment": "The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA."
+      },
+      "70": {
+        "value": "hsl(255, 29%, 46%)",
+        "comment": "The a11y rating of white on top of this color: AA"
+      },
+      "80": {
+        "value": "hsl(255, 30%, 36%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "90": {
+        "value": "hsl(255, 26%, 26%)",
+        "comment": "The a11y rating of white on top of this color: AAA"
+      },
+      "100": {
+        "value": "hsl(253, 20%, 18%)",
         "comment": "The a11y rating of white on top of this color: AAA"
       }
     }

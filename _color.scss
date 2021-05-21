@@ -235,3 +235,107 @@
     color: variables.$color-indigo-100;
   }
 }
+
+@mixin sky($sky: 'base') {
+  @if $sky == base {
+    color: variables.$color-sky-base;
+  } @else if $sky == 10 {
+    color: variables.$color-sky-10;
+  } @else if $sky == 20 {
+    color: variables.$color-sky-20;
+  } @else if $sky == 30 {
+    color: variables.$color-sky-30;
+  } @else if $sky == 40 {
+    color: variables.$color-sky-40;
+  } @else if $sky == 50 {
+    color: variables.$color-sky-50;
+  } @else if $sky == 60 {
+    color: variables.$color-sky-60;
+  } @else if $sky == 70 {
+    color: variables.$color-sky-70;
+  } @else if $sky == 80 {
+    color: variables.$color-sky-80;
+  } @else if $sky == 90 {
+    color: variables.$color-sky-90;
+  } @else if $sky == 100 {
+    color: variables.$color-sky-100;
+  }
+}
+
+@mixin teal($teal: 'base') {
+  @if $teal == base {
+    color: variables.$color-teal-base;
+  } @else if $teal == 10 {
+    color: variables.$color-teal-10;
+  } @else if $teal == 20 {
+    color: variables.$color-teal-20;
+  } @else if $teal == 30 {
+    color: variables.$color-teal-30;
+  } @else if $teal == 40 {
+    color: variables.$color-teal-40;
+  } @else if $teal == 50 {
+    color: variables.$color-teal-50;
+  } @else if $teal == 60 {
+    color: variables.$color-teal-60;
+  } @else if $teal == 70 {
+    color: variables.$color-teal-70;
+  } @else if $teal == 80 {
+    color: variables.$color-teal-80;
+  } @else if $teal == 90 {
+    color: variables.$color-teal-90;
+  } @else if $teal == 100 {
+    color: variables.$color-teal-100;
+  }
+}
+
+@mixin slate($slate: 'base') {
+  @if $slate == base {
+    color: variables.$color-slate-base;
+  } @else if $slate == 10 {
+    color: variables.$color-slate-10;
+  } @else if $slate == 20 {
+    color: variables.$color-slate-20;
+  } @else if $slate == 30 {
+    color: variables.$color-slate-30;
+  } @else if $slate == 40 {
+    color: variables.$color-slate-40;
+  } @else if $slate == 50 {
+    color: variables.$color-slate-50;
+  } @else if $slate == 60 {
+    color: variables.$color-slate-60;
+  } @else if $slate == 70 {
+    color: variables.$color-slate-70;
+  } @else if $slate == 80 {
+    color: variables.$color-slate-80;
+  } @else if $slate == 90 {
+    color: variables.$color-slate-90;
+  } @else if $slate == 100 {
+    color: variables.$color-slate-100;
+  }
+}
+
+@mixin dusk($dusk: 'base') {
+  @if $dusk == base {
+    color: variables.$color-dusk-base;
+  } @else if $dusk == 10 {
+    color: variables.$color-dusk-10;
+  } @else if $dusk == 20 {
+    color: variables.$color-dusk-20;
+  } @else if $dusk == 30 {
+    color: variables.$color-dusk-30;
+  } @else if $dusk == 40 {
+    color: variables.$color-dusk-40;
+  } @else if $dusk == 50 {
+    color: variables.$color-dusk-50;
+  } @else if $dusk == 60 {
+    color: variables.$color-dusk-60;
+  } @else if $dusk == 70 {
+    color: variables.$color-dusk-70;
+  } @else if $dusk == 80 {
+    color: variables.$color-dusk-80;
+  } @else if $dusk == 90 {
+    color: variables.$color-dusk-90;
+  } @else if $dusk == 100 {
+    color: variables.$color-dusk-100;
+  }
+}
