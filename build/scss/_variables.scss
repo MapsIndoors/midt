@@ -1,6 +1,6 @@
 
 // Do not edit directly
-// Generated on Mon, 15 Mar 2021 14:50:42 GMT
+// Generated on Fri, 21 May 2021 21:30:16 GMT
 
 $breakpoints-xx-small: only screen and (max-width: 360px); // Targets devices between 0-360px
 $breakpoints-x-small: only screen and (max-width: 575px); // Targets devices between 0-575px
@@ -103,6 +103,50 @@ $color-indigo-80: #3737b3; // The a11y rating of white on top of this color: AAA
 $color-indigo-90: #28288a; // The a11y rating of white on top of this color: AAA
 $color-indigo-100: #202056; // The a11y rating of white on top of this color: AAA
 $color-indigo-base: #6565e6;
+$color-sky-10: #eaf5fa; // The a11y rating of black on top of this color: AAA
+$color-sky-20: #bde6fa; // The a11y rating of black on top of this color: AAA
+$color-sky-30: #8dd4f7; // The a11y rating of black on top of this color: AAA
+$color-sky-40: #54baed; // The a11y rating of black on top of this color: AAA
+$color-sky-50: #229bd8; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
+$color-sky-60: #0c7ab0; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
+$color-sky-70: #066493; // The a11y rating of white on top of this color: AA.
+$color-sky-80: #064c6f; // The a11y rating of white on top of this color: AAA
+$color-sky-90: #093953; // The a11y rating of white on top of this color: AAA
+$color-sky-100: #0c2837; // The a11y rating of white on top of this color: AAA
+$color-sky-base: #0c7ab0;
+$color-teal-10: #e4f7f6; // The a11y rating of black on top of this color: AAA
+$color-teal-20: #a6ede9; // The a11y rating of black on top of this color: AAA
+$color-teal-30: #6dd9d2; // The a11y rating of black on top of this color: AAA
+$color-teal-40: #45bfb7; // The a11y rating of black on top of this color: AAA
+$color-teal-50: #289f97; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
+$color-teal-60: #17827b; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
+$color-teal-70: #116963; // The a11y rating of white on top of this color: AA
+$color-teal-80: #0d544f; // The a11y rating of white on top of this color: AAA
+$color-teal-90: #0b3c39; // The a11y rating of white on top of this color: AAA
+$color-teal-100: #092a28; // The a11y rating of white on top of this color: AAA
+$color-teal-base: #17827b;
+$color-slate-10: #edf4f7; // The a11y rating of black on top of this color: AAA
+$color-slate-20: #cce3f5; // The a11y rating of black on top of this color: AAA
+$color-slate-30: #a8ceeb; // The a11y rating of black on top of this color: AAA
+$color-slate-40: #84b7db; // The a11y rating of black on top of this color: AAA
+$color-slate-50: #5c94bc; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
+$color-slate-60: #487a9d; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
+$color-slate-70: #376281; // The a11y rating of white on top of this color: AA
+$color-slate-80: #2c4d63; // The a11y rating of white on top of this color: AAA
+$color-slate-90: #243947; // The a11y rating of white on top of this color: AAA
+$color-slate-100: #1d2830; // The a11y rating of white on top of this color: AAA
+$color-slate-base: #487a9d;
+$color-dusk-10: #f4f2f7; // The a11y rating of black on top of this color: AAA
+$color-dusk-20: #e5def7; // The a11y rating of black on top of this color: AAA
+$color-dusk-30: #cec1f0; // The a11y rating of black on top of this color: AAA
+$color-dusk-40: #b5a6e3; // The a11y rating of black on top of this color: AAA
+$color-dusk-50: #9987cf; // The a11y rating of black on top of this color: AA. The a11y rating of white on top of this color: AA Large.
+$color-dusk-60: #7866b2; // The a11y rating of black on top of this color: AA Large. The a11y rating of white on top of this color: AA.
+$color-dusk-70: #645397; // The a11y rating of white on top of this color: AA
+$color-dusk-80: #4e4077; // The a11y rating of white on top of this color: AAA
+$color-dusk-90: #3a3154; // The a11y rating of white on top of this color: AAA
+$color-dusk-100: #292537; // The a11y rating of white on top of this color: AAA
+$color-dusk-base: #7866b2;
 $elevation-x-small: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.2);
 $elevation-small: 0px 4px 4px rgba(0, 0, 0, 0.16), 0px 2px 2px rgba(0, 0, 0, 0.18), 0px 1px 1px rgba(0, 0, 0, 0.2);
 $elevation-medium: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px 4px 4px rgba(0, 0, 0, 0.18), 0px 8px 8px rgba(0, 0, 0, 0.16);
