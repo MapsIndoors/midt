@@ -3,8 +3,6 @@ title: Breakpoints
 layout: default
 ---
 
-# Breakpoints
-
 | Size | Value | Comment |
 | :--- | :--- | :--- |
 | `xx-small` | {{ breakpoints.breakpoints.xx-small.value }} | {{ breakpoints.breakpoints.xx-small.comment }} |

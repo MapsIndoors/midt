@@ -3,8 +3,6 @@ permalink: "/color/sky/"
 layout: default
 ---
 
-# Sky
-
 <div class="container">
   <div class="background-sky-10 midt-color"></div>
   <div class="background-sky-20 midt-color"></div>

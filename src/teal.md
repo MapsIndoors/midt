@@ -3,8 +3,6 @@ permalink: "/color/teal/"
 layout: default
 ---
 
-# Teal
-
 <div class="container">
   <div class="background-teal-10 midt-color"></div>
   <div class="background-teal-20 midt-color"></div>

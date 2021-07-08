@@ -3,8 +3,6 @@ permalink: "/color/bronze/"
 layout: default
 ---
 
-# Bronze
-
 <div class="container">
   <div class="background-bronze-10 midt-color"></div>
   <div class="background-bronze-20 midt-color"></div>

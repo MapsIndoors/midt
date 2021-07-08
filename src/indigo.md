@@ -3,8 +3,6 @@ permalink: "/color/indigo/"
 layout: default
 ---
 
-# Indigo
-
 <div class="container">
   <div class="background-indigo-10 midt-color"></div>
   <div class="background-indigo-20 midt-color"></div>

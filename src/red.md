@@ -3,8 +3,6 @@ permalink: "/color/red/"
 layout: default
 ---
 
-# Red
-
 <div class="container">
   <div class="background-red-10 midt-color"></div>
   <div class="background-red-20 midt-color"></div>

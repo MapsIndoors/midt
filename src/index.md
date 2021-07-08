@@ -4,7 +4,7 @@ permalink: "/"
 layout: default
 ---
 
-# TOC
+## TOC
 
 - [Breakpoints](/breakpoints/)
 - [Color](/color/)

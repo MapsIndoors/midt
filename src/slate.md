@@ -3,8 +3,6 @@ permalink: "/color/slate/"
 layout: default
 ---
 
-# Slate
-
 <div class="container">
   <div class="background-slate-10 midt-color"></div>
   <div class="background-slate-20 midt-color"></div>

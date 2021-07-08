@@ -3,8 +3,6 @@ title: Icon
 layout: default
 ---
 
-# Icon
-
 | Size | Value |
 | :--- | :--- |
 | `small` | {{ icon.icon.size.small.value }} |

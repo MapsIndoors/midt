@@ -3,8 +3,6 @@ title: Z-Index
 layout: default
 ---
 
-# Z-Index
-
 | Z-Index | Value |
 | :--- | :--- |
 | `deep` | {{ z-index.z-index.deep.value }} |

@@ -3,8 +3,6 @@ title: Opacity
 layout: default
 ---
 
-# Opacity
-
 | Size | Value |
 | :--- | :--- |
 | `xx-small` | {{ opacity.opacity.xx-small.value }} |

@@ -3,8 +3,6 @@ title: Elevation
 layout: default
 ---
 
-# Elevation
-
 | Size | Value |
 | :--- | :--- |
 | `x-small` | {{ elevation.elevation.x-small.value }} |

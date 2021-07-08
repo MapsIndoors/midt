@@ -3,8 +3,6 @@ permalink: "/color/magenta/"
 layout: default
 ---
 
-# Magenta
-
 <div class="container">
   <div class="background-magenta-10 midt-color"></div>
   <div class="background-magenta-20 midt-color"></div>

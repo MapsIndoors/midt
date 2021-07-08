@@ -4,8 +4,6 @@ permalink: "/spacing/"
 layout: default
 ---
 
-# Spacing
-
 | Size | Value |
 | :--- | :--- |
 | `xxx-small` | {{ spacing.spacing.xxx-small.value }} |

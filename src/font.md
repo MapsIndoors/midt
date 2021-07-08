@@ -3,8 +3,6 @@ title: Font
 layout: default
 ---
 
-# Font
-
 ## Family
 
 | Family | Value |

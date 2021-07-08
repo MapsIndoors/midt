@@ -3,8 +3,6 @@ title: Rounding
 layout: default
 ---
 
-# Rounding
-
 | Size | Value |
 | :--- | :--- |
 | `xx-small` | {{ rounding.rounding.xx-small.value }} |

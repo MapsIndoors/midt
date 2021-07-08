@@ -3,8 +3,6 @@ permalink: "/color/dusk/"
 layout: default
 ---
 
-# Dusk
-
 <div class="container">
   <div class="background-dusk-10 midt-color"></div>
   <div class="background-dusk-20 midt-color"></div>

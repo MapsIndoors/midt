@@ -3,8 +3,6 @@ permalink: "/color/gray/"
 layout: default
 ---
 
-# Gray
-
 <div class="container">
   <div class="background-gray-10 midt-color"></div>
   <div class="background-gray-20 midt-color"></div>
