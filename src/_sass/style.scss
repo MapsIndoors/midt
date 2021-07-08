@@ -1,0 +1,77 @@
+@use '../../build/scss/variables' as *;
+
+section#colors div {
+  width: 50px;
+  height: 50px;
+}
+
+.color {display: inline-block;
+ margin:0;}
+
+.container-small {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-gap: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, $spacing-xx-large);
+  padding-bottom: $spacing-medium;
+}
+
+.midt-color {
+  display: grid;
+    align-items: center;
+    justify-content: center;
+  height: $spacing-xx-large;
+  max-height: $spacing-xx-large;
+  width: $spacing-xx-large;
+  max-width: $spacing-xx-large;
+  font-family: $font-family-monospace;
+  font-size: $font-size-medium;
+  p {
+    line-height: 0;
+  }
+}
+
+main {
+  font-family: $font-family-system;
+  font-size: $font-size-medium;
+
+  h2 {
+    font-size: $font-weight-large;
+  }
+
+  table {
+    font-family: $font-family-monospace;
+    font-size: $font-size-small;
+    border-collapse: collapse;
+
+    .row-title {
+      padding: $spacing-xx-small;
+      font-weight: $font-weight-large;
+      border-radius: $rounding-medium;
+      font-family: $font-family-sans-serif;
+      font-size: $font-size-medium;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    th {
+      padding-right: $spacing-medium;
+      padding-bottom: $spacing-medium;
+    }
+
+    td {
+      padding-bottom: $spacing-medium;
+      padding-right: $spacing-medium;
+      &:last-of-type {
+        padding-bottom: none;
+        padding-right: none;
+      }
+    }
+  }
+}

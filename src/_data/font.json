@@ -1,0 +1,51 @@
+{
+  "font": {
+    "family": {
+      "system": {"value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'"},
+      "sans-serif": {"value": "Inter, {font.family.system.value}"},
+      "monospace": {"value": "Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace"},
+      "serif": {"value": "Georgia, Times, Times New Roman, serif"},
+      "raleway": {"value": "Raleway, {font.family.sans-serif.value}"}
+    },
+    "size": {
+      "x-small": {"value": "0.75rem"},
+      "small": {"value": "0.875rem"},
+      "medium": {
+        "value": "1rem",
+        "comment": "Approximately 16px. This is the base size for all fonts on all platforms."},
+      "large": {
+        "value": "1.25rem",
+        "comment": "Approximately 20px."},
+      "x-large": {
+        "value": "1.5rem",
+        "comment": "Approximately 24px."},
+      "xx-large": {
+        "value": "2.25rem",
+        "comment": "Approximately 36px."},
+      "xxx-large": {
+        "value": "3rem",
+        "comment": "Approximately 48px."},
+      "xxxx-large": {
+        "value": "4.5rem",
+        "comment": "Approximately 72px."}
+    },
+    "weight": {
+      "small": {"value": "300", "comment": "Light"},
+      "medium": {"value": "400", "comment": "Normal"},
+      "large": {"value": "500", "comment": "Medium"},
+      "x-large": {"value": "600", "comment": "Semi-bold"},
+      "xx-large": {"value": "700", "comment": "Bold"}
+    },
+    "tracking": {
+      "small": {"value": "-.05rem"},
+      "medium": {"value": "normal"},
+      "large": {"value": ".1rem"},
+      "x-large": {"value": ".25rem"}
+    },
+    "measure": {
+      "small": {"value": "20rem"},
+      "medium": {"value": "30rem"},
+      "large": {"value": "34rem"}
+    }
+  }
+}

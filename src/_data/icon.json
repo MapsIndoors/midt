@@ -1,0 +1,11 @@
+{
+  "icon": {
+    "size": {
+      "small": {"value": "16px"},
+      "medium": {"value": "24px"},
+      "large": {"value": "32px"},
+      "x-large": {"value": "48px"},
+      "xx-large": {"value": "64px"}
+    }
+  }
+}
