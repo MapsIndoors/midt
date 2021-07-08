@@ -21,11 +21,19 @@
     "clean": "rm -rf build",
     "sass-watch": "sass --watch midt.scss:midt.css --no-source-map",
     "sass": "sass midt.scss:midt.css --no-source-map",
-    "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\""
+    "watch": "npm run build && chokidar \"properties/**/*.json\" -c \"npm run build\"",
+    "docs.build": "eleventy && npm run sass",
+    "docs.clean": "rm -rf docs",
+    "docs.eleventy": "npn @11ty/eleventy",
+    "docs.sass": "sass src/_sass:docs --no-source-map",
+    "docs.sass.watch": "sass --watch src/_sass:docs --no-source-map",
+    "docs.start": "npm run docs.clean & npx @11ty/eleventy --serve --port=3000 & sass midt.scss:docs/midt.css --no-source-map && npm run docs.sass.watch"
   },
-  "dependencies": {},
   "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@mapsindoors/css": "^0.0.10",
     "chokidar-cli": "^2.1.0",
+    "normalize.css": "^8.0.1",
     "np": "^6.2.4",
     "sass": "^1.26.3",
     "style-dictionary": "^2.9.0"
